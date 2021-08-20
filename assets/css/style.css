@@ -1467,3 +1467,64 @@ section {
     color: darkviolet;
     font-weight: 600;
 }
+
+
+
+/*--------------------------------------------------------------
+# Reviews Page
+--------------------------------------------------------------*/
+#reviewsheader {
+    width: 100%;
+    height: 34vh;
+    background: #002387;
+    padding-top: 132px;
+}
+
+#reviewsheader h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    color: #fff;
+}
+
+
+
+@media (max-width: 991px) {
+    #reviewsheader {
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    #reviewsheader {
+        height: auto;
+    }
+
+    #reviewsheader h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+}
+
+
+#reviews {
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.card {
+    margin-bottom: 25px;
+    height: auto;
+    padding: 20px 15px;
+}
+
+.card img{
+    height: 25px;
+}
+
+.card p{
+    text-align: center;
+}
