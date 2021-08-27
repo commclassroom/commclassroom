@@ -27,6 +27,31 @@ var courseForm;
             }
         }
     }
+    //Modal For Login/Signup
+    const modal = document.querySelector(".modal");
+    const getstarted = document.querySelector(".getstarted");
+    const closeBtn = document.querySelector(".close");
+
+    getstarted.addEventListener("click", openModal);
+    closeBtn.addEventListener("click", closeModal);
+    window.addEventListener("click", outSideClick);
+
+    function openModal() {
+        modal.style.display = "block";
+    }
+
+
+
+    function closeModal() {
+        modal.style.display = "none";
+    }
+
+    function outSideClick(e) {
+        if (e.target == modal) {
+            closeModal();
+        }
+        // modal.style.display = 'none'
+    }
 
     /**
      * Easy on scroll event listener 
