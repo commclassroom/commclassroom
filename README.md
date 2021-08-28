@@ -5,10 +5,9 @@
 Community Classroom is a community where you can learn to code for free. The organisation is founded by Kunal Kushwaha and Rahul Rana. We provide hands-on training, mentorship and have an inclusive community.
 Community Classroom helps people to expand skills and get get their first developer job.
 ## Table of Contents
-- [Connect with Community](#connect-community)
+- [Connect with Community](#connect-with-community)
 - [Contributing](#contributing)
 - [Reporting Bugs and Issues](#reporting-bugs-and-issues)
-- [Platform, Build and Deployment Status](#platform-build-and-deployment-status)
 - [License](#license)
 
 ### Connect with Community
@@ -21,3 +20,16 @@ Our community also has:
 - A [Discord server](https://discord.io/commclassroom) where you can meet and talk to developers and people who are learning to code (as long as you follow the rules).
 
 ### Contributing
+
+We welcome all contributions to the community.
+
+### Reporting Bugs and Issues
+If you think you've found a bug, then go ahead and create a new GitHub issue. Be sure to include as much information as possible so we can reproduce the bug.
+
+### License
+
+Copyright © 2021 Kunal Kushwaha
+
+This website is licensed under the [Apache License](LICENSE.md) .
+
+
