@@ -1,4 +1,4 @@
-![freeCodeCamp.org Social Banner](https://commclassroom.org/assets/img/logo2.jpg)
+![freeCodeCamp.org Social Banner](https://commclassroom.org/assets/img/logo2.jpg | width="30px")
 
 ## Community Classroom Website 
 ## Description
