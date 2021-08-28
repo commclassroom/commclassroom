@@ -6,6 +6,7 @@ body {
     color: #444444;
 }
 
+
 a {
     color: #14c871;
     text-decoration: none;
@@ -93,6 +94,7 @@ h6 {
     padding: 5px 0;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
 }
+
 
 #header.header-scrolled {
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.4);
@@ -386,7 +388,7 @@ h6 {
 #hero {
     width: 100%;
     height: 70vh;
-    background: #ffffff;
+    background-image: linear-gradient(white, rgb(177, 197, 252));
     padding-top: 160px;
 }
 
@@ -438,14 +440,15 @@ h6 {
 }
 
 #hero .btn-watch-video i {
-    color: #949cac;
+    color: #0670aa;
     font-size: 32px;
     line-height: 0;
     margin-right: 8px;
 }
 
 #hero .btn-watch-video:hover i {
-    color: #16df7e;
+    transform: scale(1.5);
+    transition: 0.4s;
 }
 
 #hero .animated {
@@ -530,7 +533,7 @@ section {
 }
 
 .section-bg {
-    background-color: #F2F4F7;
+    background-image: linear-gradient(rgb(199, 217, 255), white);
 }
 
 .section-title {
@@ -853,7 +856,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-    color: #e4e6ea;
+    color: #0017FF;
     font-size: 26px;
 }
 
@@ -976,12 +979,18 @@ section {
     padding: 18px 20px;
     background: #fff;
     border-radius: 50px;
+    margin-right:40px;
 }
 
 .team .member img {
     max-width: 100%;
     margin: 0 0 18px 0;
     border-radius: 40px;
+}
+.team .member:hover{
+    transform: scale(1.05);
+    transition: 0.4s;
+    box-shadow: 8px 8px #206bfb;
 }
 
 .team .member h3 {
@@ -1017,7 +1026,7 @@ section {
 }
 
 .team .member .social i {
-    font-size: 18px;
+    font-size: 1.5rem;
     margin: 0 2px;
 }
 
@@ -1032,6 +1041,8 @@ section {
     color: #5f687b;
     font-size: 14px;
     position: relative;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
 
 #contact .footer-top {
@@ -1376,7 +1387,6 @@ section {
     line-height: 32px;
 }
 
-#coursename .dummy {}
 
 #coursename .coursename-img {
 
