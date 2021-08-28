@@ -15,7 +15,7 @@ This website is running live at [commclassroom.org](https://commclassroom.org/).
 Our community also has:
 
 - A [YouTube channel](https://www.youtube.com/c/KunalKushwaha) with free courses on Java, Github, and a lot of other technologies.
-- A [Telegram channel](https://www.freecodecamp.org/news) to get the latest updates about courses and job opportunities.
+- A [Telegram channel](https://t.me/commclassroom) to get the latest updates about courses and job opportunities.
 - A [Discord server](https://discord.io/commclassroom) where you can meet and talk to developers and people who are learning to code (as long as you follow the rules).
 
 ### Contributing
