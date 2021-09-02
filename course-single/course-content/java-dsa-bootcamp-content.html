@@ -11,7 +11,9 @@
     <link href="../../assets/img/logo.png" rel="icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="../../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -22,19 +24,23 @@
 
     <!-- Template Main CSS File -->
     <link href="../../assets/css/style.css" rel="stylesheet">
-    <link href="../../assets/css/theme.min.css" rel="stylesheet">
+    <link href="./course-content.css" rel="stylesheet">
+
+    <!-- jquery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 </head>
 
 <body>
 
 
-    <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top">
+<!-- Header -->
+    <header id="header" class="collapsHeader">
         <div class="container d-flex align-items-center justify-content-between">
-
-            <h1 class="logo"><a href="../../index.html"><img src="../../assets/img/logo2.jpg" alt="" class="img-fluid"></a></h1>
-
+    
+            <h1 class="logo"><a href="../../index.html"><img src="../../assets/img/logo2.jpg" alt="" class="img-fluid"></a>
+            </h1>
+    
             <nav id="navbar" class="navbar">
                 <ul>
                     <li><a class="nav-link" href="../../index.html">Home</a></li>
@@ -46,347 +52,41 @@
                     <li><a class="getstarted" href="">Login/Signup</a></li>
                 </ul>
                 <i class="bx bx-list-ul mobile-nav-toggle"></i>
-            </nav><!-- .navbar -->
-
+            </nav>
+    
         </div>
     </header>
+<!-- Header -->
 
 
-
-    <!-- ======= Hero Section ======= -->
-    <section id="coursemainname" class="d-flex align-items-center">
-
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 pt-5 pt-lg-0 d-flex flex-column justify-content-center" style="justify-content: center;">
-                    <h1>Java + DSA + Interview Preparation Bootcamp</h1>
+    <div class="container-fluid d-flex justify-content-center">
+        <div class="row gx-3 player">
+            
+            <!-- Main Video -->
+            <div class="col-lg-9 col-md-12 col-12 mt-4 mb-0 mb-lg-4 order-1 video-player">
+                <div class="card">
+                    <div class="main-video">
+                        <!-- Video updated dynamically on clicking title -->
+                    </div>
                 </div>
             </div>
-        </div>
+            <!-- Main Video -->
 
-    </section>
-    <!-- End Hero -->
-
-
-
-    <!-- Page content -->
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-3 col-md-12 col-12 mt-lg-4 mb-2 order-2 order-lg-1">
-                <div class="card rounded-3 mb-4">
+            <!-- Content -->
+            <div class="col-lg-3 col-md-12 col-12 mt-4 mb-4 order-2 content-list">
+                <div class="card">
                     <div class="card-header" style="background-color: darkblue">
                         <h4 class="mb-0" style="color: white; font-weight: 600">Topics</h4>
                     </div>
-                    <!-- Card Body -->
-                    <div class="card-body p-0">
-                        <div class="tab-content" id="tabContent">
-                            <div class="tab-pane fade show active" id="table" role="tabpanel" aria-labelledby="table-tab">
-                                <!-- Card -->
-                                <div class="accordion" id="courseAccordion">
-                                    <div>
-                                        <ul class="list-group list-group-flush">
-
-
-
-                                            <!-- LIST 1 -->
-                                            <li class="list-group-item px-2">
-                                                <!-- Toggle -->
-                                                <a class="h4 mb-0 d-flex align-items-center text-inherit text-decoration-none" style="font-size: 18px; font-weight: 600" data-bs-toggle="collapse" href="#course1" aria-expanded="false" aria-controls="course1">
-                                                    <div class="me-auto">
-                                                        1. Introduction to Programming
-                                                    </div>
-                                                    <!-- Chevron -->
-                                                    <span class="chevron-arrow ms-4">
-                                                        <i class="bx bxs-chevron-down"></i>
-                                                    </span>
-                                                </a>
-                                                <!-- Row -->
-                                                <!-- Collapse -->
-                                                <div class="collapse" id="course1" data-bs-parent="#courseAccordion">
-                                                    <div class="pt-3 pb-2">
-                                                        <a class="mb-2 d-flex justify-content-between align-items-center text-inherit text-decoration-none">
-                                                            <div class="text-truncate tablinks" onclick="openCity(name, '1.1')">
-                                                                <span class="icon-shape bg-light me-2"><i class="bx bx-play bx-lg" style="font-size: 30px; justify-self: center"></i></span>
-                                                                <span>Programming Basics</span>
-                                                            </div>
-                                                            <div class="text-truncate">
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <!-- END LIST 1 -->
-
-                                            <!-- LIST 2 -->
-                                            <li class="list-group-item px-2">
-                                                <!-- Toggle -->
-                                                <a class="h4 mb-0 d-flex align-items-center text-inherit text-decoration-none" style="font-size: 18px; font-weight: 600" data-bs-toggle="collapse" href="#course2" aria-expanded="false" aria-controls="course2">
-                                                    <div class="me-auto">
-                                                        2. Flow of the Program
-                                                    </div>
-                                                    <!-- Chevron -->
-                                                    <span class="chevron-arrow ms-4">
-                                                        <i class="bx bxs-chevron-down"></i>
-                                                    </span>
-                                                </a>
-                                                <!-- Row -->
-                                                <!-- Collapse -->
-                                                <div class="collapse" id="course2" data-bs-parent="#courseAccordion">
-                                                    <div class="pt-3 pb-2">
-                                                        <a class="mb-2 d-flex justify-content-between align-items-center text-inherit text-decoration-none">
-                                                            <div class="text-truncate tablinks" onclick="openCity(name, '2.1')">
-                                                                <span class="icon-shape bg-light me-2"><i class="bx bx-play bx-lg" style="font-size: 30px; justify-self: center"></i></span>
-                                                                <span>Flow of Program</span>
-                                                            </div>
-                                                            <div class="text-truncate">
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <!-- END LIST 2 -->
-
-                                            <!-- LIST 3 -->
-                                            <li class="list-group-item px-2">
-                                                <!-- Toggle -->
-                                                <a class="h4 mb-0 d-flex align-items-center text-inherit text-decoration-none" style="font-size: 18px; font-weight: 600" data-bs-toggle="collapse" href="#course3" aria-expanded="false" aria-controls="course3">
-                                                    <div class="me-auto">
-                                                        3. Introduction to Java
-                                                    </div>
-                                                    <!-- Chevron -->
-                                                    <span class="chevron-arrow ms-4">
-                                                        <i class="bx bxs-chevron-down"></i>
-                                                    </span>
-                                                </a>
-                                                <!-- Row -->
-                                                <!-- Collapse -->
-                                                <div class="collapse" id="course3" data-bs-parent="#courseAccordion">
-                                                    <div class="pt-3 pb-2">
-                                                        <a class="mb-2 d-flex justify-content-between align-items-center text-inherit text-decoration-none">
-                                                            <div class="text-truncate tablinks" onclick="openCity(name, '3.1')">
-                                                                <span class="icon-shape bg-light me-2"><i class="bx bx-play bx-lg" style="font-size: 30px; justify-self: center"></i></span>
-                                                                <span>Java Architecture & Installation</span>
-                                                            </div>
-                                                            <div class="text-truncate">
-                                                            </div>
-                                                        </a>
-                                                        <a class="mb-2 d-flex justify-content-between align-items-center text-inherit text-decoration-none">
-                                                            <div class="text-truncate tablinks" onclick="openCity(name, '3.2')">
-                                                                <span class="icon-shape bg-light me-2"><i class="bx bx-play bx-lg" style="font-size: 30px; justify-self: center"></i></span>
-                                                                <span>Input/Output, Debugging and Datatypes</span>
-                                                            </div>
-                                                            <div class="text-truncate">
-                                                            </div>
-                                                        </a>
-                                                        <a class="mb-2 d-flex justify-content-between align-items-center text-inherit text-decoration-none">
-                                                            <div class="text-truncate tablinks" onclick="openCity(name, '3.3')">
-                                                                <span class="icon-shape bg-light me-2"><i class="bx bx-play bx-lg" style="font-size: 30px; justify-self: center"></i></span>
-                                                                <span>
-                                                                    Conditions and Loops</span>
-                                                            </div>
-                                                            <div class="text-truncate">
-                                                            </div>
-                                                        </a>
-                                                        <a class="mb-2 d-flex justify-content-between align-items-center text-inherit text-decoration-none">
-                                                            <div class="text-truncate tablinks" onclick="openCity(name, '3.4')">
-                                                                <span class="icon-shape bg-light me-2"><i class="bx bx-play bx-lg" style="font-size: 30px; justify-self: center"></i></span>
-                                                                <span>Switch Statements + Nested Case</span>
-                                                            </div>
-                                                            <div class="text-truncate">
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <!-- END LIST 3 -->
-
-                                            <!-- LIST 4 -->
-                                            <li class="list-group-item px-2">
-                                                <!-- Toggle -->
-                                                <a class="h4 mb-0 d-flex align-items-center text-inherit text-decoration-none" style="font-size: 18px; font-weight: 600" data-bs-toggle="collapse" href="#course4" aria-expanded="false" aria-controls="course4">
-                                                    <div class="me-auto">
-                                                        4. Functions
-                                                    </div>
-                                                    <!-- Chevron -->
-                                                    <span class="chevron-arrow ms-4">
-                                                        <i class="bx bxs-chevron-down"></i>
-                                                    </span>
-                                                </a>
-                                                <!-- Row -->
-                                                <!-- Collapse -->
-                                                <div class="collapse" id="course4" data-bs-parent="#courseAccordion">
-                                                    <div class="pt-3 pb-2">
-                                                        <a class="mb-2 d-flex justify-content-between align-items-center text-inherit text-decoration-none">
-                                                            <div class="text-truncate tablinks" onclick="openCity(name, '4.1')">
-                                                                <span class="icon-shape bg-light me-2"><i class="bx bx-play bx-lg" style="font-size: 30px; justify-self: center"></i></span>
-                                                                <span>Functions/Methods in Java</span>
-                                                            </div>
-                                                            <div class="text-truncate">
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <!-- END LIST 4 -->
-
-                                            <!-- LIST 5 -->
-                                            <li class="list-group-item px-2">
-                                                <!-- Toggle -->
-                                                <a class="h4 mb-0 d-flex align-items-center text-inherit text-decoration-none" style="font-size: 18px; font-weight: 600" data-bs-toggle="collapse" href="#course5" aria-expanded="false" aria-controls="course5">
-                                                    <div class="me-auto">
-                                                        5. Arrays
-                                                    </div>
-                                                    <!-- Chevron -->
-                                                    <span class="chevron-arrow ms-4">
-                                                        <i class="bx bxs-chevron-down"></i>
-                                                    </span>
-                                                </a>
-                                                <!-- Row -->
-                                                <!-- Collapse -->
-                                                <div class="collapse" id="course5" data-bs-parent="#courseAccordion">
-                                                    <div class="pt-3 pb-2">
-                                                        <a class="mb-2 d-flex justify-content-between align-items-center text-inherit text-decoration-none">
-                                                            <div class="text-truncate tablinks" onclick="openCity(name, '5.1')">
-                                                                <span class="icon-shape bg-light me-2"><i class="bx bx-play bx-lg" style="font-size: 30px; justify-self: center"></i></span>
-                                                                <span>Introduction to Arrays and ArrayList</span>
-                                                            </div>
-                                                            <div class="text-truncate">
-                                                            </div>
-                                                        </a>
-                                                        <a class="mb-2 d-flex justify-content-between align-items-center text-inherit text-decoration-none">
-                                                            <div class="text-truncate tablinks" onclick="openCity(name, '5.2')">
-                                                                <span class="icon-shape bg-light me-2"><i class="bx bx-play bx-lg" style="font-size: 30px; justify-self: center"></i></span>
-                                                                <span>Linear Search in Java</span>
-                                                            </div>
-                                                            <div class="text-truncate">
-                                                            </div>
-                                                        </a>
-                                                        <a class="mb-2 d-flex justify-content-between align-items-center text-inherit text-decoration-none">
-                                                            <div class="text-truncate tablinks" onclick="openCity(name, '5.3')">
-                                                                <span class="icon-shape bg-light me-2"><i class="bx bx-play bx-lg" style="font-size: 30px; justify-self: center"></i></span>
-                                                                <span>
-                                                                    Binary Search in Java</span>
-                                                            </div>
-                                                            <div class="text-truncate">
-                                                            </div>
-                                                        </a>
-                                                        <a class="mb-2 d-flex justify-content-between align-items-center text-inherit text-decoration-none">
-                                                            <div class="text-truncate tablinks" onclick="openCity(name, '5.4')">
-                                                                <span class="icon-shape bg-light me-2"><i class="bx bx-play bx-lg" style="font-size: 30px; justify-self: center"></i></span>
-                                                                <span>Binary Search Interview Questions</span>
-                                                            </div>
-                                                            <div class="text-truncate">
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <!-- END LIST 5 -->
-
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="video-list">
+                        <!-- Content loaded dynamically from YouTube API -->
                     </div>
                 </div>
             </div>
-
-
-
-
-
-            <div class="col-lg-8 col-md-12 col-12 mt-4 order-1 order-lg-2">
-                <div class="card mb-4">
-                    <div class="card-header" style="background-color: darkblue">
-                        <h4 class="mb-0" style="color: white; font-weight: 600">Content <span style="font-size: 16px">(Open Videos from Topics Tab)</span></h4>
-                    </div>
-
-
-                    <ul class="list-group p-3" style="list-style: none">
-
-                        <li>
-                            <div class="ratio ratio-16x9 tabcontent" id="1.1">
-                                <iframe src="https://www.youtube.com/embed/wn49bJOYAZM" title="YouTube video" allowfullscreen></iframe>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div class="ratio ratio-16x9 tabcontent" id="2.1">
-                                <iframe src="https://www.youtube.com/embed/lhELGQAV4gg" title="YouTube video" allowfullscreen></iframe>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div class="ratio ratio-16x9 tabcontent" id="3.1">
-                                <iframe src="https://www.youtube.com/embed/4EP8YzcN0hQ" title="YouTube video" allowfullscreen></iframe>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div class="ratio ratio-16x9 tabcontent" id="3.2">
-                                <iframe src="https://www.youtube.com/embed/TAtrPoaJ7gc" title="YouTube video" allowfullscreen></iframe>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div class="ratio ratio-16x9 tabcontent" id="3.3">
-                                <iframe src="https://www.youtube.com/embed/ldYLYRNaucM" title="YouTube video" allowfullscreen></iframe>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div class="ratio ratio-16x9 tabcontent" id="3.4">
-                                <iframe src="https://www.youtube.com/embed/mA23x39DjbI" title="YouTube video" allowfullscreen></iframe>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div class="ratio ratio-16x9 tabcontent" id="4.1">
-                                <iframe src="https://www.youtube.com/embed/vvanI8NRlSI" title="YouTube video" allowfullscreen></iframe>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div class="ratio ratio-16x9 tabcontent" id="5.1">
-                                <iframe src="https://www.youtube.com/embed/n60Dn0UsbEk" title="YouTube video" allowfullscreen></iframe>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div class="ratio ratio-16x9 tabcontent" id="5.2">
-                                <iframe src="https://www.youtube.com/embed/_HRA37X8N_Q" title="YouTube video" allowfullscreen></iframe>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div class="ratio ratio-16x9 tabcontent" id="5.3">
-                                <iframe src="https://www.youtube.com/embed/f6UU7V3szVw" title="YouTube video" allowfullscreen></iframe>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div class="ratio ratio-16x9 tabcontent" id="5.4">
-                                <iframe src="https://www.youtube.com/embed/W9QJ8HaRvJQ" title="YouTube video" allowfullscreen></iframe>
-                            </div>
-                        </li>
-
-                    </ul>
-
-
-                </div>
-            </div>
-
-
-
+            <!-- Content -->
 
         </div>
     </div>
-
-
-
-
-
 
     <!-- ======= Footer ======= -->
     <footer id="contact">
@@ -402,20 +102,29 @@
                     </div>
                     <div class="col-sm-3 foot2">
                         <h3>Contact Us:</h3>
-                        <span><i class='bx bxs-envelope'></i><a href="mailto:kunal@commclassroom.org">kunal@commclassroom.org</a></span><br>
-                        <span><i class='bx bxl-youtube'></i><a href="https://www.youtube.com/c/KunalKushwaha?sub_confirmation=1">Subscribe our YouTube Channel</a></span><br>
-                        <span><i class='bx bxl-linkedin-square'></i><a href="https://www.linkedin.com/company/commclassroom">Follow us on LinkedIn</a></span><br>
+                        <span><i class='bx bxs-envelope'></i><a
+                                href="mailto:kunal@commclassroom.org">kunal@commclassroom.org</a></span><br>
+                        <span><i class='bx bxl-youtube'></i><a
+                                href="https://www.youtube.com/c/KunalKushwaha?sub_confirmation=1">Subscribe our YouTube
+                                Channel</a></span><br>
+                        <span><i class='bx bxl-linkedin-square'></i><a
+                                href="https://www.linkedin.com/company/commclassroom">Follow us on
+                                LinkedIn</a></span><br>
                     </div>
                     <div class="col-sm-3 foot3">
                         <h3>If you like our work, here are the things that you can do:</h3>
-                        <p><i class='bx bxs-like bx-xs'></i> Like our videos <br> <i class='bx bxs-comment bx-xs'></i> Comment your views on our videos <br> <i class='bx bxs-share-alt' ></i> Share us on socials and also tag us</p>
+                        <p><i class='bx bxs-like bx-xs'></i> Like our videos <br> <i class='bx bxs-comment bx-xs'></i>
+                            Comment your views on our videos <br> <i class='bx bxs-share-alt'></i> Share us on socials
+                            and also tag us</p>
                     </div>
                 </div>
 
                 <div class="social-links">
                     <a href="https://twitter.com/commclassroom" class="twitter"><i class="bx bxl-twitter"></i></a>
-                    <a href="https://www.instagram.com/commclassroom/" class="instagram"><i class="bx bxl-instagram"></i></a>
-                    <a href="https://www.linkedin.com/company/commclassroom" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                    <a href="https://www.instagram.com/commclassroom/" class="instagram"><i
+                            class="bx bxl-instagram"></i></a>
+                    <a href="https://www.linkedin.com/company/commclassroom" class="linkedin"><i
+                            class="bx bxl-linkedin"></i></a>
                     <a href="https://t.me/commclassroom" class="telegram"><i class="bx bxl-telegram"></i></a>
                     <a href="https://discord.io/commclassroom" class="discord"><i class="bx bxl-discord"></i></a>
                 </div>
@@ -438,42 +147,69 @@
     <!-- End Footer -->
 
     <script>
-        tabcontent = document.getElementsByClassName("tabcontent");
-        for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
-        }
-    </script>
+        $(document).ready(function () {
 
-    <script>
-        function openCity(evt, cityName) {
-            // Declare all variables
-            var i, tabcontent, tablinks;
-
-            // Get all elements with class="tabcontent" and hide them
-            tabcontent = document.getElementsByClassName("tabcontent");
-            for (i = 0; i < tabcontent.length; i++) {
-                tabcontent[i].style.display = "none";
+            var key = config.API_KEY;
+            var playlistId = 'PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ';
+            var URL = 'https://www.googleapis.com/youtube/v3/playlistItems';
+            var options = {
+                part: 'snippet',
+                key: key,
+                maxResults: 20,
+                playlistId: playlistId
             }
 
-            // Get all elements with class="tablinks" and remove the class "active"
-            tablinks = document.getElementsByClassName("tablinks");
-            for (i = 0; i < tablinks.length; i++) {
-                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            loadVids()
+
+            function loadVids() {
+                $.getJSON(URL, options, function(data){
+                    var firstID = data.items[0].snippet.resourceId.videoId;
+                    var firstTitle = data.items[0].snippet.title;
+                    mainVid(firstID, firstTitle);
+                    vidContent(data);
+                });
             }
 
-            // Show the current tab, and add an "active" class to the link that opened the tab
-            document.getElementById(cityName).style.display = "block";
-            evt.currentTarget.className += " active";
-        }
+            function mainVid(firstID, firstTitle) {
+                $('.main-video').html(`
+                    <div class="video">
+                        <h3 class="main-title px-2">${firstTitle}</h3>
+                        <iframe src="https://www.youtube.com/embed/${firstID}" allowfullscreen></iframe>
+                    </div>
+                `)
+            }
+
+            function vidContent(data) {
+                $.each(data.items, function(i, item){
+                    var title = item.snippet.title;
+                    var id = item.snippet.resourceId.videoId;
+                    $('.video-list').append(`
+                        <div class="vid" data-key="${id}" data-title="${title}">
+                            <iframe src="https://www.youtube.com/embed/${id}" allowfullscreen></iframe>
+                            <h6 class="title">${title}</h6>
+                        </div>
+                    `);
+                });
+            }
+
+            $('.video-list').on('click', '.vid', function () {
+                var firstID = $(this).attr('data-key');
+                var firstTitle = $(this).attr('data-title');
+                mainVid(firstID, firstTitle);
+                $(".vid").removeClass("active");
+                $(this).addClass("active");
+            })
+        });
     </script>
 
     <!-- Vendor JS Files -->
+    <script src="../../assets/vendor/swiper/swiper-bundle.min.js"></script>
     <script src="../../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="../../assets/vendor/glightbox/js/glightbox.min.js"></script>
     <script src="../../assets/vendor/purecounter/purecounter.js"></script>
-    <script src="../../assets/vendor/swiper/swiper-bundle.min.js"></script>
 
-    <!-- Template Main JS File -->
+    <!-- <script src="./course-content.js"></script> -->
+    <script src="../../config.js"></script>
     <script src="../../assets/js/main.js"></script>
 
 </body>

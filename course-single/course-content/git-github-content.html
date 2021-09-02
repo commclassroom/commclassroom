@@ -11,7 +11,9 @@
     <link href="../../assets/img/logo.png" rel="icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="../../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -22,19 +24,23 @@
 
     <!-- Template Main CSS File -->
     <link href="../../assets/css/style.css" rel="stylesheet">
-    <link href="../../assets/css/theme.min.css" rel="stylesheet">
+    <link href="./course-content.css" rel="stylesheet">
+
+    <!-- jquery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 </head>
 
 <body>
 
 
-    <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top">
+<!-- Header -->
+    <header id="header" class="collapsHeader">
         <div class="container d-flex align-items-center justify-content-between">
-
-            <h1 class="logo"><a href="../../index.html"><img src="../../assets/img/logo2.jpg" alt="" class="img-fluid"></a></h1>
-
+    
+            <h1 class="logo"><a href="../../index.html"><img src="../../assets/img/logo2.jpg" alt="" class="img-fluid"></a>
+            </h1>
+    
             <nav id="navbar" class="navbar">
                 <ul>
                     <li><a class="nav-link" href="../../index.html">Home</a></li>
@@ -46,53 +52,40 @@
                     <li><a class="getstarted" href="">Login/Signup</a></li>
                 </ul>
                 <i class="bx bx-list-ul mobile-nav-toggle"></i>
-            </nav><!-- .navbar -->
-
+            </nav>
+    
         </div>
     </header>
+<!-- Header -->
 
 
-
-    <!-- ======= Hero Section ======= -->
-    <section id="coursemainname" class="d-flex align-items-center">
-
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 pt-5 pt-lg-0 d-flex flex-column justify-content-center" style="justify-content: center;">
-                    <h1>Complete Git and GitHub Tutorial</h1>
-                </div>
-            </div>
-        </div>
-
-    </section>
-    <!-- End Hero -->
-
-
-
-    <!-- Page content -->
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 col-md-12 col-12 mt-4 order-1 order-lg-2">
-                <div class="card mb-4">
-                    <div class="card-header" style="background-color: darkblue">
-                        <h4 class="mb-0" style="color: white; font-weight: 600">Content</h4>
+    <div class="container-fluid d-flex justify-content-center">
+        <div class="row gx-3 player">
+            
+            <!-- Main Video -->
+            <div class="col-12 mt-4 mb-0 mb-lg-4 order-1 video-player">
+                <div class="card">
+                    <div class="main-video">
+                        <!-- Video updated dynamically on clicking title -->
                     </div>
-
-
-                    <ul class="list-group p-3" style="list-style: none">
-
-                        <li>
-                            <div class="ratio ratio-16x9">
-                                <iframe src="https://www.youtube.com/embed/apGV9Kg7ics" title="YouTube video" allowfullscreen></iframe>
-                            </div>
-                        </li>
-
-                    </ul>
                 </div>
             </div>
+            <!-- Main Video -->
+
+            <!-- Content -->
+            <!-- <div class="col-lg-3 col-md-12 col-12 mt-4 mb-4 order-2 content-list">
+                <div class="card">
+                    <div class="card-header" style="background-color: darkblue">
+                        <h4 class="mb-0" style="color: white; font-weight: 600">Topics</h4>
+                    </div>
+                    <div class="video-list">
+                    </div>
+                </div>
+            </div> -->
+            <!-- Content -->
+
         </div>
     </div>
-
 
     <!-- ======= Footer ======= -->
     <footer id="contact">
@@ -108,20 +101,29 @@
                     </div>
                     <div class="col-sm-3 foot2">
                         <h3>Contact Us:</h3>
-                        <span><i class='bx bxs-envelope'></i><a href="mailto:kunal@commclassroom.org">kunal@commclassroom.org</a></span><br>
-                        <span><i class='bx bxl-youtube'></i><a href="https://www.youtube.com/c/KunalKushwaha?sub_confirmation=1">Subscribe our YouTube Channel</a></span><br>
-                        <span><i class='bx bxl-linkedin-square'></i><a href="https://www.linkedin.com/company/commclassroom">Follow us on LinkedIn</a></span><br>
+                        <span><i class='bx bxs-envelope'></i><a
+                                href="mailto:kunal@commclassroom.org">kunal@commclassroom.org</a></span><br>
+                        <span><i class='bx bxl-youtube'></i><a
+                                href="https://www.youtube.com/c/KunalKushwaha?sub_confirmation=1">Subscribe our YouTube
+                                Channel</a></span><br>
+                        <span><i class='bx bxl-linkedin-square'></i><a
+                                href="https://www.linkedin.com/company/commclassroom">Follow us on
+                                LinkedIn</a></span><br>
                     </div>
                     <div class="col-sm-3 foot3">
                         <h3>If you like our work, here are the things that you can do:</h3>
-                        <p><i class='bx bxs-like bx-xs'></i> Like our videos <br> <i class='bx bxs-comment bx-xs'></i> Comment your views on our videos <br> <i class='bx bxs-share-alt' ></i> Share us on socials and also tag us</p>
+                        <p><i class='bx bxs-like bx-xs'></i> Like our videos <br> <i class='bx bxs-comment bx-xs'></i>
+                            Comment your views on our videos <br> <i class='bx bxs-share-alt'></i> Share us on socials
+                            and also tag us</p>
                     </div>
                 </div>
 
                 <div class="social-links">
                     <a href="https://twitter.com/commclassroom" class="twitter"><i class="bx bxl-twitter"></i></a>
-                    <a href="https://www.instagram.com/commclassroom/" class="instagram"><i class="bx bxl-instagram"></i></a>
-                    <a href="https://www.linkedin.com/company/commclassroom" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                    <a href="https://www.instagram.com/commclassroom/" class="instagram"><i
+                            class="bx bxl-instagram"></i></a>
+                    <a href="https://www.linkedin.com/company/commclassroom" class="linkedin"><i
+                            class="bx bxl-linkedin"></i></a>
                     <a href="https://t.me/commclassroom" class="telegram"><i class="bx bxl-telegram"></i></a>
                     <a href="https://discord.io/commclassroom" class="discord"><i class="bx bxl-discord"></i></a>
                 </div>
@@ -143,13 +145,48 @@
     </footer>
     <!-- End Footer -->
 
+    <script>
+        $(document).ready(function () {
+
+            var key = config.API_KEY;
+            var playlistId = 'PL9gnSGHSqcnrtJr849xyLhj2WiTV15Ret';
+            var URL = 'https://www.googleapis.com/youtube/v3/playlistItems';
+            var options = {
+                part: 'snippet',
+                key: key,
+                maxResults: 20,
+                playlistId: playlistId
+            }
+
+            loadVids()
+
+            function loadVids() {
+                $.getJSON(URL, options, function(data){
+                    var firstID = data.items[0].snippet.resourceId.videoId;
+                    var firstTitle = data.items[0].snippet.title;
+                    mainVid(firstID, firstTitle);
+                });
+            }
+
+            function mainVid(firstID, firstTitle) {
+                $('.main-video').html(`
+                    <div class="video">
+                        <h3 class="main-title px-2">${firstTitle}</h3>
+                        <iframe src="https://www.youtube.com/embed/${firstID}" allowfullscreen></iframe>
+                    </div>
+                `)
+            }
+        });
+    </script>
+
     <!-- Vendor JS Files -->
+    <script src="../../assets/vendor/swiper/swiper-bundle.min.js"></script>
     <script src="../../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="../../assets/vendor/glightbox/js/glightbox.min.js"></script>
     <script src="../../assets/vendor/purecounter/purecounter.js"></script>
-    <script src="../../assets/vendor/swiper/swiper-bundle.min.js"></script>
 
-    <!-- Template Main JS File -->
+    <!-- <script src="./course-content.js"></script> -->
+    <script src="../../config.js"></script>
     <script src="../../assets/js/main.js"></script>
 
 </body>
