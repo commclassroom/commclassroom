@@ -599,8 +599,8 @@ section {
     margin-bottom: 20px;
     padding: 10px 12px 14px;
     ;
-    background: #ebecf3;
-    border-radius: 30px;
+    background: white;
+    border-radius: 20px;
     transition: 0.3s;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.3);
 }
@@ -619,10 +619,10 @@ section {
 }
 
 .courses .coursecard .button {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
-    margin-top: -3px;
-    padding: 0px;
+    margin-top: 30px;
+    padding: 2px;
     padding-left: 19px;
     padding-right: 19px;
     border-radius: 20px;
@@ -637,21 +637,21 @@ section {
 
 .courses .coursecard:hover {
     transition: 0.3s;
-    background: #ffffff;
-    border-radius: 50px;
+    background: rgb(233, 232, 232);
+    border-radius: 20px;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
 }
 
 .courses .coursecard:hover img {
     transition: 0.3s;
-    border-radius: 40px;
+    border-radius: 20px;
 }
 
 .courses .morecourses-btn {
     font-family: "Poppins", sans-serif;
     text-transform: uppercase;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 22px;
     letter-spacing: 1px;
     display: inline-block;
     padding: 4px 18px;
@@ -667,10 +667,6 @@ section {
 
 .courses .morecourses-btn:hover {
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
-    background: #FFA800;
-    color: #fff;
-    transition: 0.3s;
-    border-radius: 20px;
 }
 
 
