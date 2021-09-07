@@ -1,0 +1,19 @@
+{
+  "name": "commclassroom",
+  "version": "1.0.0",
+  "description": "The community website for developers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daredevilteja/commclassroom.git"
+  },
+  "author": "Ravi Teja Natchireddi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daredevilteja/commclassroom/issues"
+  },
+  "homepage": "https://github.com/daredevilteja/commclassroom#readme"
+}
