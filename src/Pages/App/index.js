@@ -1,5 +1,10 @@
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Courses from '../Courses';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+} from "react-router-dom";
+import Courses from "../Courses";
 import UniversityLeader from "../UniversityLeader";
 import Team from "../Team";
 import AboutUs from "../AboutUs";
@@ -11,28 +16,36 @@ function App() {
   return (
     <Router>
       <div>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/courses">Courses</Link>
-            </li>
-            <li>
-              <Link to="/uniLead">University Leader</Link>
-            </li>
-            <li>
-              <Link to="/team">Team</Link>
-            </li>
-            <li>
-              <Link to="/aboutUs">About Us</Link>
-            </li>
-            <li>
-              <Link to="/contactUs">Contact Us</Link>
-            </li>
-          </ul>
-        </nav>
+        <header className={"header"}>
+          <div className={"container"}>
+            <h1 className={"logo"}>
+              <img src={"logo2.png"} alt="" className={"logoImg"} />
+            </h1>
+
+            <nav className={"navbar"}>
+              <ul>
+                <li className={"nav-link"}>
+                  <Link to="/">Home</Link>
+                </li>
+                <li className={"nav-link"}>
+                  <Link to="/courses">Courses</Link>
+                </li>
+                <li className={"nav-link"}>
+                  <Link to="/uniLead">University Leader</Link>
+                </li>
+                <li className={"nav-link"}>
+                  <Link to="/team">Team</Link>
+                </li>
+                <li className={"nav-link"}>
+                  <Link to="/aboutUs">About Us</Link>
+                </li>
+                <li className={"nav-link"}>
+                  <Link to="/contactUs">Contact Us</Link>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </header>
 
         <Switch>
           <Route path="/courses">

@@ -1,4 +1,62 @@
-.App {
-  text-align: center;
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
+.header {
+  background: #fff;
+  padding: 5px 0;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
 }
 
+.header .logo {
+  font-size: 27px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 800;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logoImg {
+  height: 60px;
+  width: 150px;
+  margin-bottom: 5px;
+}
+
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+/**
+* Desktop Navigation
+*/
+
+.navbar {
+  padding: 0;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+
+.nav-link, .nav-link:focus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 10px 15px;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: slategrey;
+  white-space: nowrap;
+  transition: 0.3s;
+}
