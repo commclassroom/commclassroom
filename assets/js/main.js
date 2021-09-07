@@ -1719,3 +1719,7 @@ function () {
             new ApexCharts(document.querySelector("#operatingSystem"), e).render()
         }
     }();
+
+function ComingSoon() {
+    alert("Stay Tuned!!! Coming Soon");
+}
