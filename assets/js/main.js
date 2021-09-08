@@ -2,6 +2,8 @@
 var courseForm;
 (function () {
 
+    /* Dark theme function */
+
     let mode = document.getElementById("dark-mode");
 
     mode.onclick = function() {
