@@ -2,6 +2,12 @@
 var courseForm;
 (function () {
 
+    let mode = document.getElementById("dark-mode");
+
+    mode.onclick = function() {
+        document.body.classList.toggle("dark-theme");
+    }
+
     /**
      * Easy selector helper function
      */

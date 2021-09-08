@@ -1,6 +1,23 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+:root {
+    --p-color: rgb(194, 194, 194);
+    --priamry-color: #206bfb;
+    --tertiary-color: #F2F4F7;
+    --theme-color: rgb(255, 255, 255);
+    --secondary-color: rgb(0, 0, 0);
+}
+
+
+.dark-theme {
+    --priamry-color: #206bfb;
+    --tertiary-color: rgb(44, 44, 44);
+    --theme-color: rgb(29, 29, 29);
+    --secondary-color: rgb(209, 209, 209);
+}
+
 body {
     font-family: "Open Sans", sans-serif;
     color: #444444;
@@ -87,7 +104,8 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-    background: #fff;
+    /* background: #fff; */
+    background: var(--theme-color);
     transition: all 0.5s;
     z-index: 997;
     padding: 5px 0;
@@ -155,7 +173,8 @@ h6 {
     font-family: "Raleway", sans-serif;
     font-size: 16px;
     font-weight: 700;
-    color: slategrey;
+    /* color: slategray; */
+    color: var(--secondary-color);
     white-space: nowrap;
     transition: 0.3s;
 }
@@ -171,21 +190,24 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover > a {
-    color: #000000;
+    /* color: #000000; */
+    color: var(--priamry-color);
 }
 
+.navbar .dark-mode,
 .navbar .getstarted {
     padding: 10px 20px;
     margin-left: 30px;
     border-radius: 4px;
     line-height: 1;
-    color: #5f687b;
+    color: var(--secondary-color);
     font-size: 14px;
     font-weight: 500;
     border: 1px solid #cdd1d9;
 }
-
-.navbar .getstarted:focus-within {
+ 
+.navbar .dark-mode,
+.navbar .getstarted :focus-within {
     font-size: 14px;
     font-weight: 500;
     transition: 0.8s;
@@ -195,6 +217,7 @@ h6 {
     line-height: 1;
 }
 
+.navbar .dark-mode,
 .navbar .getstarted:hover {
     transition: 0.3s;
     background: #206bfb;
@@ -386,7 +409,7 @@ h6 {
 #hero {
     width: 100%;
     height: 70vh;
-    background: #ffffff;
+    background: var(--theme-color);
     padding-top: 160px;
 }
 
@@ -395,7 +418,7 @@ h6 {
     font-size: 55px;
     font-weight: 700;
     line-height: 65px;
-    color: #181818;
+    color: var(--secondary-color);
 }
 
 #hero h2 {
@@ -530,7 +553,8 @@ section {
 }
 
 .section-bg {
-    background-color: #F2F4F7;
+    background-color: var(--tertiary-color);
+    color: var(--secondary-color);
 }
 
 .section-title {
@@ -681,11 +705,13 @@ section {
 --------------------------------------------------------------*/
 .counts {
     padding: 20px;
-    background-color: #F2F4F7;
+    /* background-color: #F2F4F7; */
+    background-color: var(--tertiary-color);
 }
 
 .counts h2 {
-    color: #000000;
+    /* color: #000000; */
+    color: var(--secondary-color);
     margin-top: -25px;
 }
 
@@ -717,7 +743,8 @@ section {
 --------------------------------------------------------------*/
 #about {
     padding: 10px;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
+    background-color: var(--theme-color);
 }
 
 .about .content h2 {
@@ -769,6 +796,8 @@ section {
     transition: all ease-in-out 0.2s;
     background: #fff;
     border-radius: 30px;
+
+    color: var(--p-color);
 }
 
 .features .icon-box .icon {
@@ -816,12 +845,14 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
     padding: 40px;
-    background-color: white;
+    /* background-color: white; */
+    background-color: var(--theme-color);
 }
 
 .testimonials h2 {
     padding-top: 35px;
-    color: black;
+    /* color: black; */
+    color: var(--secondary-color);
 }
 
 .testimonials .testimonial-item {
@@ -835,14 +866,16 @@ section {
     margin: -40px 0 0 40px;
     position: relative;
     z-index: 2;
-    border: 6px solid #fff;
+    /* border: 6px solid #fff; */
+    border: 6px solid var(--tertiary-color);
 }
 
 .testimonials .testimonial-item h3 {
     font-size: 18px;
     font-weight: bold;
     margin: 10px 0 5px 45px;
-    color: #111;
+    /* color: #111; */
+    color: var(--secondary-color);
 }
 
 .testimonials .testimonial-item h4 {
@@ -874,7 +907,8 @@ section {
     font-style: italic;
     margin: -20px 15px 0 15px;
     padding: 20px 20px 60px 20px;
-    background: white;
+    /* background: white; */
+    background: var(--tertiary-color);
     position: relative;
     border-radius: 6px;
     position: relative;
@@ -967,7 +1001,8 @@ section {
 # Team
 --------------------------------------------------------------*/
 .team h2 {
-    color: black;
+    /* color: black; */
+    color: var(--secondary-color);
 }
 
 .team .member {
@@ -988,12 +1023,16 @@ section {
     font-weight: 700;
     margin-bottom: 2px;
     font-size: 25px;
+
+    color: var(--p-color);
 }
 
 .team .member span {
     font-style: italic;
     display: block;
     font-size: 16px;
+
+    color: var(--p-color);
 }
 
 .team .member p {
@@ -1402,7 +1441,7 @@ section {
     line-height: 32px;
 }
 
-#coursename .dummy {}
+/* #coursename .dummy {} */
 
 #coursename .coursename-img {
 
