@@ -1,6 +1,11 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+:root{
+   --primaryColor: #009CFF;
+
+}
+
 body {
     font-family: "Open Sans", sans-serif;
     color: #444444;
@@ -109,7 +114,7 @@ h6 {
 }
 
 #header .logo a {
-    color: dodgerblue;
+    color: var(--primaryColor);
 }
 
 #header .logo img {
@@ -171,7 +176,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover > a {
-    color: #000000;
+    color: var(--primaryColor);
 }
 
 .navbar .getstarted {
@@ -415,7 +420,7 @@ h6 {
     border-radius: 20px;
     transition: 0.3s;
     color: #fff;
-    background: #206bfb;
+    background: var(--primaryColor);
     box-shadow: 0 5px 28px rgba(0, 255, 50, 0.15);
 }
 
@@ -648,29 +653,25 @@ section {
 }
 
 .courses .morecourses-btn {
-    font-family: "Poppins", sans-serif;
-    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 16px;
     letter-spacing: 1px;
     display: inline-block;
-    padding: 4px 18px;
-    border-radius: 10px;
-    transition: 0.2s;
-    margin-top: 17px;
-    border: 2px solid #fff;
-    background-color: #8400FF;
+    padding: 11px 25px 10px 25px;
+    margin: 2rem 0rem;
+    border-radius: 20px;
+    transition: 0.3s;
     color: #fff;
-    margin-bottom: -20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background: var(--primaryColor);
+    box-shadow: 0 5px 28px rgba(0, 255, 50, 0.15);
 }
 
 .courses .morecourses-btn:hover {
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
-    background: #FFA800;
+    border-radius: 15px;
+    background: #0017FF;
     color: #fff;
-    transition: 0.3s;
-    border-radius: 20px;
+    box-shadow: 0 0 28px rgba(32, 107, 251, 0.40);
 }
 
 
@@ -697,7 +698,7 @@ section {
     margin-top: -21px;
     font-size: 48px;
     display: block;
-    color: #0670aa;
+    color: var(--primaryColor);
     font-weight: 700;
 }
 
@@ -725,7 +726,7 @@ section {
     padding-bottom: 25px;
     font-weight: 700;
     font-size: 35px;
-    color: #0670aa;
+    color: var(--primaryColor);
 }
 
 .about .content ul {
@@ -769,6 +770,7 @@ section {
     transition: all ease-in-out 0.2s;
     background: #fff;
     border-radius: 30px;
+    cursor: pointer;
 }
 
 .features .icon-box .icon {
@@ -783,7 +785,7 @@ section {
 .features .icon-box .icon i {
     color: #16df7e;
     font-size: 120px;
-    transition: 0.3s;
+    transition: 0.1s;
 }
 
 .features .icon-box h4 {
@@ -806,7 +808,11 @@ section {
 }
 
 .features .icon-box:hover h4 {
-    color: dodgerblue;
+    color: var(--primaryColor);
+}
+
+.features .icon-box:hover .icon i {
+    color: var(--primaryColor);
 }
 
 
@@ -827,12 +833,14 @@ section {
 .testimonials .testimonial-item {
     box-sizing: content-box;
     min-height: 320px;
+    text-align: center;
+    max-height: 35rem;
 }
 
 .testimonials .testimonial-item .testimonial-img {
     width: 90px;
     border-radius: 50%;
-    margin: -40px 0 0 40px;
+    margin: -40px 0 0 0;
     position: relative;
     z-index: 2;
     border: 6px solid #fff;
@@ -841,14 +849,13 @@ section {
 .testimonials .testimonial-item h3 {
     font-size: 18px;
     font-weight: bold;
-    margin: 10px 0 5px 45px;
+    margin: 1rem 0 0.5rem 0px;
     color: #111;
 }
 
 .testimonials .testimonial-item h4 {
     font-size: 14px;
     color: #999;
-    margin: 0 0 0 45px;
 }
 
 .testimonials .testimonial-item .quote-icon-left,
@@ -905,7 +912,7 @@ section {
 # University Leader
 --------------------------------------------------------------*/
 .universityleader {
-    background-color: #206bfb;
+    background-color: var(--primaryColor);
     background-size: cover;
     padding: 60px 0;
 }
@@ -1028,7 +1035,7 @@ section {
 # Contact
 --------------------------------------------------------------*/
 #contact {
-    background-color: #206bfb;
+    background-color: var(--primaryColor);
     color: #5f687b;
     font-size: 14px;
     position: relative;
@@ -1191,18 +1198,18 @@ section {
 }
 
 #contact .copyright {
-    color: #206bfb;
+    color: whitesmoke;
     float: left;
 }
 
 #contact .credits {
-    color: #206bfb;
+    color: whitesmoke;
     float: right;
     font-size: 13px;
 }
 
 #contact .credits a {
-    color: #206bfb;
+    color:whitesmoke;
 }
 
 @media (max-width: 992px) {
