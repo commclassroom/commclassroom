@@ -1,6 +1,11 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+html{
+  scroll-behavior: smooth;
+}
+
 body {
     font-family: "Open Sans", sans-serif;
     color: #444444;
@@ -172,6 +177,8 @@ h6 {
 .navbar .active:focus,
 .navbar li:hover > a {
     color: #000000;
+    text-underline-offset: 0.2rem;
+    text-decoration: underline;
 }
 
 .navbar .getstarted {
@@ -386,7 +393,7 @@ h6 {
 #hero {
     width: 100%;
     height: 70vh;
-    background: #ffffff;
+    background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.603), rgb(170, 196, 255));
     padding-top: 160px;
 }
 
@@ -438,13 +445,15 @@ h6 {
 }
 
 #hero .btn-watch-video i {
-    color: #949cac;
+    color: #009CFF;
     font-size: 32px;
     line-height: 0;
     margin-right: 8px;
 }
 
 #hero .btn-watch-video:hover i {
+    transform: scale(1.35);
+    transition: 0.4s;
     color: #16df7e;
 }
 
@@ -849,7 +858,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-    color: #e4e6ea;
+    color: #00008b;
     font-size: 26px;
 }
 
@@ -980,6 +989,19 @@ section {
     border-radius: 40px;
 }
 
+.team .member:hover{
+    transform: scale(1.05);
+      
+    border: 2px solid #00838d;
+    box-shadow: 0px 0px 999px 555px rgba(255, 255, 255, 0.5);
+    z-index: 500;
+
+    transition: all 0.4s ease-out;
+    color: #345d93;
+
+    background: rgb(234, 244, 248)
+}
+
 .team .member h3 {
     font-weight: 700;
     margin-bottom: 2px;
@@ -1028,6 +1050,8 @@ section {
     color: #5f687b;
     font-size: 14px;
     position: relative;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
 
 #contact .footer-top {
