@@ -79,7 +79,7 @@ var courseForm;
     let selectHeader = select('#header')
     if (selectHeader) {
         const headerScrolled = () => {
-            if (window.scrollY > 100) {
+            if (window.scrollY > 80) {
                 selectHeader.classList.add('header-scrolled')
             } else {
                 selectHeader.classList.remove('header-scrolled')
