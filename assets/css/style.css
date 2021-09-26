@@ -1063,6 +1063,10 @@ section {
     border-top-right-radius: 1rem;
 }
 
+.bxs-envelope {
+    margin-right: 5px;
+}
+
 #contact .footer-top {
     position: relative;
     z-index: 2;
@@ -1221,6 +1225,7 @@ section {
     text-align: center;
     padding-top: 20px;
     color: whitesmoke;
+    font-size: 18px;
 }
 
 #contact .copyright {
