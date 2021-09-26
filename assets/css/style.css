@@ -1204,6 +1204,11 @@ section {
         color: #fff;
         background-color: #7289d9 ;
 } 
+#contact .footer-top .social-links .youtube:hover{
+    color: #fff;
+    background-color: #f70909 ;
+} 
+
 
 #contact .footer-bottom {
     border-top: 1px solid #d9dce2;
