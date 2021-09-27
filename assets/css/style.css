@@ -11,6 +11,11 @@ body {
     color: #444444;
 }
 
+div {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
 a {
     color: #14c871;
     text-decoration: none;
@@ -1046,7 +1051,7 @@ section {
 # Contact
 --------------------------------------------------------------*/
 #contact {
-    background-color: #206bfb;
+    background-image: linear-gradient(158deg, #015580,#0492ce,#0394d1,#015580);
     color: #5f687b;
     font-size: 14px;
     position: relative;
@@ -1089,7 +1094,7 @@ section {
 }
 
 #contact .footer-top .foot2 {
-    padding: 20px;
+    padding: 52px;
     text-align: left;
 }
 
@@ -1114,6 +1119,7 @@ section {
     font-size: 16px;
     padding: 0px;
     color: white;
+    display:inline-flex;
 }
 
 #contact .footer-top .foot2 span i {
@@ -1195,6 +1201,11 @@ section {
         color: #fff;
         background-color: #7289d9 ;
 } 
+#contact .footer-top .social-links .youtube:hover{
+    color: #fff;
+    background-color: #f70909 ;
+} 
+
 
 #contact .footer-bottom {
     border-top: 1px solid #d9dce2;
