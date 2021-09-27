@@ -1,4 +1,3 @@
-// every components here and export it as HomeView .
-export default function HomeView() {
-  return <h1>We Can do it</h1>;
-}
+export {default as Navbar} from './Navbar/Navbar'
+export {default as AboutUs} from './AboutUs/AboutUs'
+export {default as Testimonials} from './Testimonials/Testimonials'

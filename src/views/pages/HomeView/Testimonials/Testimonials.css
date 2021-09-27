@@ -1,0 +1,10 @@
+.testimonials{
+    padding: 60px 45px;
+    background-color: #FFFFFF;
+    position: relative;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.test-heading{
+    text-align: center;
+}
