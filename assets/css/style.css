@@ -1282,13 +1282,61 @@ section {
 
     #contact .copyright,
     #contact .credits {
+        
         float: none;
         -moz-text-align-last: center;
         text-align-last: center;
     }
-}
+} 
+ @media (max-width:780px){
+    #contact .col-sm-6{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #contact .col-sm-6 h3,p{
+        text-align: center;
+    }
+    #contact .col-sm-3 foot2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
 
+    }
+    #contact .col-sm-3 foot2 h3{
+    font-weight: 500;
+    padding-bottom: 15px;
+    font-size: 23px;
+    text-align: center;
+    }
+} 
+@media (max-width:988px){
+    #contact .col-sm-6{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 30px;
+    }
+    #contact .col-sm-6 h3,p{
+        text-align: center;
+    }
+    #contact .col-sm-3 foot2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
 
+    }
+    #contact .col-sm-3 foot2 h3{
+    font-weight: 500;
+    padding-bottom: 15px;
+    font-size: 23px;
+    text-align: center;
+    }
+} 
 
 
 /*--------------------------------------------------------------
