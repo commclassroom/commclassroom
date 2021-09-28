@@ -620,6 +620,10 @@ section {
   color: var(--head-color);
 }
 
+.coursespanel .container{
+    background-color: var(--theme-color);
+}
+
 .courses .coursecard {
   text-align: center;
   margin-bottom: 20px;
@@ -1341,6 +1345,12 @@ section {
 
 .coursespanel h2 {
   color: var(--head-color);
+  background-color: var(--theme-color);
+}
+
+.coursespanel h2 {
+  color: #002387;
+  top: -20x;
 }
 
 .coursespanel .coursecard {
@@ -1535,6 +1545,25 @@ section {
   background-color: darkblue;
   border-style: solid;
   border-color: black;
+  color: white;
+  align-content: stretch;
+  font-size: 28px;
+  font-weight: 600;
+  margin-top: -1px;
+  padding: 0px;
+  padding-left: 19px;
+  padding-right: 19px;
+  border-radius: 20px;
+  background-color: #3167e6;
+  border-style: solid;
+  border-color: transparent;
+}
+
+.list-group-item .button:hover {
+  color: white;
+  background-color: #1332ed;
+  border-style: solid;
+  border-color: transparent;
 }
 
 .tablinks {

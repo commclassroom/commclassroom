@@ -7,6 +7,41 @@ var courseForm;
   let logoImg = document.getElementById("logo-img");
   let themeBtn = document.getElementById("btn-theme");
   initialTheme();
+(function () {
+    
+     /**
+      * Dark theme function 
+      */
+    let logoImg = document.getElementById("logo-img")
+    let themeBtn = document.getElementById("btn-theme")
+     initialTheme()
+
+     themeBtn.onclick = function() {
+         if (localStorage.getItem("theme") === "light" || localStorage.getItem("theme") === null) {
+            document.body.classList = "dark-theme"
+            localStorage.setItem("theme", "dark")
+            logoImg.src = 'assets/img/logo3.png'
+            document.getElementById("title-section").style.color="white"
+         } else {
+            document.body.classList = ""
+            localStorage.setItem("theme", "light")
+            logoImg.src = 'assets/img/logo2.png'
+            document.getElementById("title-section").style.color="#002387"
+         }
+     }
+
+     function initialTheme() {
+         switch(localStorage.getItem("theme")) {
+             case "dark":
+                 document.body.classList = "dark-theme"
+                 logoImg.src = 'assets/img/logo3.png'
+                 break
+             case (null || "light"):
+                document.body.classList = ""
+                logoImg.src = 'assets/img/logo2.png'
+                break
+         }
+     }
 
   themeBtn.onclick = function () {
     if (
