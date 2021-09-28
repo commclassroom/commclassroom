@@ -1,5 +1,5 @@
 .testimonials{
-    padding: 60px 45px;
+    padding: 0px 45px 30px 45px;
     background-color: #FFFFFF;
     position: relative;
     font-family: 'Red Hat Display', sans-serif;
@@ -7,4 +7,32 @@
 
 .test-heading{
     text-align: center;
+}
+
+.test-comments{
+    max-width: 80%;
+    margin: auto;
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.test-single{
+    padding: 0 30px;
+    text-align: left;
+
+}
+
+.test-single>p{
+    font-style: italic;
+}
+
+
+.test-single>h3{
+    margin: 0;
+}
+
+.test-single>h5{
+    margin: 0;
+    font-weight: 400;
 }
