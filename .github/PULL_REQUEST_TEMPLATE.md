@@ -1,11 +1,5 @@
-## What is the change?
-Remove this line and add a description
-
-## Related issue
-closes: #issue_number
-
-## How was it tested?
-Remove this line and tell us how the code was tested.
+# Description
+Fixes # (issue)
 
 ## Type of change
 
@@ -18,15 +12,14 @@ Please delete options that are not relevant.
 - [ ] This change requires a documentation update
 
 
-## Checklist:
-Before you create this PR, confirm all the requirements listed below by checking the checkboxes `[x]`:
+# Checklist:
 
--   [ ] I have followed the contribution guidelines while contributing.
--   [ ] I have checked there aren't other open issues.
--   [ ] I have tested the code before submission
--   [ ] My code follows the style guidelines of this project.
--   [ ] I have commented my code, particularly in hard-to-understand areas.
--   [ ] I have made corresponding changes to the documentation.
--   [ ] My changes generate no new warnings.
+- [ ] My code follows the style guidelines of this project
+- [ ] I have performed a self-review of my own code
+- [ ] I have commented my code, particularly in hard-to-understand areas
+- [ ] I have made corresponding changes to the documentation
+- [ ] My changes generate no new warnings
+- [ ] I have ```npm run format``` before commiting
+- [ ] I replicated the UI with the Design 
 
-## Screenshots (if any)
+# ScreenShots (if any) 
