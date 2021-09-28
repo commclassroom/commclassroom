@@ -2,11 +2,26 @@
 # General
 --------------------------------------------------------------*/
 
+:root {
+    --theme-color: #fff;
+    --secondary-color: #F2F4F7;
+    --head-color: black;
+    --text-color: #444444;
+}
+
+.dark-theme {
+    --secondary-color: rgb(44, 44, 44);
+    --theme-color: rgb(29, 29, 29);
+    --head-color: white;
+    --text-color: rgb(230, 230, 230);
+}
+
 html{
   scroll-behavior: smooth;
 }
 
 body {
+    background: var(--theme-color);
     font-family: "Open Sans", sans-serif;
     color: #444444;
 }
@@ -97,7 +112,8 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-    background: #fff;
+    /* background: #fff; */
+    background: var(--theme-color);
     transition: all 0.5s;
     z-index: 997;
     padding: 5px 0;
@@ -181,7 +197,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover > a {
-    color: #000000;
+    color: var(--text-color);
     text-underline-offset: 0.2rem;
     text-decoration: underline;
 }
@@ -268,6 +284,14 @@ h6 {
     top: 0;
     left: 100%;
     visibility: visible;
+}
+
+.btn-theme {
+    margin: 0 0 0 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: slategray;
 }
 
 @media (max-width: 1366px) {
@@ -398,7 +422,7 @@ h6 {
 #hero {
     width: 100%;
     height: 70vh;
-    background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.603), rgb(170, 196, 255));
+    background-image: linear-gradient(to bottom,var(--theme-color), rgb(78, 127, 241));
     padding-top: 160px;
 }
 
@@ -407,11 +431,11 @@ h6 {
     font-size: 55px;
     font-weight: 700;
     line-height: 65px;
-    color: #181818;
+    color: var(--head-color);
 }
 
 #hero h2 {
-    color: #858ea1;
+    color: var(--text-color);
     margin: 8px 0px 35px 0;
     font-size: 22px;
     line-height: 32px;
@@ -544,7 +568,7 @@ section {
 }
 
 .section-bg {
-    background-color: #F2F4F7;
+    background-color: var(--secondary-color);
 }
 
 .section-title {
@@ -604,15 +628,13 @@ section {
 # Courses
 --------------------------------------------------------------*/
 
-.courses h2 {
-    color: black;
+.coursespanel .container{
+    background-color: var(--theme-color);
 }
-
 .courses .coursecard {
     text-align: center;
     margin-bottom: 20px;
     padding: 10px 12px 14px;
-    ;
     background: #ebecf3;
     border-radius: 30px;
     transition: 0.3s;
@@ -695,11 +717,11 @@ section {
 --------------------------------------------------------------*/
 .counts {
     padding: 20px;
-    background-color: #F2F4F7;
+    background-color: var(--secondary-color);
 }
 
 .counts h2 {
-    color: #000000;
+    color: var(--head-color);
     margin-top: -25px;
 }
 
@@ -721,8 +743,19 @@ section {
     font-family: "Raleway", sans-serif;
     font-size: 22px;
     font-weight: 600;
+    color: var(--text-color);
 }
-
+@media(max-width: 991px) {
+    .counts .col-6{ 
+        margin-top: 20px;
+    }
+    .counts .col-6 span{ 
+         font-size: 2rem;
+    }
+    .counts .col-6 p{ 
+        font-size: 1.2rem;
+    }
+}
 
 
 
@@ -731,7 +764,7 @@ section {
 --------------------------------------------------------------*/
 #about {
     padding: 10px;
-    background-color: #ffffff;
+    background-color: var(--theme-color);
 }
 
 .about .content h2 {
@@ -760,6 +793,7 @@ section {
 .about .content p {
     font-size: 20px;
     line-height: 30px;
+    color: var(--text-color);
 }
 
 .about .content p:last-child {
@@ -774,6 +808,7 @@ section {
 --------------------------------------------------------------*/
 .features h3 {
     margin-top: -55px;
+    color: var(--text-color);
 }
 
 .features .icon-box {
@@ -830,12 +865,12 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
     padding: 40px;
-    background-color: white;
+    background-color: var(--theme-color);
 }
 
 .testimonials h2 {
     padding-top: 35px;
-    color: black;
+    color: var(--head-color);
 }
 
 .testimonials .testimonial-item {
@@ -849,14 +884,14 @@ section {
     margin: -40px 0 0 40px;
     position: relative;
     z-index: 2;
-    border: 6px solid #fff;
+    border: 6px solid var(--secondary-color);
 }
 
 .testimonials .testimonial-item h3 {
     font-size: 18px;
     font-weight: bold;
     margin: 10px 0 5px 45px;
-    color: #111;
+    color: var(--text-color);
 }
 
 .testimonials .testimonial-item h4 {
@@ -888,7 +923,8 @@ section {
     font-style: italic;
     margin: -20px 15px 0 15px;
     padding: 20px 20px 60px 20px;
-    background: white;
+    background: var(--secondary-color);
+    color: var(--text-color);
     position: relative;
     border-radius: 6px;
     position: relative;
@@ -903,7 +939,7 @@ section {
 .testimonials .swiper-pagination .swiper-pagination-bullet {
     width: 12px;
     height: 12px;
-    background-color: #fff;
+    background-color: var(--theme-color);
     opacity: 1;
     border: 1px solid dodgerblue;
 }
@@ -981,7 +1017,7 @@ section {
 # Team
 --------------------------------------------------------------*/
 .team h2 {
-    color: black;
+    color: var(--head-color);
 }
 
 .team .member {
@@ -1259,7 +1295,7 @@ section {
 #coursepage {
     width: 100%;
     height: 80vh;
-    background: #002387;
+    background-image: linear-gradient(90deg,#0194ce,#0194ce, #e9ecef);
     padding-top: 120px;
 }
 
@@ -1330,11 +1366,12 @@ section {
 }
 
 .coursespanel {
-    background-color: #fff;
+    background-color: var(--theme-color);
 }
 
 .coursespanel h2 {
     color: #002387;
+    top: -20x;
 }
 
 .coursespanel .coursecard {
@@ -1415,7 +1452,7 @@ section {
     padding: 65px 0;
     width: 100%;
     height: 43vh;
-    background: #002387;
+    background-image: linear-gradient(45deg, #4e7ff1,#4e7ff1,#0e01ff);
     padding-top: 140px;
 }
 
@@ -1519,7 +1556,7 @@ section {
 }
 
 .list-group-item .button {
-    color: darkblue;
+    color: white;
     align-content: stretch;
     font-size: 28px;
     font-weight: 600;
@@ -1528,16 +1565,16 @@ section {
     padding-left: 19px;
     padding-right: 19px;
     border-radius: 20px;
-    background-color: yellow;
+    background-color: #3167e6;
     border-style: solid;
-    border-color: black;
+    border-color: transparent;
 }
 
 .list-group-item .button:hover {
-    color: yellow;
-    background-color: darkblue;
+    color: white;
+    background-color: #1332ed;
     border-style: solid;
-    border-color: black;
+    border-color: transparent;
 }
 
 .tablinks {

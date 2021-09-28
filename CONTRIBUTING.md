@@ -33,7 +33,7 @@ git remote -v
 **6.** Always take a pull from the upstream repository to your master branch to keep it at par with the main project(updated repository).
 
 ```
-git pull upstream main
+git pull upstream master
 ```
 
 **7.** Create a new branch.
@@ -63,23 +63,23 @@ git commit -m "Relevant message"
 git push -u origin <your_branch_name>
 ```
 
-**12.** To create a pull request, click on `compare and pull requests`. Please ensure you compare your feature branch to the desired branch of the repo you are supposed to make a PR to.
+**12.** To create a pull request, click on `compare and pull requests`. Please ensure that you compare your feature branch to the desired branch of the repo you are supposed to make a PR to.
 
 <img src="Img/s2.png"  width="800">
 
-**13.** Add appropriate title and description to your pull request explaining your changes and efforts done.
+**13.** Add an appropriate title and description to your pull request explaining your changes and efforts done.
 
 **14.** Click on `Create Pull Request`.
 
 <img src="Img/s3.png"  width="800">
 
-**15.** Voila :exclamation: You have made a PR to the Community Classroom  :boom: Sit back patiently and relax while the project maintainers review your PR. Please understand at times the time can vary from a few hours to a few days.
+**15.** Voila :exclamation: You have made a PR to the Community Classroom repository :boom: Sit back patiently and relax while the project maintainers review your PR. Please understand at times the duration can vary from a few hours to a few days.
 
 
 <p align="center"><img src="Img/done.gif" width=400></p>
 
 ## PR Review
-Your PR will get reviewed soon from the maintainers of the project. If they suggest changes, do all the changes, commit the changes, rebase the branch, squash the commits and push the changes. If all will be fine, your PR will be merged. That's it! Thank you for your contribution! Feel free to suggest changes to this documentation.
+Your PR will get reviewed soon from the maintainers of the project. If they suggest changes, do all the changes, commit the changes, rebase the branch, squash the commits and push the changes. If everything looks good, your PR will be merged. That's it! Thank you for your contribution! Feel free to suggest any changes to this documentation.
 
 ## Note
 Contribution can be very small, that does not matter. We even love to receive a typo fix PR. Adding feature or fixing a bug is not the only way to contribute. You can send us a PR for adding documentation, fixing typos or adding tests.
