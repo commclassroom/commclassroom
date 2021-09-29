@@ -1,25 +1,23 @@
 import React from 'react'
 import logo from '../../../../assets/images/logo.png'
-import './Navbar.css'
-
 const Navbar = () => {
     return (
         <div>
-            <div className='navbar'>
-                <div className='logo'>
+            <div className='flex justify-between items-center p-4 shadow-md'>
+                <div className='flex justify-center items-center mx-4'>
                     <img src={logo} alt='logo'/>
                 </div>
 
-                <div className='links'>
-                    <ul className='nav-list'>
-                        <li className='nav-list-item'>Home</li>
-                        <li className='nav-list-item'>Courses</li>
-                        <li className='nav-list-item'>About Us</li>
+                <div className='flex justify-center items-center'>
+                    <ul className='list-none flex justify-center items-center m-0'>
+                        <li className='py-1 px-8 text-base'>Home</li>
+                        <li className='py-1 px-8 text-base'>Courses</li>
+                        <li className='py-1 px-8 text-base'>About Us</li>
                     </ul>
 
-                    <div className='auth-buttons'>
-                        <button className='login-button'>Login</button>
-                        <button className='signup-button'>Signup</button>
+                    <div className='mx-6'>
+                        <button className='text-sm border-none py-1.5 px-5 mr-3 bg-blue-200'>Login</button>
+                        <button className='text-sm border border-gray-800 py-1.5 px-4 mx-3'>Signup</button>
                     </div>
                 </div>
             </div>
