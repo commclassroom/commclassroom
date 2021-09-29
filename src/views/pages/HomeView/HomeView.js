@@ -1,6 +1,6 @@
 // Landing page goes here ...
 import React from 'react'
-import { Navbar, AboutUs, Testimonials } from './index'
+import { Navbar, AboutUs, Testimonials, Footer } from './index'
 
 const HomeView = () => {
     return (
@@ -8,6 +8,7 @@ const HomeView = () => {
             <Navbar />
             <AboutUs />
             <Testimonials />
+            <Footer />
         </div>
     )
 }
