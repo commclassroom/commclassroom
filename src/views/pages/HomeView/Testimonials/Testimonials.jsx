@@ -1,12 +1,11 @@
 import React from 'react'
 import Carousel from "react-elastic-carousel";
-import './Testimonials.css';
 
 import {data} from './data'
 
 const breakPoints = [
     { width: 1, itemsToShow: 1 },
-    { width: 550, itemsToShow: 2, itemsToScroll: 2 },
+    { width: 550, itemsToShow: 2},
     { width: 768, itemsToShow: 3 },
     { width: 1200, itemsToShow: 4 }
   ];
@@ -15,27 +14,23 @@ const Testimonials = () => {
 
     
     return (
-        <div className='testimonials'>
-            <div className='test-heading'>
-                <h1>WHAT COMMUNITY SAYS ABOUT US?</h1>
+        <div className='px-14 py-24'>
+            <div className='text-center'>
+                <h1 className='text-4xl font-medium mb-4'>WHAT COMMUNITY SAYS ABOUT US?</h1>
             </div>
 
-            <div className='test-comments'>
+            <div className='flex max-w-7xl p-16 justify-evenly m-auto'>
                 <Carousel breakPoints={breakPoints}>
                     {data.map((item)=>(
                         item.map((testimonial)=>(
-                            <div className='test-single'>
-                                <p>{testimonial.message}</p>
-                                <h3>{testimonial.name}</h3>
-                                <h5>{testimonial.position}</h5>
+                            <div className='text-left px-6'>
+                                <p className='italic pb-4'>{testimonial.message}</p>
+                                <h3 className='m-0 font-semibold'>{testimonial.name}</h3>
+                                <h5 className='m-0 font-light'>{testimonial.position}</h5>
                             </div>
                         ))
                     ))}
                 </Carousel>
-            </div>
-            <div className='test-pagination'>
-                <div className='pagemark'></div>
-                
             </div>
         </div>
     )

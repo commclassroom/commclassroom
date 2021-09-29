@@ -4,7 +4,7 @@ import group from '../../../../assets/images/Group55.png'
 
 const AboutUs = () => {
     return (
-        <div className='px-14 py-24 relative'>
+        <div className='px-14 pt-24 relative'>
             <div className='w-1/2'>
                 <h2 className='text-3xl font-medium'>What makes our FREE courses much better than most of the PAID courses ?</h2>
             </div>
