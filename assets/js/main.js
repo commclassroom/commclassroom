@@ -35,6 +35,7 @@ faqSection();
 
      themeBtn.onclick = function() {
          if (localStorage.getItem("theme") === "light" || localStorage.getItem("theme") === null) {
+            document.getElementById('faq').style.color = "rgb(230 230 230)"
             for (let i = 0; i < ele.length; i++) {
                 ele[i].style.color ="white"
                 ele[i].style.backgroundColor ="#1d1d1d"
@@ -44,6 +45,7 @@ faqSection();
             logoImg.src = 'assets/img/logo3.png'
             document.getElementById("title-section").style.color="white"
          } else {
+            document.getElementById('faq').style.color = "#444444"
             for (let i = 0; i < ele.length; i++) {
                 ele[i].style.color ="black"
                 ele[i].style.backgroundColor ="white"
