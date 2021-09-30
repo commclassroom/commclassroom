@@ -1586,3 +1586,66 @@ section {
     color: darkviolet;
     font-weight: 600;
 }
+
+/*--------------------------------------------------------------
+# FAQ Section:
+--------------------------------------------------------------*/
+.faq-section{
+    padding: 10px 0 40px 0;
+}
+.faq-section h1{
+    font-family: "Raleway", sans-serif;
+    font-size: clamp(20px,4vw,30px);
+    line-height: 1.2;
+    margin: 20px 0 40px 10px;
+}
+.accordion {
+    position: relative;
+    background-image: linear-gradient(
+        158deg, #015580,#0492ce,#0394d1,#015580);
+    color: #fff;
+    padding: 18px;
+    width: 97vw;
+    text-align: left;
+    border: none;
+    border-radius: 7px;
+    outline: none;
+    margin: 0 7px 7px 7px;
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+ 
+  .accContent{
+      padding: 0 20px;
+      color: black;
+      background-color: #fff;
+      font-weight: 600;
+      display: none;
+      overflow: hidden;
+    }
+  .acc-body:hover div{
+    animation: openDown 0.7s ease-in-out;
+    display: block;
+  }
+  .acc-body:hover .accordion{
+    border-radius: 20px;
+    background-image: linear-gradient(
+        158deg, #801401,#ce0404,#d10303,#800127);
+  }
+  .acc-body:hover .accordion::after{
+    position: absolute;
+    content: "-";
+    right: 15px;
+    top: 15px;
+  }
+
+@keyframes openDown {
+    0%{
+        opacity: 0;
+        margin-top: -10px;
+    }
+    100%{
+        opacity: 1;
+        margin-top: 0px;
+    }
+}

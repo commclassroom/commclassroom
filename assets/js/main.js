@@ -1,5 +1,28 @@
 "use strict";
 var courseForm;
+/*------- Function for FAQ- Section------*/
+const faqSection = function () {
+    let variable = document.getElementById('faqAdd').innerHTML
+                fetch('./assets/Faq/data.json')
+                .then(function(response){
+                    return response.json();
+                })
+                .then(function(data){
+                    document.getElementsByClassName('accordion')[0].innerHTML = data[0].ques
+                    document.getElementsByClassName('accContent')[0].innerHTML = data[0].ans +('<br> <br>')
+                    for(let i = 1; i < data.length; i++) {
+                        document.getElementById('faqAdd').innerHTML +=variable
+                        document.getElementsByClassName('accordion')[i].innerHTML = data[i].ques
+                        document.getElementsByClassName('accContent')[i].innerHTML = data[i].ans +('<br> <br>')
+                    }
+                })
+                .catch(function(err){
+                    console.log(err)
+                });
+                
+}
+faqSection();
+/*------- Function for FAQ- Section------*/
 (function () {
     
      /**
@@ -7,15 +30,24 @@ var courseForm;
       */
     let logoImg = document.getElementById("logo-img")
     let themeBtn = document.getElementById("btn-theme")
+    let ele = document.getElementsByClassName('accContent')
      initialTheme()
 
      themeBtn.onclick = function() {
          if (localStorage.getItem("theme") === "light" || localStorage.getItem("theme") === null) {
+            for (let i = 0; i < ele.length; i++) {
+                ele[i].style.color ="white"
+                ele[i].style.backgroundColor ="#1d1d1d"
+                }
             document.body.classList = "dark-theme"
             localStorage.setItem("theme", "dark")
             logoImg.src = 'assets/img/logo3.png'
             document.getElementById("title-section").style.color="white"
          } else {
+            for (let i = 0; i < ele.length; i++) {
+                ele[i].style.color ="black"
+                ele[i].style.backgroundColor ="white"
+                }
             document.body.classList = ""
             localStorage.setItem("theme", "light")
             logoImg.src = 'assets/img/logo2.png'
