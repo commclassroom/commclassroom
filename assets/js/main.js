@@ -19,7 +19,7 @@ var courseForm;
             document.body.classList = ""
             localStorage.setItem("theme", "light")
             logoImg.src = 'assets/img/logo2.png'
-            document.getElementById("title-section").style.color="#002387"
+            document.getElementById("title-section").style.color="#5f687b"
          }
      }
 
