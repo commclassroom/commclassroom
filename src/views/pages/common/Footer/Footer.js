@@ -8,7 +8,7 @@ import UpArrow from '../../../../assets/images/UpArrow.svg'
 
 const Footer = () => {
     return (
-        <div className='px-12 py-14 bg-blue-300 flex'>
+        <div className='px-12 py-14 bg-primary flex'>
             <div className='self-center m-auto'>
                 <img src={logo} alt='logo'/>
             </div>
