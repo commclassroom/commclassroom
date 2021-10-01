@@ -307,9 +307,10 @@ h6 {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-    margin-left: 16px;
+    margin-left: 26px;
 	padding: 3px;
 	position: relative;
+    margin-top:8px;
 	height: 16px;
 	width: 34px;
 	transform: scale(1.5);
@@ -321,8 +322,8 @@ h6 {
 	position: absolute;
 	top: 2px;
 	left: 2px;
-	height: 12px;
-	width: 12px;
+	height: 13px;
+	width: 13px;
 	transform: translateX(0px);
 	transition: transform 0.2s linear;
 }
@@ -379,6 +380,7 @@ h6 {
         display: none;
     }
 }
+
 
 .navbar-mobile {
     position: fixed;
