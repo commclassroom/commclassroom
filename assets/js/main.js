@@ -7,6 +7,7 @@ var courseForm;
       */
     let logoImg = document.getElementById("logo-img")
     let themeBtn = document.getElementById("chk")
+    
      initialTheme()
 	 
      if(themeBtn !=null){
@@ -35,14 +36,16 @@ var courseForm;
                  logoImg.src = 'assets/img/logo3.png'
 				 
                  break
-             case (null || "light"):
+             case ( "light"):
                 document.body.classList = ""
-                logoImg.src = 'assets/img/logo2.jpg'
+                logoImg.src = 'assets/img/logo2.png'
 				
                 break
          }
+        }
+      
      }
-    }
+    
     /**
      * Easy selector helper function
      */
