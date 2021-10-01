@@ -13,6 +13,13 @@ module.exports = {
        'fourth': '#FFFFFF',
        'fifth': '#0A0F0D',
      }),
+     textColor: {
+      'primary': '#0F273E',
+       'secondary': '#80B7C8',
+       'third': '#C4CBCA',
+       'fourth': '#FFFFFF',
+       'fifth': '#0A0F0D',
+    },
     extend: {},
   },
   variants: {
