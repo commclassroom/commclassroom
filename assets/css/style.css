@@ -249,7 +249,11 @@ h6 {
 .navbar .dropdown ul li {
     min-width: 200px;
 }
-
+.mainCheckBox{
+    height: 25px; 
+    align-items: center;
+    margin-top: 2%;       
+}
 .navbar .dropdown ul a {
     padding: 10px 20px;
     font-size: 15px;
@@ -544,7 +548,7 @@ h6 {
     #hero {
         height: 100vh;
     }
-
+    
     #hero .animated {
         -webkit-animation: none;
         animation: none;
@@ -556,6 +560,11 @@ h6 {
 
     #hero .hero-img img {
         width: 50%;
+    }
+    .mainCheckBox{
+        height: 25px; 
+        align-items: center;
+        margin-top: 12px;    
     }
 }
 
@@ -578,12 +587,15 @@ h6 {
     #hero .hero-img img {
         width: 70%;
     }
+
+   
 }
 
 @media (max-width: 575px) {
     #hero .hero-img img {
         width: 80%;
     }
+
 }
 
 @-webkit-keyframes up-down {
