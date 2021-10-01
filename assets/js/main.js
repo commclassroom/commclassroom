@@ -6,7 +6,7 @@ var courseForm;
       * Dark theme function 
       */
     let logoImg = document.getElementById("logo-img")
-    let themeBtn = document.getElementById("btn-theme")
+    let themeBtn = document.getElementById("chk")
      initialTheme()
 
      themeBtn.onclick = function() {
