@@ -1295,6 +1295,10 @@ section {
     color: #fff;
     background-color: #f70909 ;
 } 
+#contact .footer-top .social-links .github:hover{
+    color: #fff;
+    background-color: #000000 ;
+} 
 
 
 #contact .footer-bottom {
