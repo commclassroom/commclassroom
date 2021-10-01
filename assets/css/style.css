@@ -313,6 +313,8 @@ h6 {
 	height: 16px;
 	width: 34px;
 	transform: scale(1.5);
+	flex-wrap: wrap;
+	top: 4px;
 }
 
 .label .ball {
