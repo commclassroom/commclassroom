@@ -29,17 +29,19 @@
     <header id="header" class="fixed-top">
         <div class="container d-flex align-items-center justify-content-between">
 
+
             <h1 class="logo"><a href="index.html"><img class="img-fluid" src="assets/img/logo.png" alt=""><img src="assets/img/logo2.jpg" alt="" class="img-fluid"></a></h1>
 
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a class="nav-link active" href="">Home</a></li>
+                    <li><a class="nav-link scrollto" href="#hero">Home</a></li>
                     <li><a class="nav-link" href="courses.html">Courses</a></li>
-                    <li><a class="nav-link scrollto" href="#universityleader">University Leader</a></li>
+
+                    <!-- <li><a class="nav-link scrollto" href="#universityleader">University Leader</a></li> -->
                     <li><a class="nav-link scrollto" href="#team">Team</a></li>
                     <li><a class="nav-link scrollto" href="#about">About Us</a></li>
                     <li><a class="nav-link scrollto" href="#contact">Contact Us</a></li>
-                    <li><a class="getstarted" href="">Login/Signup</a></li>
+                    <li><button id="btn-theme" class="btn-theme">Theme</button></li>
                 </ul>
                 <i class="bx bx-list-ul mobile-nav-toggle"></i>
             </nav><!-- .navbar -->
@@ -55,11 +57,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-                    <h1>Quality Education.<br><span style="color: #009CFF">Free</span> for all.</h1>
+                    <h1>Quality education.<br><span style="color: #009CFF">Free</span> for all.</h1>
                     <h2>We provide <b>FREE</b> hands-on training, mentorship and have an inclusive community.</h2>
                     <div class="d-flex">
-                        <a href="courses.html" class="btn-courses">Explore Our Courses</a>
-                        <a href="https://www.youtube.com/watch?v=lMe7LmKqZMQ" class="glightbox btn-watch-video"><i class="bx bx-play-circle"></i><span></span></a>
+                        <a href="#courses" class="btn-courses">Explore our courses</a>
+                        <a href="https://www.youtube.com/watch?v=lMe7LmKqZMQ" target="_blank" class="glightbox btn-watch-video"><i class="bx bx-play-circle"></i><span></span></a>
                     </div>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 hero-img">
@@ -80,34 +82,35 @@
             <div class="container">
 
                 <div class="section-title">
-                    <h2>Our Courses</h2>
+                    <h2>Our courses</h2>
                 </div>
 
                 <div class="row justify-content-center">
                     <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
                         <div class="coursecard">
                             <img src="assets/img/course-banners/javadsabootcamp.jpg" alt="">
-                            <h3>Java + DSA + Interview Preparation Bootcamp</h3>
-                            <a class="btn btn-primary button" href="course-single/java-dsa-bootcamp.html" role="button">Learn More</a>
+                            <h3>Java + DSA + Interview preparation</h3>
+                            <a class="btn btn-outline-primary button" href="course-single/java-dsa-bootcamp.html" role="button">Learn More</a>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
                         <div class="coursecard">
                             <img src="assets/img/course-banners/gitandgithub.jpg" alt="">
-                            <h3>Complete Git and GitHub Tutorial</h3>
-                            <a class="btn btn-primary button" href="course-single/git-github.html" role="button">Learn More</a>
+                            <h3>Complete Git and GitHub tutorial</h3>
+                            <a class="btn btn-outline-primary button" href="course-single/git-github.html" target="_blank" role="button">Learn More</a>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
                         <div class="coursecard">
                             <img src="assets/img/course-banners/webdevelopment.jpg" alt="">
-                            <h3>Complete Web Development Bootcamp</h3>
-                            <a class="btn btn-danger button disabled" href="#" role="button">Coming Soon</a>
+                            <h3>Web Development</h3>
+                            <a class="btn btn-outline-danger button disabled" href="#" target="_blank" role="button">Coming Soon</a>
                         </div>
                     </div>
-                    <div class="text-center"><a class="morecourses-btn" href="courses.html">Explore More Courses</a></div>
+
+                    <div class="text-center"><a class="morecourses-btn" href="courses.html" target="_blank">Explore More Courses</a></div>
                 </div>
 
             </div>
@@ -123,7 +126,7 @@
             <div class="container">
 
                 <div class="section-title">
-                    <h3>What makes our <b>FREE</b> courses much better than most of the <b>PAID</b> courses</h3>
+                    <h3>What makes our courses special?</h3>
                 </div>
 
                 <div class="row">
@@ -131,7 +134,7 @@
                         <div class="icon-box">
                             <div class="icon"><i class="bx bx-data"></i></div>
                             <h4>Structured Learning</h4>
-                            <p>Learning made more easy. Complete syllabus is provided beforehand</p>
+                            <p>Learning made easy. Complete syllabus is covered.</p>
                         </div>
                     </div>
 
@@ -139,7 +142,7 @@
                         <div class="icon-box">
                             <div class="icon"><i class="bx bx-notepad"></i></div>
                             <h4>Notes + Assignments</h4>
-                            <p>Enough assignments and questions are provided to master the concepts well.</p>
+                            <p>Assignments and questions are provided to understand the concepts well.</p>
                         </div>
                     </div>
 
@@ -147,7 +150,7 @@
                         <div class="icon-box">
                             <div class="icon"><i class="bx bx-message-dots"></i></div>
                             <h4>Doubt Support</h4>
-                            <p>Clear all your doubts through discord support and live Zoom doubt classes.</p>
+                            <p>Clear all your doubts through LIVE discord support.</p>
                         </div>
                     </div>
 
@@ -179,11 +182,11 @@
                     <div class="col-lg-6 pt-4 pt-lg-0 content align-self-center">
                         <h2>About Us</h2>
                         <p>
-                            We believe that every student, irrespective of their college or branch, can make it big. Community Classroom is an initiative built on this thought. The organisation is founded by <b>Kunal Kushwaha</b> and <b>Rahul Rana</b>. We provide hands-on training, mentorship and have an inclusive community.
+                            We believe that every student, irrespective of their college or branch, can make it big. Community Classroom is an initiative built on this thought. The organisation is founded by <b>Kunal Kushwaha</b>. We provide hands-on training, mentorship and have an inclusive community.
                         </p>
 
                         <p>
-                            All of our courses are <span style="color: red; font-weight: 700">FREE</span> and better than most paid courses. We cover every topic in detail and mentor you to stand out and get opportunities by breaking all the barriers.
+                            All of our courses are <span style="color: red; font-weight: 700">FREE</span>. We cover every topic in detail and mentor you to stand out and get opportunities by breaking all the barriers.
                         </p>
 
                         <p>
@@ -204,24 +207,24 @@
             <div class="container">
 
                 <div class="section-title">
-                    <h2>"Numbers says it all"</h2>
+                    <h2>"Numbers say it all"</h2>
                 </div>
 
                 <div class="row counters">
 
                     <div class="col-lg-3 col-6 text-center">
                         <span data-purecounter-start="0" data-purecounter-end="40000" data-purecounter-duration="1.2" class="purecounter"></span>
-                        <p>Students Enrolled</p>
+                        <p>Enrolled</p>
                     </div>
 
                     <div class="col-lg-3 col-6 text-center">
-                        <span data-purecounter-start="0" data-purecounter-end="1200" data-purecounter-duration="1" class="purecounter"></span>
+                        <span data-purecounter-start="0" data-purecounter-end="2000" data-purecounter-duration="1" class="purecounter"></span>
                         <p>Positive Reviews</p>
                     </div>
 
                     <div class="col-lg-3 col-6 text-center">
-                        <span data-purecounter-start="0" data-purecounter-end="50" data-purecounter-duration="1" class="purecounter"></span>
-                        <p>Countries</p>
+                        <span data-purecounter-start="0" data-purecounter-end="75000" data-purecounter-duration="1" class="purecounter"></span>
+                        <p>YouTube</p>
                     </div>
 
                     <div class="col-lg-3 col-6 text-center">
@@ -244,7 +247,7 @@
             <div class="container">
 
                 <div class="section-title">
-                    <h2>What community says about us?</h2>
+                    <h2>What does the community say about us?</h2>
                 </div>
 
                 <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
@@ -268,7 +271,7 @@
                                     <i class="bx bxs-quote-alt-left quote-icon-left"></i>
                                     I’ve been programming professionally for 20 years, and I’m damn good at it; still, I’ve been following along with Kunal’s DSA course and I’m learning stuff. It’s a whole lot of fun. Kunal is passionate and entertaining while explaining CS topics for all to understand
                                 </p>
-                                <img src="https://pbs.twimg.com/profile_images/1423949980004388864/1HNqLuIg_400x400.jpg" class="testimonial-img" alt="">
+                                <img src="https://pbs.twimg.com/profile_images/1439538960905166856/Qqi4Tl2__400x400.jpg" class="testimonial-img" alt="">
                                 <h3>David Flanagan</h3>
                                 <h4>Software Engineer</h4>
                             </div>
@@ -319,36 +322,12 @@
         <!-- ====== Testimonials Section ====== -->
 
 
-        <!-- ======= University Leader Section ======= -->
-        <section id="universityleader" class="universityleader">
-            <div class="container">
-
-                <div class="text-center">
-                    <h3>Become Community Classroom's University Leader</h3>
-                    <h2>🙋🏻‍♂️🙋</h2>
-                    <div class="row container">
-                        <div class="col-sm-5 align-self-center">
-                            <img src="assets/img/campusleader.png" class="img-fluid">
-                        </div>
-                        <div class="col-sm-7 align-self-center">
-                            <p>Have you ever faced a bias in tech because of the tier of your college? Do you feel overwhelmed at times regarding what to learn, how to learn, and how to get opportunities?</p>
-                            <p class="ans">Community Classroom will personally help every single student break all the barriers and make it big, irrespective of your college.</p>
-                            <p style="color: yellow; font-size: 24px; font-weight: 700; padding-top: 30px">Become our University Leader now!</p>
-                            <a class="universityleader-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSdoqRVp9t8-J8i87-T2Nv9XSfSViyf750VJXtxHRYkv7FTNEA/viewform" target="_blank">Fill the form </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- University Leader Section -->
-
-
         <!-- ======= Team Section ======= -->
         <section id="team" class="team section-bg">
             <div class="container">
 
                 <div class="section-title">
-                    <h2>Our Team</h2>
+                    <h2>Meet the founder</h2>
                 </div>
 
                 <div class="row justify-content-center">
@@ -356,11 +335,12 @@
                         <div class="member">
                             <img src="assets/img/team/team-1.jpg" alt="">
                             <h3>Kunal Kushwaha</h3>
-                            <span>Founder and CEO</span>
+                            <!-- <span>Founder</span> -->
                             <p>
-                                Open-Source Enthusiast and Educator deeply passionate about Software Development Innovations.
+                                Open-Source enthusiast and educator deeply passionate about communities and innovations.
                             </p>
                             <div class="social">
+
                                 <a href="https://twitter.com/kunalstwt"><i class="bi bi-twitter"></i><i>Twitter</i></a>
                                 <a href="https://www.instagram.com/kunalsig/"><i class="bi bi-instagram">Instagram</i></a>
                                 <a href="https://www.linkedin.com/in/kunal-kushwaha"><i class="bi bi-linkedin">LinkedIn</i></a>
@@ -372,59 +352,46 @@
             </div>
         </section>
         <!-- Team Section -->
-
-
     </main>
 
-
     <!-- ======= Footer ======= -->
-    <footer id="contact">
+<footer id="contact">
 
-        <div class="footer-top">
+    <div class="footer-top">
 
-            <div class="container">
+        <div class="container">
 
-                <div class="row justify-content-center">
-                    <div class="col-sm-6 foot1">
-                        <h3>Community Classroom</h3>
-                        <p class="tagline">Quality Education. Free for all.</p>
-                    </div>
-                    <div class="col-sm-3 foot2">
-                        <h3>Contact Us:</h3>
-                        <span><i class='bx bxs-envelope'></i><a href="mailto:kunal@commclassroom.org">kunal@commclassroom.org</a></span><br>
-                        <span><i class='bx bxl-youtube'></i><a href="https://www.youtube.com/c/KunalKushwaha?sub_confirmation=1">Subscribe our YouTube Channel</a></span><br>
-                        <span><i class='bx bxl-linkedin-square'></i><a href="https://www.linkedin.com/company/commclassroom">Follow us on LinkedIn</a></span><br>
-                    </div>
-                    <div class="col-sm-3 foot3 align-self-center">
-                        <h3>If you like our work, here are the things that you can do:</h3>
-                        <p><i class='bx bxs-like bx-xs'></i> Like our videos <br> <i class='bx bxs-comment bx-xs'></i> Comment your views on our videos <br> <i class='bx bxs-share-alt' ></i> Share us on socials and also tag us</p>
-                    </div>
+            <div class="row justify-content-center">
+                <div class="col-sm-6 foot1">
+                    <h3>Community Classroom</h3>
+                    <p class="tagline">Quality Education. Free for all.</p>
                 </div>
-
-                <div class="social-links">
-                    <a href="https://twitter.com/commclassroom" class="twitter"><i class="bx bxl-twitter"></i></a>
-                    <a href="https://www.instagram.com/commclassroom/" class="instagram"><i class="bx bxl-instagram"></i></a>
-                    <a href="https://www.linkedin.com/company/commclassroom" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-                    <a href="https://t.me/commclassroom" class="telegram"><i class="bx bxl-telegram"></i></a>
-                    <a href="https://discord.io/commclassroom" class="discord"><i class="bx bxl-discord"></i></a>
+                <div class="col-sm-3 foot2">
+                    <h3>Contact Us:</h3>
+                    <span><i class='bx bxs-envelope'></i><a href="mailto:kunal@commclassroom.org">kunal@commclassroom.org</a></span><br>
                 </div>
+            </div>
 
+            <div class="social-links row justify-content-center">
+                <a href="https://twitter.com/commclassroom" class="twitter" target="_blank"><i class="bx bxl-twitter"></i></a>
+                <a href="https://www.instagram.com/commclassroom/" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/commclassroom" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://t.me/commclassroom" class="telegram"><i class="bx bxl-telegram" target="_blank"></i></a>
+                <a href="https://discord.io/commclassroom" class="discord"><i class="bx bxl-discord" target="_blank"></i></a>
+                <a href="https://www.youtube.com/KunalKushwaha" class="youtube"><i class="bx bxl-youtube" target="_blank"></i></a>
             </div>
-        </div>
 
-        <div class="container footer-bottom clearfix">
-            <div class="cccopyright">
-                Credits to be added
-            </div>
-            <div class="copyright">
-                &copy; Copyright <strong><span>eNno</span></strong>. All Rights Reserved
-            </div>
-            <div class="credits">
-                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-            </div>
         </div>
-    </footer>
-    <!-- End Footer -->
+    </div>
+
+    <div class="container footer-bottom clearfix">
+        <div class="cccopyright">
+            Designed by <a href="https://bootstrapmade.com/" target="_blank">BootstrapMade</a>
+        </div>
+    </div>
+</footer>
+<!-- End Footer -->
+
 
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class='bx bxs-arrow-to-top'></i></i></a>
 

@@ -1,10 +1,35 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+:root {
+    --theme-color: #fff;
+    --secondary-color: #F2F4F7;
+    --head-color: black;
+    --text-color: #444444;
+}
+
+.dark-theme {
+    --secondary-color: rgb(44, 44, 44);
+    --theme-color: rgb(29, 29, 29);
+    --head-color: white;
+    --text-color: rgb(230, 230, 230);
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
 body {
+    background: var(--theme-color);
     font-family: "Open Sans", sans-serif;
     color: #444444;
 }
+
+div {
+    text-align: justify;
+    text-justify: inter-word;
+  }
 
 a {
     color: #14c871;
@@ -87,7 +112,8 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-    background: #fff;
+    /* background: #fff; */
+    background: var(--theme-color);
     transition: all 0.5s;
     z-index: 997;
     padding: 5px 0;
@@ -171,7 +197,9 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover > a {
-    color: #000000;
+    color: var(--text-color);
+    text-underline-offset: 0.2rem;
+    text-decoration: underline;
 }
 
 .navbar .getstarted {
@@ -256,6 +284,14 @@ h6 {
     top: 0;
     left: 100%;
     visibility: visible;
+}
+
+.btn-theme {
+    margin: 0 0 0 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: slategray;
 }
 
 @media (max-width: 1366px) {
@@ -386,7 +422,7 @@ h6 {
 #hero {
     width: 100%;
     height: 70vh;
-    background: #ffffff;
+    background-image: linear-gradient(to bottom,var(--theme-color), rgb(78, 127, 241));
     padding-top: 160px;
 }
 
@@ -395,11 +431,11 @@ h6 {
     font-size: 55px;
     font-weight: 700;
     line-height: 65px;
-    color: #181818;
+    color: var(--head-color);
 }
 
 #hero h2 {
-    color: #858ea1;
+    color: var(--text-color);
     margin: 8px 0px 35px 0;
     font-size: 22px;
     line-height: 32px;
@@ -438,13 +474,15 @@ h6 {
 }
 
 #hero .btn-watch-video i {
-    color: #949cac;
+    color: #009CFF;
     font-size: 32px;
     line-height: 0;
     margin-right: 8px;
 }
 
 #hero .btn-watch-video:hover i {
+    transform: scale(1.35);
+    transition: 0.4s;
     color: #16df7e;
 }
 
@@ -530,7 +568,7 @@ section {
 }
 
 .section-bg {
-    background-color: #F2F4F7;
+    background-color: var(--secondary-color);
 }
 
 .section-title {
@@ -590,15 +628,13 @@ section {
 # Courses
 --------------------------------------------------------------*/
 
-.courses h2 {
-    color: black;
+.coursespanel .container{
+    background-color: var(--theme-color);
 }
-
 .courses .coursecard {
     text-align: center;
     margin-bottom: 20px;
     padding: 10px 12px 14px;
-    ;
     background: #ebecf3;
     border-radius: 30px;
     transition: 0.3s;
@@ -681,11 +717,11 @@ section {
 --------------------------------------------------------------*/
 .counts {
     padding: 20px;
-    background-color: #F2F4F7;
+    background-color: var(--secondary-color);
 }
 
 .counts h2 {
-    color: #000000;
+    color: var(--head-color);
     margin-top: -25px;
 }
 
@@ -707,8 +743,19 @@ section {
     font-family: "Raleway", sans-serif;
     font-size: 22px;
     font-weight: 600;
+    color: var(--text-color);
 }
-
+@media(max-width: 991px) {
+    .counts .col-6{ 
+        margin-top: 20px;
+    }
+    .counts .col-6 span{ 
+         font-size: 2rem;
+    }
+    .counts .col-6 p{ 
+        font-size: 1.2rem;
+    }
+}
 
 
 
@@ -717,7 +764,7 @@ section {
 --------------------------------------------------------------*/
 #about {
     padding: 10px;
-    background-color: #ffffff;
+    background-color: var(--theme-color);
 }
 
 .about .content h2 {
@@ -746,6 +793,7 @@ section {
 .about .content p {
     font-size: 20px;
     line-height: 30px;
+    color: var(--text-color);
 }
 
 .about .content p:last-child {
@@ -760,6 +808,7 @@ section {
 --------------------------------------------------------------*/
 .features h3 {
     margin-top: -55px;
+    color: var(--text-color);
 }
 
 .features .icon-box {
@@ -816,12 +865,12 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
     padding: 40px;
-    background-color: white;
+    background-color: var(--theme-color);
 }
 
 .testimonials h2 {
     padding-top: 35px;
-    color: black;
+    color: var(--head-color);
 }
 
 .testimonials .testimonial-item {
@@ -835,14 +884,14 @@ section {
     margin: -40px 0 0 40px;
     position: relative;
     z-index: 2;
-    border: 6px solid #fff;
+    border: 6px solid var(--secondary-color);
 }
 
 .testimonials .testimonial-item h3 {
     font-size: 18px;
     font-weight: bold;
     margin: 10px 0 5px 45px;
-    color: #111;
+    color: var(--text-color);
 }
 
 .testimonials .testimonial-item h4 {
@@ -853,7 +902,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-    color: #e4e6ea;
+    color: #00008b;
     font-size: 26px;
 }
 
@@ -874,7 +923,8 @@ section {
     font-style: italic;
     margin: -20px 15px 0 15px;
     padding: 20px 20px 60px 20px;
-    background: white;
+    background: var(--secondary-color);
+    color: var(--text-color);
     position: relative;
     border-radius: 6px;
     position: relative;
@@ -889,7 +939,7 @@ section {
 .testimonials .swiper-pagination .swiper-pagination-bullet {
     width: 12px;
     height: 12px;
-    background-color: #fff;
+    background-color: var(--theme-color);
     opacity: 1;
     border: 1px solid dodgerblue;
 }
@@ -967,7 +1017,7 @@ section {
 # Team
 --------------------------------------------------------------*/
 .team h2 {
-    color: black;
+    color: var(--head-color);
 }
 
 .team .member {
@@ -982,6 +1032,19 @@ section {
     max-width: 100%;
     margin: 0 0 18px 0;
     border-radius: 40px;
+}
+
+.team .member:hover{
+    transform: scale(1.05);
+      
+    border: 2px solid #00838d;
+    box-shadow: 0px 0px 999px 555px rgba(255, 255, 255, 0.5);
+    z-index: 500;
+
+    transition: all 0.4s ease-out;
+    color: #345d93;
+
+    background: rgb(234, 244, 248)
 }
 
 .team .member h3 {
@@ -1029,10 +1092,12 @@ section {
 # Contact
 --------------------------------------------------------------*/
 #contact {
-    background-color: #206bfb;
+    background-image: linear-gradient(158deg, #015580,#0492ce,#0394d1,#015580);
     color: #5f687b;
     font-size: 14px;
     position: relative;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
 
 #contact .footer-top {
@@ -1070,7 +1135,7 @@ section {
 }
 
 #contact .footer-top .foot2 {
-    padding: 20px;
+    padding: 52px;
     text-align: left;
 }
 
@@ -1095,6 +1160,7 @@ section {
     font-size: 16px;
     padding: 0px;
     color: white;
+    display:inline-flex;
 }
 
 #contact .footer-top .foot2 span i {
@@ -1147,10 +1213,40 @@ section {
 }
 
 #contact .footer-top .social-links a:hover {
-    background-color: #5f687b;
-    color: #eaecef;
+    /* background-color: #5f687b;
+    color: #eaecef; */
     text-decoration: none;
+    transform: scale(1.25);
+    cursor: pointer;
 }
+/* ----fill colour in social media icon---- */
+#contact .footer-top .social-links .twitter:hover{
+        color: #fff;
+        background-color: #55acee;
+} 
+#contact .footer-top .social-links .instagram:hover{
+        color: #fff;
+        background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+} 
+#contact .footer-top .social-links .linkedin:hover{
+        color: #fff;
+        background-color: #2867B2;
+} 
+#contact .footer-top .social-links .telegram:hover{
+        color: #fff;
+        background-color: #0088CC;
+} 
+#contact .footer-top .social-links .discord:hover{
+        color: #fff;
+        background-color: #7289d9 ;
+} 
+#contact .footer-top .social-links .youtube:hover{
+    color: #fff;
+    background-color: #f70909 ;
+} 
+
 
 #contact .footer-bottom {
     border-top: 1px solid #d9dce2;
@@ -1200,7 +1296,7 @@ section {
 #coursepage {
     width: 100%;
     height: 80vh;
-    background: #002387;
+    background-image: linear-gradient(90deg,#0194ce,#0194ce, #e9ecef);
     padding-top: 120px;
 }
 
@@ -1271,11 +1367,12 @@ section {
 }
 
 .coursespanel {
-    background-color: #fff;
+    background-color: var(--theme-color);
 }
 
 .coursespanel h2 {
     color: #002387;
+    top: -20x;
 }
 
 .coursespanel .coursecard {
@@ -1353,9 +1450,10 @@ section {
 --------------------------------------------------------------*/
 
 #coursename {
+    padding: 65px 0;
     width: 100%;
     height: 43vh;
-    background: #002387;
+    background-image: linear-gradient(45deg, #4e7ff1,#4e7ff1,#0e01ff);
     padding-top: 140px;
 }
 
@@ -1377,7 +1475,7 @@ section {
     line-height: 32px;
 }
 
-#coursename .dummy {}
+
 
 #coursename .coursename-img {
 
@@ -1459,7 +1557,7 @@ section {
 }
 
 .list-group-item .button {
-    color: darkblue;
+    color: white;
     align-content: stretch;
     font-size: 28px;
     font-weight: 600;
@@ -1468,16 +1566,16 @@ section {
     padding-left: 19px;
     padding-right: 19px;
     border-radius: 20px;
-    background-color: yellow;
+    background-color: #3167e6;
     border-style: solid;
-    border-color: black;
+    border-color: transparent;
 }
 
 .list-group-item .button:hover {
-    color: yellow;
-    background-color: darkblue;
+    color: white;
+    background-color: #1332ed;
     border-style: solid;
-    border-color: black;
+    border-color: transparent;
 }
 
 .tablinks {
