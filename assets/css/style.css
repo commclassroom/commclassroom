@@ -724,13 +724,11 @@ section {
 .courses .coursecard:hover {
     transition: 0.3s;
     background: #ffffff;
-    /* border-radius: 50px; */
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
 }
 
 .courses .coursecard:hover img {
     transition: 0.3s;
-    /* border-radius: 40px; */
 }
 
 .courses .morecourses-btn {
