@@ -998,6 +998,7 @@ section {
     background-color: dodgerblue;
 }
 
+/* Added Pointer to slider. Normal cursor was a bad UX for it's use case. */
 .testimonials-slider {
     cursor: pointer;
 }
