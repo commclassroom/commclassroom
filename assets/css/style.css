@@ -1076,6 +1076,7 @@ section {
     padding: 18px 20px;
     background: #fff;
     border-radius: 50px;
+    transition: all 1s ease-in-out;
 }
 
 .team .member img {
