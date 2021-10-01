@@ -1243,22 +1243,25 @@ section {
 }
 
 #contact .footer-top .social-links {
-    margin-top: 40px;
-    margin-bottom: 50px;
+    margin: 10px 5px 0;
+    margin-bottom:10px;
+    
 }
 
 #contact .footer-top .social-links a {
-    font-size: 18px;
+    font-size: 27px;
     display: inline-block;
-    background: #eaecef;
+    background: #fff;
     color: #5f687b;
     line-height: 1;
     padding: 8px 0;
     margin-right: 4px;
-    border-radius: 4px;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    width: 36px;
-    height: 36px;
+    width: 45px;
+    height: 45px;
     transition: 0.3s;
 }
 
@@ -1266,36 +1269,50 @@ section {
     /* background-color: #5f687b;
     color: #eaecef; */
     text-decoration: none;
-    transform: scale(1.25);
-    cursor: pointer;
+   
+    
+}
+.bx{
+    transition: 0.2s ease-in;
+}
+.bxl-twitter:hover{
+    color:#1DA1F2;
+    
+}
+
+.bxl-instagram:hover{
+    color:#c32aa3;
+}
+
+.bxl-telegram:hover{
+    color:#1b91cf;
+}
+
+.bxl-linkedin:hover{
+    color:#007bb5;
+}
+
+.bxl-discord:hover{
+    color:#7289da;
+}
+
+.bxl-youtube:hover{
+    color:#FF0000;
 }
 /* ----fill colour in social media icon---- */
-#contact .footer-top .social-links .twitter:hover{
-        color: #fff;
-        background-color: #55acee;
+.social-links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -10px;
+    
 } 
-#contact .footer-top .social-links .instagram:hover{
-        color: #fff;
-        background: #d6249f;
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+.social-links:focus::after {
+        width: calc(100% + 2px);
+        height: calc(100% + 2px);
+        margin-left: calc(-50% - 1px);
 } 
-#contact .footer-top .social-links .linkedin:hover{
-        color: #fff;
-        background-color: #2867B2;
-} 
-#contact .footer-top .social-links .telegram:hover{
-        color: #fff;
-        background-color: #0088CC;
-} 
-#contact .footer-top .social-links .discord:hover{
-        color: #fff;
-        background-color: #7289d9 ;
-} 
-#contact .footer-top .social-links .youtube:hover{
-    color: #fff;
-    background-color: #f70909 ;
-} 
+
 
 
 #contact .footer-bottom {
