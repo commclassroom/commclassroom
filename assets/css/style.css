@@ -394,8 +394,15 @@ h6 {
 
 .navbar-mobile .mobile-nav-toggle {
     position: absolute;
-    top: 15px;
+    top: 30px;
     right: 15px;
+}
+
+.navbar-mobile > div{
+    margin-left: 0.3rem;
+    position: absolute;
+    top: 4%;
+    left: 2%;
 }
 
 .navbar-mobile ul {
