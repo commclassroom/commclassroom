@@ -29,8 +29,9 @@ faqSection();
       * Dark theme function 
       */
     let logoImg = document.getElementById("logo-img")
-    let themeBtn = document.getElementById("btn-theme")
+    let themeBtn = document.getElementById("chk")
     let ele = document.getElementsByClassName('accContent')
+
      initialTheme()
 
      themeBtn.onclick = function() {
