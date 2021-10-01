@@ -683,10 +683,12 @@ section {
 }
 .courses .coursecard {
     text-align: center;
-    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 40px;
     padding: 10px 12px 14px;
-    background: #ebecf3;
-    border-radius: 30px;
+    background:white;
+    border-radius: 20px;
     transition: 0.3s;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.3);
 }
@@ -695,7 +697,7 @@ section {
     transition: 0.3s;
     max-width: 100%;
     margin: 0 0 18px 0;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .courses .coursecard h3 {
@@ -705,9 +707,9 @@ section {
 }
 
 .courses .coursecard .button {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 600;
-    margin-top: -3px;
+    margin-top: auto;
     padding: 0px;
     padding-left: 19px;
     padding-right: 19px;
@@ -718,46 +720,38 @@ section {
     padding-top: 8px;
     font-size: 14px;
     font-style: italic;
-    color: #aaaaaa;
+    color: #dfdfdf;
 }
 
 .courses .coursecard:hover {
-    transition: 0.3s;
-    background: #ffffff;
-    border-radius: 50px;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
+    background:rgb(236, 238, 241);
 }
 
-.courses .coursecard:hover img {
-    transition: 0.3s;
-    border-radius: 40px;
-}
+
 
 .courses .morecourses-btn {
     font-family: "Poppins", sans-serif;
     text-transform: uppercase;
-    font-weight: 500;
-    font-size: 20px;
+    font-weight: 400;
+    font-size: 18px;
     letter-spacing: 1px;
     display: inline-block;
-    padding: 4px 18px;
-    border-radius: 10px;
+    padding: 4px 10px;
+    border-radius: 5px;
     transition: 0.2s;
     margin-top: 17px;
-    border: 2px solid #fff;
-    background-color: #8400FF;
-    color: #fff;
+    border: 0.5px solid #8400FF;
+    color: #8400FF;
     margin-bottom: -20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 .courses .morecourses-btn:hover {
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
-    background: #FFA800;
-    color: #fff;
-    transition: 0.3s;
-    border-radius: 20px;
-}
+    background-color: #8400FF;
+    color: white;
+    }
 
 
 
