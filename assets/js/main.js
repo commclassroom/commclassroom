@@ -8,7 +8,8 @@ var courseForm;
     let logoImg = document.getElementById("logo-img")
     let themeBtn = document.getElementById("chk")
      initialTheme()
-
+	 
+     if(themeBtn !=null){
      themeBtn.onclick = function() {
          if (localStorage.getItem("theme") === "light" || localStorage.getItem("theme") === null) {
             document.body.classList = "dark-theme"
@@ -22,20 +23,26 @@ var courseForm;
             document.getElementById("title-section").style.color="#002387"
          }
      }
+	 }
+	 
 
      function initialTheme() {
+         if(logoImg!=null){
+		
          switch(localStorage.getItem("theme")) {
              case "dark":
                  document.body.classList = "dark-theme"
                  logoImg.src = 'assets/img/logo3.png'
+				 
                  break
              case (null || "light"):
                 document.body.classList = ""
-                logoImg.src = 'assets/img/logo2.png'
+                logoImg.src = 'assets/img/logo2.jpg'
+				
                 break
          }
      }
-
+    }
     /**
      * Easy selector helper function
      */
@@ -146,6 +153,7 @@ var courseForm;
         select('#navbar').classList.toggle('navbar-mobile')
         this.classList.toggle('bi-list')
         this.classList.toggle('bi-x')
+		
     })
 
     /**
