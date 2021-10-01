@@ -16,7 +16,7 @@ const Navbar = () => {
                     </ul>
 
                     <div className='mx-6'>
-                        <button className='text-sm border-none py-1.5 px-5 mr-3 bg-secondary'>Login</button>
+                        <button className='text-sm border-none py-1.5 px-5 mr-3 bg-secondary text-fourth'>Login</button>
                         <button className='text-sm border border-gray-800 py-1.5 px-4 mx-3'>Signup</button>
                     </div>
                 </div>
