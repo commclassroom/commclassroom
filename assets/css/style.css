@@ -142,7 +142,11 @@ h6 {
     height: 60px;
     margin-bottom: 5px;
 }
-
+#themeToggle{
+    position: absolute;
+    right: 38px;
+    top: 27px;
+}
 @media (max-width: 991px) {
     #header {
         padding: 12px 0;
@@ -301,6 +305,7 @@ h6 {
 }
 
 .label {
+    position: fixed;
 	background-color: #fff;
         box-shadow: 0px 1px 8px rgb(0 0 0 / 0.2);
  	border-radius: 50px;
@@ -322,8 +327,8 @@ h6 {
 	position: absolute;
 	top: 2px;
 	left: 2px;
-	height: 12px;
-	width: 12px;
+	height: 13px;
+	width: 13px;
 	transform: translateX(0px);
 	transition: transform 0.2s linear;
 }
@@ -372,10 +377,22 @@ h6 {
 }
 
 @media (max-width: 991px) {
+    #header.header-scrolled {
+        box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.4);
+        padding: 3px 0;
+    }
     .mobile-nav-toggle {
         display: block;
+        position: absolute;
+        top: -22px;
+        right: 10px;
     }
-
+    #themeToggle{
+        position: absolute;
+        top: 45px;
+        right: 30px;
+    
+    }
     .navbar ul {
         display: none;
     }
