@@ -1,3 +1,5 @@
+import male from '../../assets/images/maleAvatar.png';
+import female from '../../assets/images/femaleAvatar.png';
 // data related to home page here
 export const number = [
   {
@@ -82,104 +84,97 @@ export const feature = [
   }
 ];
 
-export const data=[[
-  {
+export const data = [
+  [
+    {
       id: '1',
-      message:
-        `Never thought programming would be that easy and interesting. Just watched the binary search video of Kunal and literally understood every single thing. It's such a boon to learn from you. Thnak you so much for providing this help`,
-      img: '',
+      message: `Never thought programming would be that easy and interesting. Just watched the binary search video of Kunal and literally understood every single thing. It's such a boon to learn from you. Thnak you so much for providing this help`,
+      img: female,
       name: 'Vasihnavi Bholane',
       position: 'Student'
     },
     {
       id: '2',
-      message:
-        `I have learned Java in my second year and none of my professors have taught what Kunal has taught. I have learned the memory management in stack and heap memory`,
-      img: '',
+      message: `I have learned Java in my second year and none of my professors have taught what Kunal has taught. I have learned the memory management in stack and heap memory`,
+      img: male,
       name: 'mrr.ayman',
       position: 'Student'
     },
     {
       id: '3',
-      message:
-        `I am following Community Classroom's bootcamp and found it really useful. I am getting all the concepts taught so far crystal clear as well as able to solve leetcode questions given in the assignments. Before this I was finding leetcode very difficult.`,
-      img: '',
+      message: `I am following Community Classroom's bootcamp and found it really useful. I am getting all the concepts taught so far crystal clear as well as able to solve leetcode questions given in the assignments. Before this I was finding leetcode very difficult.`,
+      img: male,
       name: 'Anurag Pathak',
       position: 'Student'
-    }],
-    [
-      {
-        id: '1',
-        message:
-            `Never thought programming would be that easy and interesting. Just watched the binary search video of Kunal and literally understood every single thing. It's such a boon to learn from you. Thnak you so much for providing this help`,
-          img: '',
-          name: 'Vasihnavi Bholane',
-          position: 'Student'
-        },
-        {
-          id: '2',
-          message:
-            `I have learned Java in my second year and none of my professors have taught what Kunal has taught. I have learned the memory management in stack and heap memory`,
-          img: '',
-          name: 'mrr.ayman',
-          position: 'Student'
-        },
-        {
-          id: '3',
-          message:
-            `I am following Community Classroom's bootcamp and found it really useful. I am getting all the concepts taught so far crystal clear as well as able to solve leetcode questions given in the assignments. Before this I was finding leetcode very difficult.`,
-          img: '',
-          name: 'Anurag Pathak',
-          position: 'Student'
-        }],
-        [
-          {
-            id: '1',
-            message:
-                `Never thought programming would be that easy and interesting. Just watched the binary search video of Kunal and literally understood every single thing. It's such a boon to learn from you. Thnak you so much for providing this help`,
-              img: '',
-              name: 'Vasihnavi Bholane',
-              position: 'Student'
-            },
-            {
-              id: '2',
-              message:
-                `I have learned Java in my second year and none of my professors have taught what Kunal has taught. I have learned the memory management in stack and heap memory`,
-              img: '',
-              name: 'mrr.ayman',
-              position: 'Student'
-            },
-            {
-              id: '3',
-              message:
-                `I am following Community Classroom's bootcamp and found it really useful. I am getting all the concepts taught so far crystal clear as well as able to solve leetcode questions given in the assignments. Before this I was finding leetcode very difficult.`,
-              img: '',
-              name: 'Anurag Pathak',
-              position: 'Student'
-            }],
-            [
-              {
-                id: '1',
-                message:
-                    `Never thought programming would be that easy and interesting. Just watched the binary search video of Kunal and literally understood every single thing. It's such a boon to learn from you. Thnak you so much for providing this help`,
-                  img: '',
-                  name: 'Vasihnavi Bholane',
-                  position: 'Student'
-                },
-                {
-                  id: '2',
-                  message:
-                    `I have learned Java in my second year and none of my professors have taught what Kunal has taught. I have learned the memory management in stack and heap memory`,
-                  img: '',
-                  name: 'mrr.ayman',
-                  position: 'Student'
-                },
-                {
-                  id: '3',
-                  message:
-                    `I am following Community Classroom's bootcamp and found it really useful. I am getting all the concepts taught so far crystal clear as well as able to solve leetcode questions given in the assignments. Before this I was finding leetcode very difficult.`,
-                  img: '',
-                  name: 'Anurag Pathak',
-                  position: 'Student'
-                }],
-]
+    }
+  ],
+  [
+    {
+      id: '4',
+      message: `DSA bootcamp is one of the most advanced yet easy to understand that is available in the web. And that too for free?! This is literally Mind-blowing. Also in love with Github tutorial right now!`,
+      img: male,
+      name: 'Nimish Kashyap',
+      position: 'Student | GDSC Member'
+    },
+    {
+      id: '5',
+      message: `I have learned Java in my second year and none of my professors have taught what Kunal has taught. I have learned the memory management in stack and heap memory`,
+      img: male,
+      name: 'mrr.ayman',
+      position: 'Student'
+    },
+    {
+      id: '6',
+      message: `I am following Community Classroom's bootcamp and found it really useful. I am getting all the concepts taught so far crystal clear as well as able to solve leetcode questions given in the assignments. Before this I was finding leetcode very difficult.`,
+      img: male,
+      name: 'Anurag Pathak',
+      position: 'Student'
+    }
+  ],
+  [
+    {
+      id: '7',
+      message: `Never thought programming would be that easy and interesting. Just watched the binary search video of Kunal and literally understood every single thing. It's such a boon to learn from you. Thnak you so much for providing this help`,
+      img: female,
+      name: 'Vasihnavi Bholane',
+      position: 'Student'
+    },
+    {
+      id: '8',
+      message: `I have learned Java in my second year and none of my professors have taught what Kunal has taught. I have learned the memory management in stack and heap memory`,
+      img: male,
+      name: 'mrr.ayman',
+      position: 'Student'
+    },
+    {
+      id: '9',
+      message: `I am following Community Classroom's bootcamp and found it really useful. I am getting all the concepts taught so far crystal clear as well as able to solve leetcode questions given in the assignments. Before this I was finding leetcode very difficult.`,
+      img: male,
+      name: 'Anurag Pathak',
+      position: 'Student'
+    }
+  ],
+  [
+    {
+      id: '10',
+      message: `Never thought programming would be that easy and interesting. Just watched the binary search video of Kunal and literally understood every single thing. It's such a boon to learn from you. Thnak you so much for providing this help`,
+      img: female,
+      name: 'Vasihnavi Bholane',
+      position: 'Student'
+    },
+    {
+      id: '11',
+      message: `I have learned Java in my second year and none of my professors have taught what Kunal has taught. I have learned the memory management in stack and heap memory`,
+      img: male,
+      name: 'mrr.ayman',
+      position: 'Student'
+    },
+    {
+      id: '12',
+      message: `I am following Community Classroom's bootcamp and found it really useful. I am getting all the concepts taught so far crystal clear as well as able to solve leetcode questions given in the assignments. Before this I was finding leetcode very difficult.`,
+      img: male,
+      name: 'Anurag Pathak',
+      position: 'Student'
+    }
+  ]
+];
