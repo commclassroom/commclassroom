@@ -1217,7 +1217,7 @@ section {
     padding-bottom: 0;
     margin-bottom: 0;
 }
-/* adding hover effect for changing the font color of the text that is "Community classroom " */
+/* adding hover effect for changing the font color of the text that is "Contact us " */
 #contact .footer-top h3:hover{
     color: #000;
 }
@@ -1225,7 +1225,9 @@ section {
 #contact .footer-top .foot2 {
     padding: 52px;
     text-align: left;
+    /* added background image */
     background-image: linear-gradient(158deg, #75c1ff 0%, #52a8f3 74%);
+    /* increasesed the width of it to enclose the text inside it*/
     width: 30%;
     transition: 0.5s;
 }
