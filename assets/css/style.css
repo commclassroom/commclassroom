@@ -1087,11 +1087,11 @@ section {
 .team .member:hover{
     transform: scale(1.05);
       
-    border: 2px solid #00838d;
+    border: 1px solid #00838d;
     box-shadow: 0px 0px 999px 555px rgba(255, 255, 255, 0.5);
     z-index: 500;
 
-    transition: all 0.4s ease-out;
+    transition: all 0.2s ease-in-out;
     color: #345d93;
 
     background: rgb(234, 244, 248)
@@ -1118,6 +1118,7 @@ section {
 
 .team .member .social {
     margin-top: 15px;
+    text-align: center;
 }
 
 .team .member .social a {
@@ -1130,7 +1131,7 @@ section {
 }
 
 .team .member .social i {
-    font-size: 18px;
+    font-size: 21px;
     margin: 0 2px;
 }
 
@@ -1145,15 +1146,13 @@ section {
     color: #5f687b;
     font-size: 14px;
     position: relative;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
 }
 
 #contact .footer-top {
     position: relative;
     z-index: 2;
     text-align: center;
-    padding: 40px 0px;
+    padding: 10px 0px;
     margin-bottom: -43px;
 }
 
@@ -1161,6 +1160,7 @@ section {
     font: poppins;
     font-family: "Poppins", sans-serif;
     padding: 40px;
+    width: auto;
 }
 
 #contact .footer-top .foot1 h3 {
@@ -1184,8 +1184,8 @@ section {
 }
 
 #contact .footer-top .foot2 {
-    padding: 52px;
     text-align: left;
+    width: 100%;
 }
 
 #contact .footer-top .foot2 h3 {
@@ -1242,8 +1242,7 @@ section {
 }
 
 #contact .footer-top .social-links {
-    margin-top: 40px;
-    margin-bottom: 50px;
+    
 }
 
 #contact .footer-top .social-links a {
@@ -1333,6 +1332,17 @@ section {
         float: none;
         -moz-text-align-last: center;
         text-align-last: center;
+    }
+}
+@media (max-width: 989px) {
+    #contact .footer-top .container > div{
+        flex-direction: column;
+    }
+    #contact .footer-top .foot1, #contact .footer-top .foot2{
+        text-align: center;
+    }
+    #contact .social-links{
+        justify-content: center;
     }
 }
 
