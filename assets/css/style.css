@@ -1185,9 +1185,10 @@ section {
     margin-bottom: -4px;
     color: white;
     text-align: center;
+    /* added tansition time after which hover effect will occur */
     transition: 0.5s;
 }
-
+/* adding hover effects in the text written that is Community classroom */
 #contact .footer-top .foot1 h3:hover{
     background-image:linear-gradient(158deg, #44c1ff,#68d2ff,#38c3ff,#36b7f8);
     border-radius: 15px;
@@ -1203,6 +1204,7 @@ section {
     background-color: #00838d;
     transition: 0.5s;
 }
+/* adding hover to for tagline of community classroom to change background color */
 #contact .footer-top .foot1 p:hover{
     background-color: #00008b;
   }
@@ -1215,6 +1217,7 @@ section {
     padding-bottom: 0;
     margin-bottom: 0;
 }
+/* adding hover effect for changing the font color of the text that is "Community classroom " */
 #contact .footer-top h3:hover{
     color: #000;
 }
@@ -1225,10 +1228,6 @@ section {
     background-image: linear-gradient(158deg, #75c1ff 0%, #52a8f3 74%);
     width: 30%;
     transition: 0.5s;
-}
-#contact .footer-top .foot2:hover{
-   
-    border: 2px solid black;
 }
 
 #contact .footer-top .foot2 h3 {
