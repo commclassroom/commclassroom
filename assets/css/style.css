@@ -142,7 +142,11 @@ h6 {
     height: 60px;
     margin-bottom: 5px;
 }
-
+#themeToggle{
+    position: absolute;
+    right: 38px;
+    top: 27px;
+}
 @media (max-width: 991px) {
     #header {
         padding: 12px 0;
@@ -373,8 +377,16 @@ h6 {
 @media (max-width: 991px) {
     .mobile-nav-toggle {
         display: block;
+        position: absolute;
+        top: -22px;
+        right: 10px;
     }
-
+    #themeToggle{
+        position: absolute;
+        top: 45px;
+        right: 30px;
+    
+    }
     .navbar ul {
         display: none;
     }
