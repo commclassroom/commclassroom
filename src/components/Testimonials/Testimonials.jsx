@@ -1,7 +1,7 @@
 import React from 'react'
 import Carousel from "react-elastic-carousel";
 
-import {data} from './data'
+import {data} from '../../data/HomeViewData/homeviewdata'
 
 const breakPoints = [
     { width: 1, itemsToShow: 1 },
@@ -23,7 +23,7 @@ const Testimonials = () => {
                 <Carousel breakPoints={breakPoints}>
                     {data.map((item)=>(
                         item.map((testimonial)=>(
-                            <div className='text-left px-6'>
+                            <div className='text-left px-6' key={item.id}>
                                 <p className='italic pb-4'>{testimonial.message}</p>
                                 <h3 className='m-0 font-semibold'>{testimonial.name}</h3>
                                 <h5 className='m-0 font-light'>{testimonial.position}</h5>
