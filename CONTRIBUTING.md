@@ -4,10 +4,12 @@
 
 ### 1.) Fork The Repo
 
-Fork the Repo to Your Repo
+Click on **Fork** button present on the upper-right area of the screen to create a copy of this repository to your GitHub account.
+![fork](https://user-images.githubusercontent.com/73980067/134885545-787243bc-34a7-4f85-9ff3-49c9d3c93bc3.jpeg)
+
 
 ### 2.) Clone The Repo
-Clone repo to your machine
+-> You can clone repo to your machine by using the below command.
 
 ```bash
 
@@ -15,7 +17,7 @@ git clone https://github.com/<YOUR_USERNAME>/commclassroom.git
 
 ```
 
-Navigate 
+-> Navigate to your repo
 
 ```bash
 
@@ -23,7 +25,7 @@ cd commclassroom
 
 ```
 
-Install Dependencies 
+-> Install dependencies 
 
 ```bash
 
@@ -38,11 +40,19 @@ npm install
 git remote add upstream https://github.com/commclassroom/commclassroom.git
 
 ```
-To Verify 
-
+To verify 
 ```bash
 
 git remote -v
+
+```
+You will get output similar to this
+```bash
+
+origin  https://github.com/<YOUR_USERNAME>/commclassroom.git (fetch)
+origin  https://github.com/<YOUR_USERNAME>/commclassroom.git (push)
+upstream        https://github.com/commclassroom/commclassroom.git (fetch)
+upstream        https://github.com/commclassroom/commclassroom.git (push)
 
 ```
 
@@ -68,7 +78,7 @@ $ git push origin <name_of_branch>
 
 ## Contributing & PR
 
-1) Make Sure That you run ```npm run format ``` before PR  .
+1) Make sure to run ```npm run format ``` before PR  .
 2) You Guys are free to use any package , Just Have Fun in Life 💚 .
 
 
