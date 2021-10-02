@@ -85,7 +85,7 @@ git checkout -b <your_branch_name>
 
 2. Perform your desired changes to the code base.
 
-Make sure to run ```npm run format ``` 
+   Make sure to run ```npm run format ``` 
 
 3. Track your changes:heavy_check_mark: .
 
