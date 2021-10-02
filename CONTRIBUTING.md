@@ -59,7 +59,7 @@ upstream        https://github.com/commclassroom/commclassroom.git (push)
 ### 4.) Update Fork Repo From Upstream
 
 1. Follow these steps if you are done with <b>Setup Remote</b> ✅.
-2. Update your local Master to be in synch with the original repo.
+2. Update your local branch to be in sync with the original repo.
 
 ```console
 
@@ -67,7 +67,7 @@ $ git pull upstream development
 
 ```
 
-3. Update the forked repo master by pushing the local repo up.
+3. Update the forked repo by pushing the local repo up.
 
 ```console
 
@@ -120,5 +120,5 @@ Voila :exclamation: You have made a PR to the Community Classroom repository :bo
 Your PR will get reviewed soon from the maintainers of the project. If they suggest changes, do all the changes, commit the changes, rebase the branch, squash the commits and push the changes. If everything looks good, your PR will be merged. That's it! Thank you for your contribution! Feel free to suggest any changes to this documentation.
 
 ## Note
-Contribution can be very small, that does not matter. We even love to receive a typo fix PR. Adding feature or fixing a bug is not the only way to contribute. You can send us a PR for adding documentation, fixing typos or adding tests.
+Contribution can be very small, that does not matter. We even love to receive a typo fix PR. Adding feature or fixing a bug is not the only way to contribute. You can send us a PR for adding documentation, fixing typos or adding texts.
 
