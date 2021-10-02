@@ -335,12 +335,12 @@ h6 {
 
 .fa-moon {
 	color: #f1c40f;
-    font-size: 0.67rem;
+       font-size: 0.67rem;
 }
 
 .fa-sun {
 	color: #f39c12;
-    font-size: 0.7rem;
+       font-size: 0.7rem;
 }
 
 
@@ -1277,8 +1277,8 @@ section {
 #contact .footer-top .social-links .instagram:hover{
         color: #fff;
         background: #d6249f;
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+        box-shadow: 0px 3px 10px rgba(0,0,0,.25);
 } 
 #contact .footer-top .social-links .linkedin:hover{
         color: #fff;
