@@ -9,7 +9,8 @@
 
     <!-- Favicons -->
     <link href="assets/img/logo.png" rel="icon">
-
+    <!----CSS For Toggle-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
@@ -40,11 +41,18 @@
                     <li><a class="nav-link scrollto" href="index.html#team">Team</a></li>
                     <li><a class="nav-link scrollto" href="index.html#about">About Us</a></li>
                     <li><a class="nav-link scrollto" href="#contact">Contact Us</a></li>
-                    <li><button id="btn-theme" class="btn-theme">Theme</button></li>
                 </ul>
                 <i class="bx bx-list-ul mobile-nav-toggle"></i>
             </nav><!-- .navbar -->
-
+            <div id = "themeToggle"style="height: 25px;" class=" align-items-center">
+                <input type="checkbox" class="checkbox" id="chk" />
+                <label class="label" for="chk">
+                <i class="fas fa-sun" id="theme-button"></i>
+                <i class="fas fa-moon" id="theme-button"></i>
+                <div class="ball"></div>
+                    <div class="ball"></div>
+                </label>
+            </div>
         </div>
     </header>
     <!-- End Header -->
