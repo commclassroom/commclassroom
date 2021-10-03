@@ -136,7 +136,11 @@ h6 {
   height: 60px;
   margin-bottom: 5px;
 }
-
+#themeToggle{
+    position: absolute;
+    right: 38px;
+    top: 27px;
+}
 @media (max-width: 991px) {
   #header {
     padding: 12px 0;
@@ -313,15 +317,15 @@ h6 {
 }
 
 .label .ball {
-  background-color: #206bfb;
-  border-radius: 50%;
-  position: absolute;
-  top: 2px;
-  left: 2px;
-  height: 12px;
-  width: 12px;
-  transform: translateX(0px);
-  transition: transform 0.2s linear;
+	background-color: #206bfb;
+	border-radius: 50%;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	height: 13px;
+	width: 13px;
+	transform: translateX(0px);
+	transition: transform 0.2s linear;
 }
 
 .checkbox:checked + .label .ball {
