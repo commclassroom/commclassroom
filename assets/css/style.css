@@ -112,7 +112,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-    /* background: #fff; */
+    width: 100%;
     background: var(--theme-color);
     transition: all 0.5s;
     z-index: 997;
@@ -122,7 +122,7 @@ h6 {
 
 #header.header-scrolled {
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.4);
-    padding: 0px 0;
+    padding: 0 0;
 }
 
 #header .logo {
@@ -135,7 +135,7 @@ h6 {
 }
 
 #header .logo a {
-    color: dodgerblue;
+    color: #1e90ff;
 }
 
 #header .logo img {
@@ -143,10 +143,15 @@ h6 {
     margin-bottom: 5px;
 }
 #themeToggle{
-    position: absolute;
-    right: 38px;
-    top: 27px;
+    position: relative;
+    right: 30px;
 }
+@media (max-width: 1080px) and (min-width: 990px) {
+    #header>div {
+        justify-content: space-around !important;
+    }
+}
+
 @media (max-width: 991px) {
     #header {
         padding: 12px 0;
@@ -178,14 +183,12 @@ h6 {
 
 .navbar a,
 .navbar a:focus {
-    display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: 10px 0 10px 15px;
     font-family: "Raleway", sans-serif;
     font-size: 16px;
     font-weight: 700;
-    color: slategrey;
+    color: #708090;
     white-space: nowrap;
     transition: 0.3s;
 }
@@ -324,10 +327,9 @@ h6 {
 	background-color: #206bfb;
 	border-radius: 50%;
 	position: absolute;
-	top: 2px;
 	left: 2px;
 	height: 13px;
-	width: 13px;
+	width: 12px;
 	transform: translateX(0px);
 	transition: transform 0.2s linear;
 }
@@ -362,17 +364,12 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-    color: #5f687b;
+    color: var(--head-color);
     font-size: 28px;
-    margin-left: 16px;
+    margin-right: 25px;
     cursor: pointer;
     display: none;
     line-height: 0;
-    transition: 0.5s;
-}
-
-.mobile-nav-toggle.bi-x {
-    color: #fff;
 }
 
 @media (max-width: 991px) {
@@ -382,15 +379,7 @@ h6 {
     }
     .mobile-nav-toggle {
         display: block;
-        position: absolute;
-        top: -22px;
-        right: 10px;
-    }
-    #themeToggle{
-        position: absolute;
-        top: 45px;
-        right: 30px;
-    
+        position: relative;
     }
     .navbar ul {
         display: none;
@@ -411,8 +400,8 @@ h6 {
 
 .navbar-mobile .mobile-nav-toggle {
     position: absolute;
-    top: 15px;
-    right: 15px;
+    top: 80px;
+    right: 25px;
 }
 
 .navbar-mobile ul {
@@ -424,15 +413,17 @@ h6 {
     left: 15px;
     padding: 10px 0;
     border-radius: 10px;
-    background-color: #fff;
+    background-color: var(--theme-color);
     overflow-y: auto;
     transition: 0.3s;
 }
 
 .navbar-mobile a {
+    text-align: center;
+    margin: 30px 0;
     padding: 10px 20px;
     font-size: 15px;
-    color: #5f687b;
+    color: var(--text-color);
 }
 
 .navbar-mobile a:hover,
