@@ -20,9 +20,7 @@ module.exports = {
        'fourth': '#FFFFFF',
        'fifth': '#0A0F0D',
     },
-    extend: {
-      'hero-image':" url('/src/assets/static/react-web-designs/Hero_center_image.png')",
-    },  
+    extend: {},  
   },
   variants: {
     extend: {},
