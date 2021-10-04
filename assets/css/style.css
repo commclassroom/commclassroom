@@ -180,7 +180,7 @@ h6 {
 .navbar a:focus {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 10px 0 10px 15px;
     font-family: "Raleway", sans-serif;
     font-size: 16px;
@@ -345,6 +345,17 @@ h6 {
 .fa-sun {
 	color: #f39c12;
     font-size: 0.7rem;
+}
+
+@media (min-width : 991px) and (max-width:1099px){
+    .navbar{
+        margin-right: 3.5em;
+    }
+}
+@media (min-width : 1199px) and (max-width:1250px){
+    .navbar{
+        margin-right: 3em;
+    }
 }
 
 

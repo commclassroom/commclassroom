@@ -1,14 +1,14 @@
 "use strict";
 var courseForm;
 (function () {
-    
+
      /**
       * Dark theme function 
       */
     let logoImg = document.getElementById("logo-img")
     let themeBtn = document.getElementById("chk")
      initialTheme()
-
+    
      themeBtn.onclick = function() {
          if (localStorage.getItem("theme") === "light" || localStorage.getItem("theme") === null) {
             document.body.classList = "dark-theme"
