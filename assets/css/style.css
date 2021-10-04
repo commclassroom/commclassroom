@@ -632,6 +632,7 @@ h6 {
 section {
     padding: 60px 0;
     overflow: hidden;
+  
 }
 
 .section-bg {
@@ -643,6 +644,7 @@ section {
     text-align: center;
     padding: 30px 0;
     position: relative;
+  
 }
 
 .section-title h2 {
@@ -1093,6 +1095,7 @@ section {
     padding: 18px 20px;
     background: #fff;
     border-radius: 50px;
+    transition: all 1.3s ease-in-out;
 }
 
 .team .member img {
@@ -1103,7 +1106,6 @@ section {
 
 .team .member:hover{
     transform: scale(1.05);
-      
     border: 2px solid #00838d;
     box-shadow: 0px 0px 999px 555px rgba(255, 255, 255, 0.5);
     z-index: 500;
@@ -1147,7 +1149,7 @@ section {
 }
 
 .team .member .social i {
-    font-size: 18px;
+    font-size: 22px;
     margin: 0 2px;
 }
 
