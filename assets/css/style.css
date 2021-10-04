@@ -541,7 +541,7 @@ h6 {
 }
 
 #hero .btn-watch-video i {
-    color: #009CFF;
+    color: #ffffff;
     font-size: 32px;
     line-height: 0;
     margin-right: 8px;
@@ -550,7 +550,7 @@ h6 {
 #hero .btn-watch-video:hover i {
     transform: scale(1.35);
     transition: 0.4s;
-    color: #16df7e;
+    color: #0017FF;
 }
 
 #hero .animated {
