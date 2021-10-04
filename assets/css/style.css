@@ -170,6 +170,7 @@ h6 {
     display: flex;
     list-style: none;
     align-items: center;
+    justify-content: center;
 }
 
 .navbar li {
@@ -180,8 +181,7 @@ h6 {
 .navbar a:focus {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 10px 0 10px 15px;
+    justify-content: center;
     font-family: "Raleway", sans-serif;
     font-size: 16px;
     font-weight: 700;
@@ -347,6 +347,11 @@ h6 {
     font-size: 0.7rem;
 }
 
+@media (max-width:1062px) and (min-width:991px){
+    .navbar{
+        margin-right: 3em;
+    }
+}
 
 @media (max-width: 1366px) {
     .navbar .dropdown .dropdown ul {
