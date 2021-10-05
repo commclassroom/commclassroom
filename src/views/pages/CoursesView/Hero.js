@@ -50,8 +50,8 @@ const Hero = () => {
             </div>
 
             {/* <div className="absolute flex flex-row justify-end flex-wrap" style={{ "marginLeft":"1vw"}} > */}
-                     <img src={left} className="absolute flex flex-row justify-end flex-wrap" style={{ "marginLeft":"39vw", "margin-top": "-3vw"}} />
-                     <img src={right} className="absolute flex flex-row justify-end flex-wrap" style={{ "marginLeft":"42vw", "margin-top": "-3.3vw"}} />
+                     <img src={left} className="absolute flex flex-row justify-end flex-wrap" style={{ "marginLeft":"39vw", "margin-top": "-2.5vw"}} />
+                     <img src={right} className="absolute flex flex-row justify-end flex-wrap" style={{ "marginLeft":"42vw", "margin-top": "-2.8vw"}} />
             {/* </div> */}
 
           </div>
