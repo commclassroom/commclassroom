@@ -4,14 +4,14 @@ import heroImage from '../../../assets/static/react-web-designs/Hero_center_imag
 import appStore from '../../../assets/static/react-web-designs/appstore_logo.svg';
 import playStore from '../../../assets/static/react-web-designs/playstore_logo.svg';
 import logo from '../../../assets/images/logo.png';
-import discord from '../../../assets/images/discord.svg';
-import linkedin from '../../../assets/images/linkedin.svg';
-import Twitter from '../../../assets/images/Twitter.svg';
-import YouTube from '../../../assets/images/YouTube.svg';
-import left from '../../../assets/images/left.png';
-import right from '../../../assets/images/right.png';
+import discord from '../../../assets/static/react-web-designs/discord_logo.svg';
+import linkedin from '../../../assets/static/react-web-designs/linked-in_logo.svg';
+import Twitter from '../../../assets/static/react-web-designs/twitter_logo.svg';
+import YouTube from '../../../assets/static/react-web-designs/yt_logo.svg';
+import left from '../../../assets/static/react-web-designs/arrow_left.svg';
+import right from '../../../assets/static/react-web-designs/arrow_right.svg';
 import menu from '../../../assets/images/Menu.svg';
-import gotocourse from '../../../assets/images/gotocourse.svg';
+import gotocourse from '../../../assets/static/react-web-designs/GOTO.svg';
 
 const Hero = () => {
   return (
@@ -25,7 +25,7 @@ const Hero = () => {
             <img src={logo} />
             <img
               className="absolute"
-              style={{ marginLeft: '10px', marginTop: '245px' }}
+              style={{ marginLeft: '7vw', marginTop: '245px' }}
               src={gotocourse}
             />
           </div>
@@ -35,53 +35,25 @@ const Hero = () => {
           <div className="container relative left-1/2 m-0 bottom-10 box-border h-2/3 w-auto">
             {/* absolute div content*/}
             <img src={heroImage} className="h-full w-full" />
+          </div>
 
-            <div className="flex justify-between w-full">
-              <div className="inline">
-                <ul className="flex justify-start mx-10 items-center">
-                  <li className="py-2 pr-4">
-                    <img src={Twitter} alt="logo" />
-                  </li>
-                  <li className="py-2 pr-4">
-                    <img src={linkedin} alt="logo" />
-                  </li>
-                  <li className="py-2 pr-4">
-                    <img src={YouTube} alt="logo" />
-                  </li>
-                  <li className="py-2 pr-4">
-                    <img src={discord} alt="logo" />
-                  </li>
-                </ul>
-              </div>
-              <div className="flex flex-row justify-end mx-4">
-                <button className="bg-fifth h-5">
-                  {' '}
-                  <img
-                    src={left}
-                    className="text-fourth"
-                    style={{
-                      height: '10px',
-                      width: '20px',
-                      '-webkit-filter': 'grayscale(1) invert(1)',
-                      filter: 'grayscale(1) invert(1)'
-                    }}
-                  />{' '}
-                </button>
-                <button className="bg-fifth mx-4 h-5">
-                  {' '}
-                  <img
-                    src={right}
-                    className="bg-fourth"
-                    style={{
-                      height: '10px',
-                      width: '20px',
-                      '-webkit-filter': 'grayscale(1) invert(1)',
-                      filter: 'grayscale(1) invert(1)'
-                    }}
-                  />{' '}
-                </button>
-              </div>
+          <div className="flex flex-row">
+            <div className="flex flex-row justify-start mx-5 -my-4" style={{"width":"fit-content", "marginLeft":"18vw", "marginTop":"-6vw"}}>
+                    <img src={Twitter} alt="logo" style={{"width":"fit-content", "marginLeft":"1vw", "marginTop":"3vw"}} />
+                 
+                    <img src={linkedin} alt="logo" style={{"width":"fit-content", "marginLeft":"1vw", "marginTop":"3vw"}}  />
+                
+                    <img src={YouTube} alt="logo" style={{"width":"fit-content", "marginLeft":"1vw", "marginTop":"3vw"}} />
+                 
+                    <img src={discord} alt="logo" style={{"width":"fit-content", "marginLeft":"1vw", "marginTop":"3vw"}} />
+                  
             </div>
+
+            {/* <div className="absolute flex flex-row justify-end flex-wrap" style={{ "marginLeft":"1vw"}} > */}
+                     <img src={left} className="absolute flex flex-row justify-end flex-wrap" style={{ "marginLeft":"39vw", "margin-top": "-3vw"}} />
+                     <img src={right} className="absolute flex flex-row justify-end flex-wrap" style={{ "marginLeft":"42vw", "margin-top": "-3.3vw"}} />
+            {/* </div> */}
+
           </div>
         </div>
 
@@ -105,11 +77,11 @@ const Hero = () => {
               Quality Education.
             </h1>
             <h1 className="text-4xl my-2 font-bold tracking-widest">
-              Free for all.
+              Free for all
             </h1>
             <br />
-            <h3 className="font-bold">We provide FREE hands-on training,</h3>
-            <h3 className="font-bold">
+            <h3 className="font-semibold">We provide FREE hands-on training,</h3>
+            <h3 className="font-semibold">
               mentorship and have an inclusive community.
             </h3>
             <button
@@ -122,8 +94,8 @@ const Hero = () => {
               Join us
             </button>
             <br />
-            <h3 className="font-bold font-medium shadow-2xl tracking-wide ">
-              or download the app.
+            <h3 className="font-black shadow-2xl tracking-wide ">
+              or download the app:
             </h3>
             <br />
             <div className="flex flex-row">
