@@ -143,12 +143,12 @@ h6 {
     margin-bottom: 5px;
 }
 #themeToggle{
-    position: absolute;
+    position: relative;
     right: 30px;
 }
 
 #header>div:first-child {
-    margin-right: 70px;    
+    margin-right: 40px;    
 }
 
 @media (max-width: 991px) {
@@ -161,7 +161,7 @@ h6 {
     }
 
     #header>div:first-child {
-        margin-right: 50px;    
+        margin-right: 0;    
     }
 }
 
