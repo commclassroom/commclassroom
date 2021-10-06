@@ -2,7 +2,6 @@
 # General
 --------------------------------------------------------------*/
 
-<<<<<<< HEAD
 html {
 	scroll-behavior: smooth;
 }
@@ -10,30 +9,6 @@ html {
 body {
 	font-family: "Open Sans", sans-serif;
 	color: #444444;
-=======
-:root {
-    --theme-color: #fff;
-    --secondary-color: #F2F4F7;
-    --head-color: black;
-    --text-color: #444444;
-}
-
-.dark-theme {
-    --secondary-color: rgb(44, 44, 44);
-    --theme-color: rgb(29, 29, 29);
-    --head-color: white;
-    --text-color: rgb(230, 230, 230);
-}
-
-html{
-  scroll-behavior: smooth;
-}
-
-body {
-    background: var(--theme-color);
-    font-family: "Open Sans", sans-serif;
-    color: #444444;
->>>>>>> 44f5896bcb73004bea8f4977aa33da71267fa2d8
 }
 
 div {
@@ -116,21 +91,12 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-<<<<<<< HEAD
 	/* background: #fff; */
 	background: linear-gradient(to bottom, #ffffff 0%, #f5f8ff 100%);
 	transition: all 0.5s;
 	z-index: 997;
 	padding: 5px 0;
 	/* box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2); */
-=======
-    /* background: #fff; */
-    background: var(--theme-color);
-    transition: all 0.5s;
-    z-index: 997;
-    padding: 5px 0;
-    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
->>>>>>> 44f5896bcb73004bea8f4977aa33da71267fa2d8
 }
 
 #header.header-scrolled {
@@ -156,10 +122,10 @@ h6 {
 	height: 60px;
 	margin-bottom: 5px;
 }
-#themeToggle{
-    position: absolute;
-    right: 38px;
-    top: 27px;
+#themeToggle {
+	position: absolute;
+	right: 38px;
+	top: 27px;
 }
 @media (max-width: 991px) {
 	#header {
@@ -214,15 +180,9 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover > a {
-<<<<<<< HEAD
 	color: #000000;
 	text-underline-offset: 0.2rem;
 	text-decoration: underline;
-=======
-    color: var(--text-color);
-    text-underline-offset: 0.2rem;
-    text-decoration: underline;
->>>>>>> 44f5896bcb73004bea8f4977aa33da71267fa2d8
 }
 
 .navbar .getstarted {
@@ -323,15 +283,15 @@ h6 {
 }
 
 .label {
-    position: fixed;
+	position: fixed;
 	background-color: #fff;
-    box-shadow: 0px 1px 8px rgb(0 0 0 / 0.2);
+	box-shadow: 0px 1px 8px rgb(0 0 0 / 0.2);
 	border-radius: 50px;
 	cursor: pointer;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-    margin-left: 16px;
+	margin-left: 16px;
 	padding: 3px;
 	position: relative;
 	height: 16px;
@@ -355,17 +315,15 @@ h6 {
 	transform: translateX(18px);
 }
 
-
 .fa-moon {
 	color: #f1c40f;
-    font-size: 0.67rem;
+	font-size: 0.67rem;
 }
 
 .fa-sun {
 	color: #f39c12;
-    font-size: 0.7rem;
+	font-size: 0.7rem;
 }
-
 
 @media (max-width: 1366px) {
 	.navbar .dropdown .dropdown ul {
@@ -381,22 +339,12 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-<<<<<<< HEAD
 	color: #5f687b;
 	font-size: 28px;
 	cursor: pointer;
 	display: none;
 	line-height: 0;
 	transition: 0.5s;
-=======
-    color: #5f687b;
-    font-size: 28px;
-    margin-left: 16px;
-    cursor: pointer;
-    display: none;
-    line-height: 0;
-    transition: 0.5s;
->>>>>>> 44f5896bcb73004bea8f4977aa33da71267fa2d8
 }
 
 .mobile-nav-toggle.bi-x {
@@ -404,7 +352,6 @@ h6 {
 }
 
 @media (max-width: 991px) {
-<<<<<<< HEAD
 	.mobile-nav-toggle {
 		display: block;
 	}
@@ -412,27 +359,6 @@ h6 {
 	.navbar ul {
 		display: none;
 	}
-=======
-    #header.header-scrolled {
-        box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.4);
-        padding: 3px 0;
-    }
-    .mobile-nav-toggle {
-        display: block;
-        position: absolute;
-        top: -22px;
-        right: 10px;
-    }
-    #themeToggle{
-        position: absolute;
-        top: 45px;
-        right: 30px;
-    
-    }
-    .navbar ul {
-        display: none;
-    }
->>>>>>> 44f5896bcb73004bea8f4977aa33da71267fa2d8
 }
 
 .navbar-mobile {
@@ -522,7 +448,6 @@ h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-<<<<<<< HEAD
 	width: 100%;
 	height: 70vh;
 	background-image: linear-gradient(
@@ -546,27 +471,6 @@ h6 {
 	margin: 8px 0px 35px 0;
 	font-size: 22px;
 	line-height: 32px;
-=======
-    width: 100%;
-    height: 70vh;
-    background-image: linear-gradient(to bottom,var(--theme-color), rgb(78, 127, 241));
-    padding-top: 160px;
-}
-
-#hero h1 {
-    margin: 0;
-    font-size: 55px;
-    font-weight: 700;
-    line-height: 65px;
-    color: var(--head-color);
-}
-
-#hero h2 {
-    color: var(--text-color);
-    margin: 8px 0px 35px 0;
-    font-size: 22px;
-    line-height: 32px;
->>>>>>> 44f5896bcb73004bea8f4977aa33da71267fa2d8
 }
 
 #hero .btn-courses {
@@ -688,7 +592,6 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-<<<<<<< HEAD
 	padding: 60px 0;
 	overflow: hidden;
 }
@@ -702,23 +605,6 @@ section {
 	text-align: center;
 	padding: 30px 0;
 	position: relative;
-=======
-    padding: 60px 0;
-    overflow: hidden;
-  
-}
-
-.section-bg {
-    background-color: var(--secondary-color);
-}
-
-.section-title {
-    margin-top: 15px;
-    text-align: center;
-    padding: 30px 0;
-    position: relative;
-  
->>>>>>> 44f5896bcb73004bea8f4977aa33da71267fa2d8
 }
 
 .section-title h2 {
@@ -768,16 +654,10 @@ section {
 # Courses
 --------------------------------------------------------------*/
 
-<<<<<<< HEAD
 .courses h2 {
 	color: black;
-=======
-.coursespanel .container{
-    background-color: var(--theme-color);
->>>>>>> 44f5896bcb73004bea8f4977aa33da71267fa2d8
 }
 .courses .coursecard {
-<<<<<<< HEAD
 	text-align: center;
 	margin-bottom: 20px;
 	/* padding: 10px 12px 14px; */
@@ -786,15 +666,6 @@ section {
 	border-radius: 30px;
 	transition: 0.3s;
 	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.3);
-=======
-    text-align: center;
-    margin-bottom: 20px;
-    padding: 10px 12px 14px;
-    background: #ebecf3;
-    border-radius: 30px;
-    transition: 0.3s;
-    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.3);
->>>>>>> 44f5896bcb73004bea8f4977aa33da71267fa2d8
 }
 
 .courses .coursecard img {
@@ -874,7 +745,6 @@ section {
 # Counts
 --------------------------------------------------------------*/
 .counts {
-<<<<<<< HEAD
 	padding: 20px;
 	background-color: #f2f4f7;
 }
@@ -882,15 +752,6 @@ section {
 .counts h2 {
 	color: #000000;
 	margin-top: -25px;
-=======
-    padding: 20px;
-    background-color: var(--secondary-color);
-}
-
-.counts h2 {
-    color: var(--head-color);
-    margin-top: -25px;
->>>>>>> 44f5896bcb73004bea8f4977aa33da71267fa2d8
 }
 
 .counts .counters span:after {
@@ -906,7 +767,6 @@ section {
 }
 
 .counts .counters p {
-<<<<<<< HEAD
 	padding: 0;
 	margin: 0 15px 20px 0;
 	font-family: "Raleway", sans-serif;
@@ -914,40 +774,12 @@ section {
 	font-weight: 600;
 }
 
-=======
-    padding: 0;
-    margin: 0 15px 20px 0;
-    font-family: "Raleway", sans-serif;
-    font-size: 22px;
-    font-weight: 600;
-    color: var(--text-color);
-}
-@media(max-width: 991px) {
-    .counts .col-6{ 
-        margin-top: 20px;
-    }
-    .counts .col-6 span{ 
-         font-size: 2rem;
-    }
-    .counts .col-6 p{ 
-        font-size: 1.2rem;
-    }
-}
-
-
-
->>>>>>> 44f5896bcb73004bea8f4977aa33da71267fa2d8
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
 #about {
-<<<<<<< HEAD
 	padding: 10px;
 	background-color: #ffffff;
-=======
-    padding: 10px;
-    background-color: var(--theme-color);
->>>>>>> 44f5896bcb73004bea8f4977aa33da71267fa2d8
 }
 
 .about .content h2 {
@@ -974,14 +806,8 @@ section {
 }
 
 .about .content p {
-<<<<<<< HEAD
 	font-size: 20px;
 	line-height: 30px;
-=======
-    font-size: 20px;
-    line-height: 30px;
-    color: var(--text-color);
->>>>>>> 44f5896bcb73004bea8f4977aa33da71267fa2d8
 }
 
 .about .content p:last-child {
@@ -992,12 +818,7 @@ section {
 # Features
 --------------------------------------------------------------*/
 .features h3 {
-<<<<<<< HEAD
 	margin-top: -55px;
-=======
-    margin-top: -55px;
-    color: var(--text-color);
->>>>>>> 44f5896bcb73004bea8f4977aa33da71267fa2d8
 }
 
 .features .icon-box {
@@ -1051,7 +872,6 @@ section {
 # Testimonials
 --------------------------------------------------------------*/
 .testimonials {
-<<<<<<< HEAD
 	padding: 40px;
 	background-color: white;
 }
@@ -1059,15 +879,6 @@ section {
 .testimonials h2 {
 	padding-top: 35px;
 	color: black;
-=======
-    padding: 40px;
-    background-color: var(--theme-color);
-}
-
-.testimonials h2 {
-    padding-top: 35px;
-    color: var(--head-color);
->>>>>>> 44f5896bcb73004bea8f4977aa33da71267fa2d8
 }
 
 .testimonials .testimonial-item {
@@ -1076,7 +887,6 @@ section {
 }
 
 .testimonials .testimonial-item .testimonial-img {
-<<<<<<< HEAD
 	width: 90px;
 	border-radius: 50%;
 	margin: -40px 0 0 40px;
@@ -1090,21 +900,6 @@ section {
 	font-weight: bold;
 	margin: 10px 0 5px 45px;
 	color: #111;
-=======
-    width: 90px;
-    border-radius: 50%;
-    margin: -40px 0 0 40px;
-    position: relative;
-    z-index: 2;
-    border: 6px solid var(--secondary-color);
-}
-
-.testimonials .testimonial-item h3 {
-    font-size: 18px;
-    font-weight: bold;
-    margin: 10px 0 5px 45px;
-    color: var(--text-color);
->>>>>>> 44f5896bcb73004bea8f4977aa33da71267fa2d8
 }
 
 .testimonials .testimonial-item h4 {
@@ -1133,7 +928,6 @@ section {
 }
 
 .testimonials .testimonial-item p {
-<<<<<<< HEAD
 	font-style: italic;
 	margin: -20px 15px 0 15px;
 	padding: 20px 20px 60px 20px;
@@ -1142,17 +936,6 @@ section {
 	border-radius: 6px;
 	position: relative;
 	z-index: 1;
-=======
-    font-style: italic;
-    margin: -20px 15px 0 15px;
-    padding: 20px 20px 60px 20px;
-    background: var(--secondary-color);
-    color: var(--text-color);
-    position: relative;
-    border-radius: 6px;
-    position: relative;
-    z-index: 1;
->>>>>>> 44f5896bcb73004bea8f4977aa33da71267fa2d8
 }
 
 .testimonials .swiper-pagination {
@@ -1161,19 +944,11 @@ section {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet {
-<<<<<<< HEAD
 	width: 12px;
 	height: 12px;
 	background-color: #fff;
 	opacity: 1;
 	border: 1px solid dodgerblue;
-=======
-    width: 12px;
-    height: 12px;
-    background-color: var(--theme-color);
-    opacity: 1;
-    border: 1px solid dodgerblue;
->>>>>>> 44f5896bcb73004bea8f4977aa33da71267fa2d8
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
@@ -1243,7 +1018,6 @@ section {
 # Team
 --------------------------------------------------------------*/
 .team h2 {
-<<<<<<< HEAD
 	color: black;
 }
 
@@ -1253,18 +1027,6 @@ section {
 	padding: 18px 20px;
 	background: #fff;
 	border-radius: 50px;
-=======
-    color: var(--head-color);
-}
-
-.team .member {
-    text-align: center;
-    margin-bottom: 20px;
-    padding: 18px 20px;
-    background: #fff;
-    border-radius: 50px;
-    transition: all 1.3s ease-in-out;
->>>>>>> 44f5896bcb73004bea8f4977aa33da71267fa2d8
 }
 
 .team .member img {
@@ -1273,20 +1035,12 @@ section {
 	border-radius: 40px;
 }
 
-<<<<<<< HEAD
 .team .member:hover {
 	transform: scale(1.05);
 
 	border: 2px solid #00838d;
 	box-shadow: 0px 0px 999px 555px rgba(255, 255, 255, 0.5);
 	z-index: 500;
-=======
-.team .member:hover{
-    transform: scale(1.05);
-    border: 2px solid #00838d;
-    box-shadow: 0px 0px 999px 555px rgba(255, 255, 255, 0.5);
-    z-index: 500;
->>>>>>> 44f5896bcb73004bea8f4977aa33da71267fa2d8
 
 	transition: all 0.4s ease-out;
 	color: #345d93;
@@ -1327,13 +1081,8 @@ section {
 }
 
 .team .member .social i {
-<<<<<<< HEAD
 	font-size: 18px;
 	margin: 0 2px;
-=======
-    font-size: 22px;
-    margin: 0 2px;
->>>>>>> 44f5896bcb73004bea8f4977aa33da71267fa2d8
 }
 
 /*--------------------------------------------------------------
@@ -1544,17 +1293,10 @@ section {
 # Course Page
 --------------------------------------------------------------*/
 #coursepage {
-<<<<<<< HEAD
 	width: 100%;
 	height: 80vh;
 	background: #002387;
 	padding-top: 120px;
-=======
-    width: 100%;
-    height: 80vh;
-    background-image: linear-gradient(90deg,#0194ce,#0194ce, #e9ecef);
-    padding-top: 120px;
->>>>>>> 44f5896bcb73004bea8f4977aa33da71267fa2d8
 }
 
 #coursepage h1 {
@@ -1622,20 +1364,11 @@ section {
 }
 
 .coursespanel {
-<<<<<<< HEAD
 	background-color: #fff;
 }
 
 .coursespanel h2 {
 	color: #002387;
-=======
-    background-color: var(--theme-color);
-}
-
-.coursespanel h2 {
-    color: #002387;
-    top: -20x;
->>>>>>> 44f5896bcb73004bea8f4977aa33da71267fa2d8
 }
 
 .coursespanel .coursecard {
@@ -1709,19 +1442,11 @@ section {
 --------------------------------------------------------------*/
 
 #coursename {
-<<<<<<< HEAD
 	padding: 65px 0;
 	width: 100%;
 	height: 43vh;
 	background: #002387;
 	padding-top: 140px;
-=======
-    padding: 65px 0;
-    width: 100%;
-    height: 43vh;
-    background-image: linear-gradient(45deg, #4e7ff1,#4e7ff1,#0e01ff);
-    padding-top: 140px;
->>>>>>> 44f5896bcb73004bea8f4977aa33da71267fa2d8
 }
 
 #coursename h1 {
@@ -1741,13 +1466,6 @@ section {
 	font-size: 22px;
 	line-height: 32px;
 }
-
-<<<<<<< HEAD
-#coursename .dummy {
-}
-=======
-
->>>>>>> 44f5896bcb73004bea8f4977aa33da71267fa2d8
 
 #coursename .coursename-img {
 	display: flex;
@@ -1823,7 +1541,6 @@ section {
 }
 
 .list-group-item .button {
-<<<<<<< HEAD
 	color: darkblue;
 	align-content: stretch;
 	font-size: 28px;
@@ -1843,27 +1560,6 @@ section {
 	background-color: darkblue;
 	border-style: solid;
 	border-color: black;
-=======
-    color: white;
-    align-content: stretch;
-    font-size: 28px;
-    font-weight: 600;
-    margin-top: -1px;
-    padding: 0px;
-    padding-left: 19px;
-    padding-right: 19px;
-    border-radius: 20px;
-    background-color: #3167e6;
-    border-style: solid;
-    border-color: transparent;
-}
-
-.list-group-item .button:hover {
-    color: white;
-    background-color: #1332ed;
-    border-style: solid;
-    border-color: transparent;
->>>>>>> 44f5896bcb73004bea8f4977aa33da71267fa2d8
 }
 
 .tablinks {
