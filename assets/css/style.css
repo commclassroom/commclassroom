@@ -1066,17 +1066,14 @@ section {
   border-radius: 40px;
 }
 
-.team .member:hover {
-  transform: scale(1.05);
-
-  border: 2px solid #00838d;
-  box-shadow: 0px 0px 999px 555px rgba(255, 255, 255, 0.5);
-  z-index: 500;
-
-  transition: all 0.4s ease-out;
-  color: #345d93;
-
-  background: rgb(234, 244, 248);
+.team .member:hover{
+    transform: scale(1.05);
+    border: 2px solid #00838d;
+    box-shadow: 0px 0px 999px 555px rgba(255, 255, 255, 0.5);
+    z-index: 500;
+    transition: all 0.4s ease-out;
+    color: #345d93;
+    background: rgb(234, 244, 248);
 }
 
 .team .member h3 {
