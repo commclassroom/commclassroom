@@ -1555,6 +1555,8 @@ section {
 #coursename .coursename-img img {
     border-radius: 20px;
     border: 5px solid #FFF;
+    width: 90%; 
+    margin-bottom: 19px;
 }
 
 
