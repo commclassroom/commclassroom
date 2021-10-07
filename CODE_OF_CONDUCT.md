@@ -20,8 +20,7 @@ community include:
 * Demonstrating empathy and kindness toward other people
 * Being respectful of differing opinions, viewpoints, and experiences
 * Giving and gracefully accepting constructive feedback
-* Accepting responsibility and apologizing to those affected by our mistakes,
-  and learning from the experience
+* Accepting responsibility and apologizing to those affected by our mistakes and learn from that experience.
 * Focusing on what is best not just for us as individuals, but for the
   overall community
 
@@ -50,7 +49,7 @@ decisions when appropriate.
 
 ## Scope
 
-This Code of Conduct applies within all community spaces, and also applies when
+This Code of Conduct applies within all community spaces, and this conduct also applies when
 an individual is officially representing the community in public spaces.
 Examples of representing our community include using an official e-mail address,
 posting via an official social media account, or acting as an appointed
