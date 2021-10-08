@@ -27,32 +27,30 @@
 <body>
 
     <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top">
-        <div class="container d-flex align-items-center justify-content-between">
-
+    <header id="header" class="d-flex align-items-center fixed-top">
+        <div class="container d-inline-flex align-items-center justify-content-between">
             <h1 class="logo"><a href="index.html"><img src="assets/img/logo2.png" alt="" class="img-fluid" id="logo-img"></a></h1>
 
             <nav id="navbar" class="navbar">
                 <ul>
                     <li><a class="nav-link scrollto" href="index.html">Home</a></li>
                     <li><a class="nav-link active" href="courses.html">Courses</a></li>
-
                     <!-- <li><a class="nav-link scrollto" href="#universityleader">University Leader</a></li> -->
                     <li><a class="nav-link scrollto" href="index.html#team">Team</a></li>
                     <li><a class="nav-link scrollto" href="index.html#about">About Us</a></li>
                     <li><a class="nav-link scrollto" href="#contact">Contact Us</a></li>
                 </ul>
                 <i class="bx bx-list-ul mobile-nav-toggle"></i>
-            </nav><!-- .navbar -->
-            <div id = "themeToggle"style="height: 25px;" class=" align-items-center">
-                <input type="checkbox" class="checkbox" id="chk" />
-                <label class="label" for="chk">
+
+            </nav>
+        </div>
+        <div id="themeToggle">
+            <input type="checkbox" class="checkbox" id="chk" />
+            <label class="label" for="chk">
                 <i class="fas fa-sun" id="theme-button"></i>
                 <i class="fas fa-moon" id="theme-button"></i>
-                <div class="ball"></div>
-                    <div class="ball"></div>
-                </label>
-            </div>
+                <div class="ball m-auto"></div>
+            </label>
         </div>
     </header>
     <!-- End Header -->
@@ -113,7 +111,7 @@
                         </div>
                     </div>
 
-            </div>
+                </div>
         </section>
 
         <!-- ======= Courses Section ======= -->
@@ -161,6 +159,7 @@
     <!-- End Footer -->
 
     <!-- Vendor JS Files -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
     <script src="assets/vendor/purecounter/purecounter.js"></script>
@@ -170,5 +169,5 @@
     <script src="assets/js/main.js"></script>
 
 </body>
-  
+
 </html>
