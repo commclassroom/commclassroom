@@ -1,0 +1,38 @@
+import React from 'react';
+import logo from '../../assets/images/logo.png';
+import Discord from '../../assets/static/react-web-designs/discord_logo.svg';
+import Linkedin from '../../assets/static/react-web-designs/linked-in_logo.svg';
+import Twitter from '../../assets/static/react-web-designs/twitter_logo.svg';
+import YouTube from '../../assets/static/react-web-designs/yt_logo.svg';
+import gotocourse from '../../assets/static/react-web-designs/GOTO.svg';
+import heroImage from '../../assets/static/react-web-designs/Hero_center_image.png';
+
+// React components ---------------------
+import Icons from './Icons.jsx';
+import SlideIcons from './SlideIcons.jsx';
+// -------------------------------------
+const Socials = [Twitter, Linkedin, YouTube, Discord];
+
+const Left = () => {
+  return (
+    <div className="h-screen w-1/3 bg-fifth">
+      <div className="flex justify-start mx-20 my-10">
+        <img src={logo} />
+        <img className="absolute lg:ml-32 mt-64 md:ml-5" src={gotocourse} />
+      </div>
+      <div className="container relative left-2/4 m-0 bottom-10 box-border h-2/3 w-auto ">
+        <img src={heroImage} className="h-full w-full" />
+      </div>
+
+      <div className="flex flex-row">
+        <div className="flex flex-row justify-end lg:ml-72 lg:mb-9 mr-5 md:ml-60 md:-mt-5">
+          <Icons icon={Socials} />
+        </div>
+
+        <SlideIcons />
+      </div>
+    </div>
+  );
+};
+
+export default Left;
