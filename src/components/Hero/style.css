@@ -1,0 +1,27 @@
+/* Right div content */
+
+.right_content {
+  height: fit-content;
+  width: auto;
+  margin-top: 20.5vh;
+}
+.right_button {
+  box-shadow: 0 4px 4px 0 rgba(128, 183, 200, 0.4),
+    0 6px 10px 0 rgba(128, 183, 200, 0.4);
+}
+
+/* SlideIocns.jsx style */
+
+.slideIcons_left {
+  margin-left: 39vw;
+  margin-top: -2.5vw;
+}
+.slideIcons_right {
+  margin-left: 42vw;
+  margin-top: -2.8vw;
+}
+
+/* Icons.jsx style */
+.Icons_style{
+    width:fit-content
+}

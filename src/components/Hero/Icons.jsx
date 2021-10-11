@@ -1,24 +1,18 @@
-import React from 'react'
+import React from 'react';
+import './style.css'; // Style from line 24
 
 const Icons = (props) => {
-  const icons = props.icon
+  const icons = props.icon;
 
   return (
     <>
       {icons.map((icon, index) => (
         <React.Fragment key={index}>
-          <img
-            src={icon}
-            className="ml-3"
-            alt="logo"
-            style={{
-              width: 'fit-content',
-            }}
-          />
+          <img src={icon} className="ml-3 Icons_style" alt="logo" />
         </React.Fragment>
       ))}
     </>
   );
 };
 
-export default Icons
+export default Icons;

@@ -1,15 +1,14 @@
 // main course page goes here
 import React from 'react'
-import Left from '../../../components/Hero/Left.jsx'
-import Right from '../../../components/Hero/Right.jsx'
+import Page from '../../../components/Hero/index.js'
+
 
 const Hero = () => {
   return (
     // Main div
     <div>
       <div className="font-redHatDisplay flex flex-row">
-        <Left />
-        <Right />
+        <Page/>
       </div>
     </div>
   )
