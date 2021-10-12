@@ -3,13 +3,8 @@
 .right_content {
   height: fit-content;
   width: auto;
-  margin-top: 20.5vh;
+  margin-top: 17vh;
 }
-.right_button {
-  box-shadow: 0 4px 4px 0 rgba(128, 183, 200, 0.4),
-    0 6px 10px 0 rgba(128, 183, 200, 0.4);
-}
-
 /* SlideIocns.jsx style */
 
 .slideIcons_left {

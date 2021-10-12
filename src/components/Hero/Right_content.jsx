@@ -1,25 +1,23 @@
 import React from 'react';
-import './style.css' // Style started from line 8
 
 const Right_content = () => {
   return (
     <>
-      <h1 className="text-4xl my-2 font-bold tracking-widest">
-        Quality Education.
-      </h1>
-      <h1 className="text-4xl my-2 font-bold tracking-widest">Free for all</h1>
-      <br />
-      <h3 className="font-semibold">We provide FREE hands-on training,</h3>
-      <h3 className="font-semibold">
-        mentorship and have an inclusive community.
-      </h3>
-      <button className="bg-secondary w-20 my-3 rounded-lg p-1 font-bold right_button">
-        Join us
-      </button>
-      <br />
-      <h3 className="font-black shadow-2xl tracking-wide ">
-        or download the app:
-      </h3>
+      <b>  {/* Bold all text content */}
+        <h1 className="text-4xl tracking-widest">Quality Education.</h1>
+        <br />
+        <h1 className="text-4xl tracking-widest">
+          Free for all
+        </h1>
+        <br />
+        <h3>We provide FREE hands-on training,</h3>
+        <h3>mentorship and have an inclusive community.</h3><br/>
+        <button className="bg-secondary w-20 rounded-lg p-1 shadow-secondary">
+          <b>Join us</b>
+        </button><br/>
+        <br />
+        <h3 className="tracking-wide ">or download the app:</h3>
+      </b>
       <br />
     </>
   );

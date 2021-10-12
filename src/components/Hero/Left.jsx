@@ -20,8 +20,9 @@ const Left = () => {
     <div className="h-screen w-1/3 bg-fifth">
 
       {/* Inner Logo */}
+      <br/>
       <div className="flex justify-start mx-20 my-10">
-        <img src={logo} />
+        <img src={logo}  />
         <img className="absolute lg:ml-32 mt-64 md:ml-5" src={gotocourse} />
       </div>
 

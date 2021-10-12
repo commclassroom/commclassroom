@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.css'; // Style from line 1 - 9
+import './style.css'; // Style from line 3 - 7
 import menu from '../../assets/images/Menu.svg';
 import appStore from '../../assets/static/react-web-designs/appstore_logo.svg';
 import playStore from '../../assets/static/react-web-designs/playstore_logo.svg';
