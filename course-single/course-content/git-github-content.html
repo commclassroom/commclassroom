@@ -10,6 +10,9 @@
     <!-- Favicons -->
     <link href="../../assets/img/logo.png" rel="icon">
 
+    <!----CSS For Toggle-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
     <!-- Google Fonts -->
     <link
         href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
@@ -24,7 +27,7 @@
 
     <!-- Template Main CSS File -->
     <link href="../../assets/css/style.css" rel="stylesheet">
-    <link href="./course-content.css" rel="stylesheet">
+    <link href="../../assets/css/course-content.css" rel="stylesheet">
 
     <!-- jquery CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -35,23 +38,27 @@
 
 
 <!-- ======= Header ======= -->
-<header id="header" class="fixed-top">
-    <div class="container d-flex align-items-center justify-content-between">
-
-        <h1 class="logo"><a href="index.html"><img src="assets/img/logo2.jpg" alt="" class="img-fluid"></a></h1>
-
+<header id="header" class="d-flex align-items-center fixed-top">
+    <div class="container d-inline-flex align-items-center justify-content-between">
+        <h1 class="logo"><a href="../../index.html"><img src="../../assets/img/logo2.png" alt="" class="img-fluid" id="logo-img"></a></h1>
         <nav id="navbar" class="navbar">
             <ul>
                 <li><a class="nav-link" href="../../index.html">Home</a></li>
-                <li><a class="nav-link active" href="">Courses</a></li>
+                <li><a class="nav-link active" href="../../courses.html">Courses</a></li>
                 <li><a class="nav-link" href="../../index.html#team">Team</a></li>
                 <li><a class="nav-link" href="../../index.html#about">About Us</a></li>
                 <li><a class="nav-link scrollto" href="#contact">Contact Us</a></li>
-                <li><button id="btn-theme" class="btn-theme">Theme</button></li>
             </ul>
             <i class="bx bx-list-ul mobile-nav-toggle"></i>
-        </nav><!-- .navbar -->
-
+        </nav>
+    </div>
+    <div id="themeToggle">
+        <input type="checkbox" class="checkbox" id="chk" />
+        <label class="label" for="chk">
+            <i class="fas fa-sun" id="theme-button"></i>
+            <i class="fas fa-moon" id="theme-button"></i>
+            <div class="ball m-auto"></div>
+        </label>
     </div>
 </header>
 <!-- End Header -->
@@ -158,6 +165,7 @@
     </script>
 
     <!-- Vendor JS Files -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="../../assets/vendor/swiper/swiper-bundle.min.js"></script>
     <script src="../../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="../../assets/vendor/glightbox/js/glightbox.min.js"></script>
@@ -165,7 +173,7 @@
 
     <!-- <script src="./course-content.js"></script> -->
     <script src="../../config.js"></script>
-    <script src="../../assets/js/main.js"></script>
+    <script src="../../assets/js/course-content.js"></script>
 
 </body>
 

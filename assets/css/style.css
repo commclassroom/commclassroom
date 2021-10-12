@@ -112,17 +112,17 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-    /* background: #fff; */
+    width: 100%;
     background: var(--theme-color);
     transition: all 0.5s;
     z-index: 997;
-    padding: 5px 0;
+    /* padding: 5px 0; */
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
 }
 
 #header.header-scrolled {
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.4);
-    padding: 0px 0;
+    padding: 0 0;
 }
 
 #header .logo {
@@ -135,17 +135,33 @@ h6 {
 }
 
 #header .logo a {
-    color: dodgerblue;
+    color: #1e90ff;
 }
 
 #header .logo img {
     height: 60px;
     margin-bottom: 5px;
 }
+#themeToggle{
+    position: relative;
+    right: 30px;
+}
+
+#header>div:first-child {
+    margin-right: 40px;    
+}
 
 @media (max-width: 991px) {
+    .nav-container {
+        width: 90%;
+    }
+    
     #header {
         padding: 12px 0;
+    }
+
+    #header>div:first-child {
+        margin-right: 0;    
     }
 }
 
@@ -174,14 +190,12 @@ h6 {
 
 .navbar a,
 .navbar a:focus {
-    display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: 10px 0 10px 15px;
     font-family: "Raleway", sans-serif;
     font-size: 16px;
     font-weight: 700;
-    color: slategrey;
+    color: #708090;
     white-space: nowrap;
     transition: 0.3s;
 }
@@ -300,6 +314,7 @@ h6 {
 }
 
 .label {
+    position: fixed;
 	background-color: #fff;
     box-shadow: 0px 1px 8px rgb(0 0 0 / 0.2);
 	border-radius: 50px;
@@ -319,9 +334,8 @@ h6 {
 	background-color: #206bfb;
 	border-radius: 50%;
 	position: absolute;
-	top: 2px;
 	left: 2px;
-	height: 12px;
+	height: 13px;
 	width: 12px;
 	transform: translateX(0px);
 	transition: transform 0.2s linear;
@@ -357,24 +371,23 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-    color: #5f687b;
+    color: var(--head-color);
     font-size: 28px;
-    margin-left: 16px;
+    margin-right: 25px;
     cursor: pointer;
     display: none;
     line-height: 0;
-    transition: 0.5s;
-}
-
-.mobile-nav-toggle.bi-x {
-    color: #fff;
 }
 
 @media (max-width: 991px) {
+    #header.header-scrolled {
+        box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.4);
+        padding: 3px 0;
+    }
     .mobile-nav-toggle {
         display: block;
+        position: relative;
     }
-
     .navbar ul {
         display: none;
     }
@@ -394,8 +407,8 @@ h6 {
 
 .navbar-mobile .mobile-nav-toggle {
     position: absolute;
-    top: 15px;
-    right: 15px;
+    top: 80px;
+    right: 5px;
 }
 
 .navbar-mobile ul {
@@ -407,15 +420,17 @@ h6 {
     left: 15px;
     padding: 10px 0;
     border-radius: 10px;
-    background-color: #fff;
+    background-color: var(--theme-color);
     overflow-y: auto;
     transition: 0.3s;
 }
 
 .navbar-mobile a {
+    text-align: center;
+    margin: 30px 0;
     padding: 10px 20px;
     font-size: 15px;
-    color: #5f687b;
+    color: var(--text-color);
 }
 
 .navbar-mobile a:hover,
@@ -615,6 +630,7 @@ h6 {
 section {
     padding: 60px 0;
     overflow: hidden;
+  
 }
 
 .section-bg {
@@ -626,6 +642,7 @@ section {
     text-align: center;
     padding: 30px 0;
     position: relative;
+  
 }
 
 .section-title h2 {
@@ -1076,6 +1093,7 @@ section {
     padding: 18px 20px;
     background: #fff;
     border-radius: 50px;
+    transition: all 1.3s ease-in-out;
 }
 
 .team .member img {
@@ -1086,7 +1104,6 @@ section {
 
 .team .member:hover{
     transform: scale(1.05);
-      
     border: 2px solid #00838d;
     box-shadow: 0px 0px 999px 555px rgba(255, 255, 255, 0.5);
     z-index: 500;
@@ -1130,7 +1147,7 @@ section {
 }
 
 .team .member .social i {
-    font-size: 18px;
+    font-size: 22px;
     margin: 0 2px;
 }
 

@@ -1,40 +1,40 @@
 "use strict";
 var courseForm;
 (function () {
-    
-     /**
-      * Dark theme function 
-      */
+
+    /**
+     * Dark theme function 
+     */
     let logoImg = document.getElementById("logo-img")
     let themeBtn = document.getElementById("chk")
-     initialTheme()
+    initialTheme()
 
-     themeBtn.onclick = function() {
-         if (localStorage.getItem("theme") === "light" || localStorage.getItem("theme") === null) {
+    themeBtn.onclick = function () {
+        if (localStorage.getItem("theme") === "light" || localStorage.getItem("theme") === null) {
             document.body.classList = "dark-theme"
             localStorage.setItem("theme", "dark")
             logoImg.src = 'assets/img/logo3.png'
-            document.getElementById("title-section").style.color="white"
-         } else {
+            document.getElementById("title-section").style.color = "white"
+        } else {
             document.body.classList = ""
             localStorage.setItem("theme", "light")
             logoImg.src = 'assets/img/logo2.png'
-            document.getElementById("title-section").style.color="#002387"
-         }
-     }
+            document.getElementById("title-section").style.color = "#002387"
+        }
+    }
 
-     function initialTheme() {
-         switch(localStorage.getItem("theme")) {
-             case "dark":
-                 document.body.classList = "dark-theme"
-                 logoImg.src = 'assets/img/logo3.png'
-                 break
-             case (null || "light"):
+    function initialTheme() {
+        switch (localStorage.getItem("theme")) {
+            case "dark":
+                document.body.classList = "dark-theme"
+                logoImg.src = 'assets/img/logo3.png'
+                break
+            case (null || "light"):
                 document.body.classList = ""
                 logoImg.src = 'assets/img/logo2.png'
                 break
-         }
-     }
+        }
+    }
 
     /**
      * Easy selector helper function
@@ -157,6 +157,15 @@ var courseForm;
             this.nextElementSibling.classList.toggle('dropdown-active')
         }
     }, true)
+
+    /**
+     * Remove navbar-mobile on resizing
+     */
+    $(window).resize(function () {
+        if (window.innerWidth < 991) {
+            $('.navbar-mobile').removeClass('navbar-mobile');
+        }
+    });
 
     /**
      * Scrool with ofset on links with a class name .scrollto

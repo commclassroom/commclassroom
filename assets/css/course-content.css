@@ -5,14 +5,13 @@
   font-family: "Poppins", sans-serif;
 }
 
-#header {
-  padding: 0;
-  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.15);
+body {
   counter-reset: section;
 }
 
 .player {
   width: 100%;
+  margin: 60px 0;
 }
 
 .card {
