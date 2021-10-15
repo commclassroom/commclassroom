@@ -1,10 +1,13 @@
 # Description
-Fixes # (issue)
+
+<!-- Give a clear description of what modifications you have made -->
+<!-- If it fixes an issue, please add Closes #issue_no below with its respective issue number -->
 
 ## Type of change
 
-Please delete options that are not relevant.
+<!-- Please delete options that are not relevant. -->
 
+- [ ] Documentation changes
 - [ ] Bug fix (non-breaking change which fixes an issue)
 - [ ] User Interface
 - [ ] New feature (non-breaking change which adds functionality)
@@ -12,14 +15,14 @@ Please delete options that are not relevant.
 - [ ] This change requires a documentation update
 
 
-# Checklist:
+## Checklist
 
 - [ ] My code follows the style guidelines of this project
 - [ ] I have performed a self-review of my own code
-- [ ] I have commented my code, particularly in hard-to-understand areas
+- [ ] I have commented on my code, particularly in hard-to-understand areas
 - [ ] I have made corresponding changes to the documentation
 - [ ] My changes generate no new warnings
-- [ ] I have ```npm run format``` before commiting
+- [ ] I have ```npm run format``` before committing
 - [ ] I replicated the UI with the Design 
 
-# ScreenShots (if any) 
+## Screenshots (if applicable) 
