@@ -23,11 +23,11 @@ const Left = () => {
       <br/>
       <div className="flex justify-start mx-20 my-10">
         <img src={logo}  />
-        <img className="absolute lg:ml-32 mt-64 md:ml-5" src={gotocourse} />
+        <img className="absolute h-auto w-auto lg:ml-32 lg:mt-64 md:ml-5 sm:ml-3 sm:mt-24" src={gotocourse} />
       </div>
 
       {/* Inner Banner */}
-      <div className="container relative left-2/4 m-0 bottom-10 box-border h-2/3 w-auto ">
+      <div className="container relative left-2/4 m-0 bottom-10 box-border h-auto w-auto ">
         <img src={heroImage} className="h-full w-full" />
       </div>
 

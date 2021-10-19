@@ -22,7 +22,7 @@ All of our courses are FREE. We cover every topic in detail and mentor you to st
     <img width="30px" src="https://www.vectorlogo.zone/logos/instagram/instagram-icon.svg" />
 
 ## Contributing to the project
-[CONTRIBUTING.md](https://github.com/commclassroom/commclassroom/blob/master/CONTRIBUTING.md)
+[CONTRIBUTING.md](https://github.com/commclassroom/commclassroom/blob/development/CONTRIBUTING.md)
 
 ## To view history of changes
 [CHANGELOG.md](https://github.com/commclassroom/commclassroom/blob/master/CHANGELOG.md)

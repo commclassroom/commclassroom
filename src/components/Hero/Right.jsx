@@ -15,7 +15,7 @@ const Right = () => {
         </div>
 
         {/* Inner div Content */}
-        <div className="ml-80 xl:ml-96 right_content">
+        <div className="ml-80 xl:ml-96 sm:ml-48  right_content">
           <Right_content />
 
           {/* Stores Icon */}

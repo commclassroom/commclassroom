@@ -1,7 +1,7 @@
 /* Right div content */
 
 .right_content {
-  height: fit-content;
+  height: auto;
   width: auto;
   margin-top: 17vh;
 }
