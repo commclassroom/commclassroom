@@ -1,15 +1,15 @@
-import React from "react";
+import React from 'react';
 
-import { Navbar, Footer, Courses } from "./index";
+import { Navbar, Footer, Courses } from './index';
 
 const CourseView = () => {
-    return (
-      <div>
-        <Navbar />
-        <Courses />
-        <Footer />
-      </div>
-    );
-  };
-  
-  export default CourseView;
+  return (
+    <div>
+      <Navbar />
+      <Courses />
+      <Footer />
+    </div>
+  );
+};
+
+export default CourseView;

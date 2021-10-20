@@ -15,7 +15,7 @@ const Routes = () => {
       </Route>
       <Route path="/courses" exact>
         <MainLayout>
-          <CourseView/>
+          <CourseView />
         </MainLayout>
       </Route>
     </Switch>
