@@ -11,7 +11,6 @@ import heroImage from '../../assets/static/react-web-designs/Hero_center_image.p
 
 // React components ---------------------
 import Icons from './Icons.jsx';
-import SlideIcons from './SlideIcons.jsx';
 // -------------------------------------
 const Socials = [Twitter, Linkedin, YouTube, Discord];
 
@@ -36,8 +35,7 @@ const Left = () => {
         <div className="flex flex-row justify-end lg:ml-72 lg:mb-9 mr-5 md:ml-60 md:-mt-5">
           <Icons icon={Socials} />
         </div>
-
-        <SlideIcons />
+        
       </div>
     </div>
   );

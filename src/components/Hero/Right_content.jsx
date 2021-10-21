@@ -5,7 +5,10 @@ const Right_content = () => {
     <>
       <b>
         {/* Bold all text content */}
-        <h1 className="text-4xl tracking-widest">Quality Education.<br /><br />Free for all</h1>
+        <h1 className="text-4xl tracking-widest">
+          Quality Education.<br/><br/>  
+          Free for all
+       </h1>
         <br />
         <h3>We provide FREE hands-on training,<br />mentorship and have an inclusive community.</h3>
         <br />
