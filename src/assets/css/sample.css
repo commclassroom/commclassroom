@@ -1,1 +1,4 @@
 /* If in case css is required rest i think if we are using a makestyles it would help a alot  */
+.blob{
+    z-index: -1;
+}
