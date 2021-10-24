@@ -6,10 +6,8 @@ module.exports = {
       poppins: ['Poppins', 'sans-serif'],
       redHatDisplay: ['Red Hat Display', 'sans-serif']
     },
-    boxShadow:{
-       secondary: ' 0 4px 4px 0 rgba(128, 183, 200, 0.4),  0 6px 10px 0 rgba(128, 183, 200, 0.4)'
-    },
     backgroundColor: (theme) => ({
+      white: '#FFF',
       primary: '#0F273E',
       secondary: '#80B7C8',
       third: '#C4CBCA',
@@ -26,7 +24,9 @@ module.exports = {
     extend: {}
   },
   variants: {
-    extend: {}
+    extend: {
+
+    }
   },
   plugins: []
 };
