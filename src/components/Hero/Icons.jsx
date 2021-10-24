@@ -4,11 +4,11 @@ const Icons = (props) => {
   const icons = props.icon;
 
   return (
-    <>  
+    <>
       {icons.map((icon, index) => (
-        <React.Fragment key={index}>
-          <img src={icon} className="ml-3 w-max" alt="logo" />
-        </React.Fragment>
+        <a href={icon.link} key={index} target="_blank" rel="noreferrer">
+          <img src={icon.src} className="ml-3 w-max" alt="logo" />
+        </a>
       ))}
     </>
   );

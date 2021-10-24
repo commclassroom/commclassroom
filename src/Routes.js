@@ -11,7 +11,7 @@ const Routes = () => {
         <MainLayout>
           <HomeView />
         </MainLayout>
-      </Route>   
+      </Route>
     </Switch>
   );
 };

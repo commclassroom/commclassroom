@@ -5,7 +5,6 @@ import playStore from '../../assets/static/react-web-designs/playstore_logo.svg'
 import Right_content from './Right_content';
 import SlideIcons from './SlideIcons.jsx';
 
-
 const Right = () => {
   return (
     <React.Fragment>
@@ -24,7 +23,7 @@ const Right = () => {
             <img src={playStore} className="mx-8" />
           </div>
         </div>
-          <SlideIcons/>
+        <SlideIcons />
       </div>
     </React.Fragment>
   );
