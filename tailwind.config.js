@@ -1,3 +1,4 @@
+const { colors } = require('@material-ui/core');
 module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   darkMode: false, // or 'media' or 'class'
@@ -15,6 +16,7 @@ module.exports = {
       fifth: '#0A0F0D'
     }),
     textColor: {
+      black: '#000',
       primary: '#0F273E',
       secondary: '#80B7C8',
       third: '#C4CBCA',
@@ -24,9 +26,7 @@ module.exports = {
     extend: {}
   },
   variants: {
-    extend: {
-
-    }
+    extend: {}
   },
   plugins: []
 };

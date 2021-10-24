@@ -1,8 +1,11 @@
 import React from 'react';
 import logo from '../../../../assets/images/logo.png';
+
 const Navbar = () => {
+  const captions = ['Home', 'Courses', 'About us'];
+
   return (
-    <div className={"sticky top-0 z-50 bg-white bg-opacity-100"} >
+    <div className={'sticky top-0 z-50 bg-white bg-opacity-100 font-Poppins'}>
       <div className="flex justify-between items-center p-4 shadow-md bg-black">
         <div className="flex justify-center items-center mx-4">
           <img src={logo} alt="logo" />
@@ -10,9 +13,11 @@ const Navbar = () => {
 
         <div className="flex justify-center items-center">
           <ul className="list-none flex justify-center items-center m-0 hover:bg-black">
-            <li className="py-1 px-8 text-base">Home</li>
-            <li className="py-1 px-8 text-base">Courses</li>
-            <li className="py-1 px-8 text-base">About Us</li>
+            {captions.map((val, idx) => (
+              <li className="py-1 px-8 text-black text-opacity-50 hover:text-opacity-100" key={val + idx}>
+                {val.toUpperCase()}
+              </li>
+            ))}
           </ul>
 
           <div className="mx-6">
