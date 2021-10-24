@@ -2,8 +2,8 @@ import React from 'react';
 import logo from '../../../../assets/images/logo.png';
 const Navbar = () => {
   return (
-    <div>
-      <div className="flex justify-between items-center p-4 shadow-md">
+    <div className={"sticky top-0"}>
+      <div className="flex justify-between items-center p-4 shadow-md bg-black">
         <div className="flex justify-center items-center mx-4">
           <img src={logo} alt="logo" />
         </div>
