@@ -1,6 +1,6 @@
 import React from 'react';
-import balloon from '../../assets/images/ballon.png';
-import group from '../../assets/images/Group55.png';
+import balloon from '../../../assets/images/ballon.png';
+import group from '../../../assets/images/Group55.png';
 
 const AboutUs = () => {
   return (
