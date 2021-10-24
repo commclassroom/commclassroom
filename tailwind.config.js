@@ -23,10 +23,19 @@ module.exports = {
       fourth: '#FFFFFF',
       fifth: '#0A0F0D'
     },
+    borderColor: (theme) => ({
+      ...theme('colors'),
+      custom: '#80B7C8'
+    }),
     extend: {}
   },
   variants: {
-    extend: {}
+    extend: {
+      border: ['hover', 'focus'],
+      cursor: ['hover', 'focus'],
+      borderWidth: ['hover', 'focus'],
+      borderColor: ['active']
+    }
   },
   plugins: []
 };
