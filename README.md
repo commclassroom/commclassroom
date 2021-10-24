@@ -2,7 +2,7 @@
 
 We believe that every student, irrespective of their college or branch, can make it big. Community Classroom is an initiative built on this thought. The organisation is founded by [Kunal Kushwaha](https://twitter.com/kunalstwt). We provide hands-on training, mentorship and have an inclusive community.
 
-All of our courses are FREE. We cover every topic in detail and mentor you to stand out and get opportunities by breaking all the barriers. Get expert guidance with career, Open Source, and internships, jobs around the world.
+All of our courses are FREE. We cover every topic in detail and mentor you to stand out and get opportunities by breaking all the barriers. Get expert guidance with Career, Open Source, Internships and Jobs around the world.
 
 ## Connect with us
   <a href="https://discord.io/commclassroom">
