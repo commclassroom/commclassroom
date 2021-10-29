@@ -14,16 +14,12 @@ const Courses = () => {
   useEffect(() => {
     setCourse(courses);
     setLoading(false);
-  })
+  });
 
-  if(loading == true){
-    return(
-      <div>
-        Loading...
-      </div>
-    )
+  if (loading == true) {
+    return <div>Loading...</div>;
   }
-  
+
   return (
     <div>
       {/* balloon */}
@@ -32,8 +28,10 @@ const Courses = () => {
       </div>
 
       {/* blob */}
-      <div className="absolute -right-60 -bottom-24 transform scale-125">
-        <img src={blob} />
+      <div className="absolute -right-60 top-48">
+        <div className=" transform scale-125 object-cover">
+          <img src={blob} />
+        </div>
       </div>
 
       <h2 className="text-xl mt-24 mx-40 text-secondary font-bold filter drop-shadow-xl">
@@ -78,10 +76,12 @@ const Courses = () => {
       <div className="flex mx-40 mb-40 text-center ">
         {/* get started button */}
         <div className="flex-1 filter drop-shadow-xl">
-          <button className="text-sm border-none py-1.5 px-5 mr-3 bg-secondary text-fourth rounded-md"
-          onClick={() => {
-            location.href = course[value].link;
-          }}>
+          <button
+            className="text-sm border-none py-1.5 px-5 mr-3 bg-secondary text-fourth rounded-md"
+            onClick={() => {
+              location.href = course[value].link;
+            }}
+          >
             Get Started
           </button>
         </div>
