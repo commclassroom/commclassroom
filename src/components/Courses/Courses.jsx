@@ -29,7 +29,7 @@ const Courses = () => {
 
       {/* blob */}
       <div className="absolute -right-60 top-48">
-        <div className=" transform scale-125 object-cover">
+        <div className=" transform scale-125">
           <img src={blob} />
         </div>
       </div>
