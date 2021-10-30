@@ -8,6 +8,7 @@ module.exports = {
       redHatDisplay: ['Red Hat Display', 'sans-serif']
     },
     backgroundColor: (theme) => ({
+      ...theme('colors'),
       white: '#FFF',
       primary: '#0F273E',
       secondary: '#80B7C8',
@@ -31,10 +32,10 @@ module.exports = {
   },
   variants: {
     extend: {
-      border: ['hover', 'focus'],
-      cursor: ['hover', 'focus'],
-      borderWidth: ['hover', 'focus'],
-      borderColor: ['active']
+      border: ['hover', 'focus', 'active'],
+      cursor: ['hover', 'focus', 'active'],
+      borderWidth: ['hover', 'focus', 'active'],
+      borderColor: ['hover', 'focus', 'active']
     }
   },
   plugins: []

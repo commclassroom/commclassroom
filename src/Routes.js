@@ -1,19 +1,23 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-// import LoadingScreen from './components/LoadingScreen';
-import HomeView from './views/pages/HomeView/HomeView';
-import MainLayout from './layouts/MainLayout';
 import Navbar from './views/pages/common/Navbar/Navbar';
+import Hero from './views/pages/CoursesView/Hero';
+import AboutUs from './views/pages/AboutUs/AboutUs';
+import Course from './views/pages/Course';
 // feel free to create own routes & just rock on guys .
 const Routes = () => {
   return (
     <>
       <Navbar />
       <Switch>
-        <Route path="/" exact>
-          <MainLayout>
-            <HomeView />
-          </MainLayout>
+        <Route path="/courses">
+          <Course />
+        </Route>
+        <Route path="/aboutUs">
+          <AboutUs />
+        </Route>
+        <Route path="/">
+          <Hero />
         </Route>
       </Switch>
     </>

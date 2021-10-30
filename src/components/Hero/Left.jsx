@@ -17,12 +17,14 @@ const Socials = [Twitter, Linkedin, YouTube, Discord];
 const Left = () => {
   return (
     <div className="h-screen w-1/3 bg-fifth">
-
       {/* Inner Logo */}
-      <br/>
+      <br />
       <div className="flex justify-start mx-20 my-10">
-        <img src={logo}  />
-        <img className="absolute h-auto w-auto lg:ml-32 lg:mt-64 md:ml-5 sm:ml-3 sm:mt-24" src={gotocourse} />
+        <img src={logo} />
+        <img
+          className="absolute h-auto w-auto lg:ml-32 lg:mt-64 md:ml-5 sm:ml-3 sm:mt-24"
+          src={gotocourse}
+        />
       </div>
 
       {/* Inner Banner */}
@@ -35,7 +37,6 @@ const Left = () => {
         <div className="flex flex-row justify-end lg:ml-72 lg:mb-9 mr-5 md:ml-60 md:-mt-5">
           <Icons icon={Socials} />
         </div>
-        
       </div>
     </div>
   );
