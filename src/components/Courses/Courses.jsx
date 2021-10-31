@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 
-import prevButton from '../../assets/static/arrowLeft.svg';
-import nextButton from '../../assets/static/arrowRight.svg';
+import prevButton from '../../assets/static/arrowLeft.png';
+import nextButton from '../../assets/static/arrowRight.png';
 import balloon from '../../assets/static/react-web-designs/ballon.svg';
-import blob from '../../assets/static/react-web-designs/courses_blob.svg';
+import blob from '../../assets/static/react-web-designs/courses_blob_cropped.png';
 import { courses } from '../../data/Courses/course';
 
 const Courses = () => {
@@ -28,7 +28,7 @@ const Courses = () => {
       </div>
 
       {/* blob */}
-      <div className="absolute -right-60 top-48">
+      <div className="absolute right-24 top-42">
         <div className=" transform scale-125">
           <img src={blob} />
         </div>
