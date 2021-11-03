@@ -17,6 +17,10 @@ module.exports = {
       fourth: '#FFFFFF',
       fifth: '#0A0F0D'
     }),
+    borderColor: (theme) => ({
+      ...theme('colors'),
+      custom: '#80B7C8'
+    }),
     textColor: {
       primary: '#0F273E',
       secondary: '#80B7C8',
@@ -27,7 +31,12 @@ module.exports = {
     extend: {}
   },
   variants: {
-    extend: {}
+    extend: {
+      border: ['hover', 'focus'],
+      cursor: ['hover', 'focus'],
+      borderWidth: ['hover', 'focus'],
+      borderColor: ['active']
+    }
   },
   plugins: []
 };
