@@ -5,6 +5,7 @@ We believe that every student, irrespective of their college or branch, can make
 All of our courses are FREE. We cover every topic in detail and mentor you to stand out and get opportunities by breaking all the barriers. Get expert guidance with career, Open Source, and internships, jobs around the world.
 
 ## Connect with us
+
   <a href="https://discord.io/commclassroom">
     <img width="30px" src="https://www.vectorlogo.zone/logos/discordapp/discordapp-tile.svg" />
   </a>&ensp;
@@ -22,12 +23,15 @@ All of our courses are FREE. We cover every topic in detail and mentor you to st
     <img width="30px" src="https://www.vectorlogo.zone/logos/instagram/instagram-icon.svg" />
 
 ## Contributing to the project
+
 [CONTRIBUTING.md](https://github.com/commclassroom/commclassroom/blob/master/CONTRIBUTING.md)
 
 ## To view history of changes
+
 [CHANGELOG.md](https://github.com/commclassroom/commclassroom/blob/master/CHANGELOG.md)
 
-## Thanks to all the contributors ❤️
-<a href = "https://github.com/commclassroom/commclassroom/graphs/contributors">
-  <img src = "https://contrib.rocks/image?repo=commclassroom/commclassroom"/>
-</a>
+## Contributors
+
+Every contributor's efforts and time are deeply appreciated! Thank you. :smile:
+
+[![Contributors](https://contrib.rocks/image?repo=commclassroom/commclassroom)](https://github.com/commclassroom/commclassroom/graphs/contributors)
