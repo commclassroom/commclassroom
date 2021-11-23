@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Element } from 'react-scroll';
 
 import prevButton from '../../assets/static/arrowLeft.png';
 import nextButton from '../../assets/static/arrowRight.png';
@@ -21,7 +22,8 @@ const Courses = () => {
   }
 
   return (
-    <div>
+
+    <Element name="courses" className="element">
       {/* balloon */}
       <div className="absolute left-0 top-80">
         <img src={balloon} alt="balloon" />
@@ -116,7 +118,7 @@ const Courses = () => {
           </div>
         </div>
       </div>
-    </div>
+    </Element>
   );
 };
 
