@@ -1,4 +1,15 @@
 // data related to home page here
+import Discord from '../../assets/static/react-web-designs/discord_logo.svg';
+import Linkedin from '../../assets/static/react-web-designs/linked-in_logo.svg';
+import Twitter from '../../assets/static/react-web-designs/twitter_logo.svg';
+import YouTube from '../../assets/static/react-web-designs/yt_logo.svg';
+export const Socials = [
+  { src: Discord, link: 'https://discord.gg/yZMqKgvc' },
+  { src: Linkedin, link: 'https://www.linkedin.com/company/commclassroom/' },
+  { src: Twitter, link: 'https://twitter.com/commclassroom' },
+  { src: YouTube, link: 'https://www.youtube.com/c/KunalKushwaha' }
+];
+
 export const number = [
   {
     id: '1',

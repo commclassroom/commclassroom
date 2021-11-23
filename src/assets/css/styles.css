@@ -1,1 +1,4 @@
 /* If in case css is required rest i think if we are using a makestyles it would help a alot  */
+.footer {
+    clip-path: polygon(25% 13%, 60% 6%, 100% 0, 100% 100%, 0 100%, 0 19%);
+}

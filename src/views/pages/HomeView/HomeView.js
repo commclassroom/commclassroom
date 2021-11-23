@@ -5,6 +5,7 @@ import { Navbar, Courses, AboutUs, Testimonials, Footer } from './index';
 const HomeView = () => {
   return (
     <div>
+      <LandingPage />
       <Navbar />
       <Courses />
       <AboutUs />
