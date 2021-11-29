@@ -2,6 +2,7 @@
   "name": "commclassroom",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://commclassroom.github.io",
   "dependencies": {
     "@craco/craco": "^6.3.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
@@ -17,6 +18,7 @@
     "@testing-library/user-event": "^12.1.10",
     "axios": "^0.21.4",
     "clsx": "^1.1.1",
+    "gh-pages": "^3.2.3",
     "history": "^5.0.1",
     "jss": "^10.7.1",
     "lodash": "^4.17.21",
@@ -34,6 +36,8 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
