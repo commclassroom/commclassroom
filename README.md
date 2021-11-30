@@ -31,3 +31,5 @@ All of our courses are FREE. We cover every topic in detail and mentor you to st
 <a href = "https://github.com/commclassroom/commclassroom/graphs/contributors">
   <img src = "https://contrib.rocks/image?repo=commclassroom/commclassroom"/>
 </a>
+
+- himanshu says this community is amazing.
