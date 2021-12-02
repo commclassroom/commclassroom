@@ -11,11 +11,12 @@ module.exports = {
         ' 0 4px 4px 0 rgba(128, 183, 200, 0.4),  0 6px 10px 0 rgba(128, 183, 200, 0.4)'
     },
     backgroundColor: (theme) => ({
-      primary: '#0F273E',
-      secondary: '#80B7C8',
-      third: '#C4CBCA',
-      fourth: '#FFFFFF',
-      fifth: '#0A0F0D'
+      primary: 'var(--primary-color)',
+      secondary: 'var(--secondary-color)',
+      third: 'var(--third-color)',
+      fourth: 'var(--fourth-color)',
+      fifth: 'var(--fifth-color)',
+      footer: '#0F273E'
     }),
     borderColor: (theme) => ({
       ...theme('colors'),

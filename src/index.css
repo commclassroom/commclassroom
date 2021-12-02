@@ -3,3 +3,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    :root {
+        --primary-color: #0F273E;
+        --secondary-color: #80B7C8;
+        --third-color: #C4CBCA;
+        --fourth-color: #FFFFFF;
+        --fifth-color: #0A0F0D;
+    }
+
+    .dark-theme {
+        --primary-color: #0F273E;
+        --secondary-color: #80B7C8;
+        /* --third-color: #0A0F0D; */
+        --fourth-color: #80B7C8D6;
+        --fifth-color: #0F273E;
+    }
+}
