@@ -7,17 +7,20 @@ var courseForm;
      */
     let logoImg = document.getElementById("logo-img")
     let themeBtn = document.getElementById("chk")
+    let toggleLabel = document.getElementById("toggler")
     initialTheme()
-
     themeBtn.onclick = function () {
+        console.log(toggleLabel);
         if (localStorage.getItem("theme") === "light" || localStorage.getItem("theme") === null) {
             document.body.classList = "dark-theme"
+            toggleLabel.classList.add("dark")
             localStorage.setItem("theme", "dark")
             logoImg.src = 'assets/img/logo3.png'
             document.getElementById("title-section").style.color = "white"
         } else {
             document.body.classList = ""
             localStorage.setItem("theme", "light")
+            toggleLabel.classList.remove("dark")
             logoImg.src = 'assets/img/logo2.png'
             document.getElementById("title-section").style.color = "#002387"
         }
@@ -27,10 +30,14 @@ var courseForm;
         switch (localStorage.getItem("theme")) {
             case "dark":
                 document.body.classList = "dark-theme"
+            toggleLabel.classList.add("dark")
+                themeBtn.checked = true
                 logoImg.src = 'assets/img/logo3.png'
                 break
             case (null || "light"):
                 document.body.classList = ""
+            toggleLabel.classList.remove("dark")
+            themeBtn.checke = false;
                 logoImg.src = 'assets/img/logo2.png'
                 break
         }
