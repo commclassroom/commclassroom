@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 import logo from '../../../../assets/images/logo.png';
+import Toggle from './Toggle';
 const Navbar = () => {
   const captions = ['home', 'courses', 'about us'];
   const [selected, setSelected] = useState('Home');
@@ -43,6 +44,7 @@ const Navbar = () => {
               Signup
             </button>
           </div>
+          <Toggle label="dheru"/>
         </div>
       </div>
     </div>
