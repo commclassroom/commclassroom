@@ -22,7 +22,6 @@ const Courses = () => {
   }
 
   return (
-
     <Element name="courses" className="element">
       {/* balloon */}
       <div className="absolute left-0 top-80">
