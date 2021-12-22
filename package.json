@@ -2,6 +2,7 @@
   "name": "commclassroom",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://commclassroom.github.io/",
   "dependencies": {
     "@craco/craco": "^6.3.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
