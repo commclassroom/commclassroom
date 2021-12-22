@@ -6,7 +6,7 @@ import group from '../../assets/images/Group55.png';
 const AboutUs = () => {
   return (
     <Element name="about us" className="element bg-primary">
-      <div className="relative pt-24 px-14 font-redHatDisplay">
+      <div className="relative pt-24 px-14 font-redHatDisplay text-primary">
         <div className="w-1/2">
           <h2 className="text-3xl font-semibold">
             What makes our FREE courses much better than most of the PAID

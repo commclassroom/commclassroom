@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="z-10 absolute left-20 transform -rotate-45">
         <img src={balloon} alt="balloon" />
       </div>
-      <div className="px-12 py-14 mt-20 bg-footer flex text-fourth footer">
+      <div className="px-12 py-14 mt-20 bg-sixth flex text-fifth footer">
         <div className="self-center m-auto">
           <img src={logo} alt="logo" />
         </div>

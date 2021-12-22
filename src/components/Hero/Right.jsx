@@ -8,7 +8,7 @@ import SlideIcons from './SlideIcons.jsx';
 const Right = () => {
   return (
     <React.Fragment>
-      <div className="h-screen w-2/3">
+      <div className="h-screen w-2/3 bg-hero">
         {/* Inner div 1 */}
         <div className="flex justify-end mx-8 my-16">
           <img src={menu} />

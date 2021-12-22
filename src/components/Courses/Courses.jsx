@@ -4,7 +4,7 @@ import { Element } from 'react-scroll';
 import prevButton from '../../assets/static/arrowLeft.png';
 import nextButton from '../../assets/static/arrowRight.png';
 import balloon from '../../assets/static/react-web-designs/ballon.svg';
-import blob from '../../assets/static/react-web-designs/courses_blob_cropped.png';
+import blob from '../../assets/static/react-web-designs/courses_blob.svg';
 import { courses } from '../../data/Courses/course';
 
 const Courses = () => {
@@ -23,7 +23,7 @@ const Courses = () => {
 
   return (
 
-    <Element name="courses" className="element">
+    <Element name="courses" className="element bg-primary py-1">
       {/* balloon */}
       <div className="absolute left-0 top-80">
         <img src={balloon} alt="balloon" />
@@ -31,7 +31,7 @@ const Courses = () => {
 
       {/* blob */}
       <div className="absolute right-24 top-42">
-        <div className=" transform scale-125">
+        <div className=" transform scale-120">
           <img src={blob} />
         </div>
       </div>
@@ -43,21 +43,21 @@ const Courses = () => {
       <div className="my-6 mx-40 flex">
         <div className="mb-16 mr-32">
           {/* heading */}
-          <h1 className="text-4xl font-black">
+          <h1 className="text-4xl text-primary font-black">
             Courses that are
             <br />
             <span className="text-secondary">custom </span>tailered for you
           </h1>
 
           {/* list of courses */}
-          <div className="font-bold text-xl mt-24 leading-10 text-third">
+          <div className="font-bold text-xl mt-24 leading-10 text-fifth">
             {course.map((course) => (
               <ul key={course.key} onClick={() => setValue(course.key)}>
                 <span className={`${course.key === value && 'text-secondary'}`}>
                   0{course.key + 1}
                 </span>
                 &emsp;
-                <span className={`${course.key === value && 'text-primary'}`}>
+                <span className={`${course.key === value && 'text-third'}`}>
                   {course.title}
                 </span>
               </ul>
@@ -79,7 +79,7 @@ const Courses = () => {
         {/* get started button */}
         <div className="flex-1 filter drop-shadow-xl">
           <button
-            className="text-sm border-none py-1.5 px-5 mr-3 bg-secondary text-fourth rounded-md"
+            className="text-sm border-none py-1.5 px-5 mr-3 bg-secondary text-sixth rounded-md"
             onClick={() => {
               location.href = course[value].link;
             }}
@@ -91,8 +91,8 @@ const Courses = () => {
         {/* bullets */}
         <div className="mx-40 flex">
           {course.map((course) => (
-            <div key={course.key} className="text-third flex mx-4 text-xl">
-              <span className={`${course.key === value && 'text-primary'}`}>
+            <div key={course.key} className="text-fifth flex mx-4 text-xl">
+              <span className={`${course.key === value && 'text-fourth'}`}>
                 &#9632;
               </span>
             </div>

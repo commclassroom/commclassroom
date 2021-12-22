@@ -4,7 +4,7 @@ import { Navbar, Courses, AboutUs, Testimonials, Footer } from './index';
 import { LandingPage } from './index';
 const HomeView = () => {
   return (
-    <div>
+    <div className="bg-background">
       <LandingPage />
       <Navbar />
       <Courses />
