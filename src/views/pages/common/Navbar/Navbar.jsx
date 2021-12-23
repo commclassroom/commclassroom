@@ -15,7 +15,7 @@ const Navbar = () => {
           <ul className="flex items-center justify-center m-0 list-none">
             {captions.map((val, idx) => (
               <li
-                className={`py-1 mx-4 text-primary text-opacit-50 cursor-pointer ${
+                className={`py-1 mx-4 text-primary text-opacity-50 cursor-pointer ${
                   selected === val &&
                   'text-opacity-100 border-b-2 border-custom'
                 }`}
