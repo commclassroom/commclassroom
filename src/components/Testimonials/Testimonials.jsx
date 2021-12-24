@@ -14,12 +14,12 @@ const Testimonials = () => {
   return (
     <div className="px-14 py-24 font-redHatDisplay">
       <div className="text-center">
-        <h1 className="text-4xl mb-4 font-semibold">
+        <h1 className="text-4xl text-primary mb-4 font-semibold">
           WHAT COMMUNITY SAYS ABOUT US?
         </h1>
       </div>
 
-      <div className="flex max-w-7xl p-16 justify-evenly m-auto">
+      <div className="flex max-w-7xl p-16 justify-evenly m-auto text-primary">
         <Carousel breakPoints={breakPoints}>
           {data.map((item) =>
             item.map((testimonial) => (

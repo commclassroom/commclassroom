@@ -15,7 +15,7 @@ const Navbar = () => {
           <ul className="flex items-center justify-center m-0 list-none">
             {captions.map((val, idx) => (
               <li
-                className={`py-1 mx-4 text-black text-opacity-50 cursor-pointer ${
+                className={`py-1 mx-4 text-primary text-opacity-50 cursor-pointer ${
                   selected === val &&
                   'text-opacity-100 border-b-2 border-custom'
                 }`}
@@ -36,10 +36,10 @@ const Navbar = () => {
           </ul>
 
           <div className="mx-6">
-            <button className="text-sm border-none py-1.5 px-5 mr-3 bg-secondary text-fourth hover:bg-primary">
+            <button className="text-sm border-none py-1.5 px-5 mr-3 bg-secondary text-sixth hover:bg-sixth hover:text-sixth">
               Login
             </button>
-            <button className="text-sm border border-gray-800 py-1.5 px-4 mx-3 hover:bg-primary hover:text-fourth">
+            <button className="text-sm border border-gray-800 py-1.5 px-4 mx-3 bg-primary text-seventh hover:bg-sixth hover:text-sixth">
               Signup
             </button>
           </div>
