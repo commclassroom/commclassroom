@@ -37,7 +37,7 @@ const AboutUs = () => {
               cover every topic in detail and mentor you to stand out and get
               opportunities by breaking all the barriers.
             </p>
-            <p className="pb-3 text-xl">
+            <p className="md:pb-3 text-xl">
               Get expert guidance with career, Open Source, and internships,
               jobs around the world.
             </p>
