@@ -12,7 +12,7 @@ const Courses = () => {
   const [loading, setLoading] = useState(true);
   const [course, setCourse] = useState([]);
 
-  useEffect(() => { 
+  useEffect(() => {
     setCourse(courses);
     setLoading(false);
   });
@@ -48,7 +48,6 @@ const Courses = () => {
             <span className="text-secondary">custom </span>tailered for you
           </h1>
 
-
           {/* image */}
           <div className="flex-1 md:hidden mt-10">
             <img
@@ -59,38 +58,40 @@ const Courses = () => {
           </div>
 
           <div className="flex">
-          {/* bullets */}
-          <div className="flex md:hidden">
-            {course.map((course) => (
-              <div key={course.key} className="text-third flex mx-4 text-xl">
-                <span className={`${course.key === value && 'text-primary'}`}>
-                  &#9632;
-                </span>
+            {/* bullets */}
+            <div className="flex md:hidden">
+              {course.map((course) => (
+                <div key={course.key} className="text-third flex mx-4 text-xl">
+                  <span className={`${course.key === value && 'text-primary'}`}>
+                    &#9632;
+                  </span>
+                </div>
+              ))}
+            </div>
+
+            {/* prev next buttons */}
+            <div className="flex md:hidden ml-6 transform scale-150 filter drop-shadow-xl">
+              <div
+                className="ml-24 "
+                onClick={() => {
+                  value === 0
+                    ? setValue(course.length - 1)
+                    : setValue(value - 1);
+                }}
+              >
+                <img src={prevButton} />
               </div>
-            ))}
-          </div>
-
-          {/* prev next buttons */}
-          <div className="flex md:hidden ml-6 transform scale-150 filter drop-shadow-xl">
-            <div
-              className="ml-24 "
-              onClick={() => {
-                value === 0 ? setValue(course.length - 1) : setValue(value - 1);
-              }}
-            >
-              <img src={prevButton} />
-            </div>
-            <div
-              onClick={() => {
-                value === course.length - 1 ? setValue(0) : setValue(value + 1);
-              }}
-            >
-              <img src={nextButton} />
+              <div
+                onClick={() => {
+                  value === course.length - 1
+                    ? setValue(0)
+                    : setValue(value + 1);
+                }}
+              >
+                <img src={nextButton} />
+              </div>
             </div>
           </div>
-          </div>
-
-        
 
           {/* list of courses */}
           <div className="font-bold text-xl md:mt-24 mt-20 leading-10 text-third">
