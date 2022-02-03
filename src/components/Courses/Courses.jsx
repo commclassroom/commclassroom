@@ -39,7 +39,7 @@ const Courses = () => {
         Courses
       </h2>
 
-      <div className="my-6 md:ml-40 md:mr-4 mx-3 flex flex-col md:flex-row">
+      <div className="my-6 md:ml-40 mx-3 flex flex-col md:flex-row">
         <div className="mb-16 md:mr-32 md:ml-0 ml-10">
           {/* heading */}
           <h1 className="text-4xl font-black">
