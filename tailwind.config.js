@@ -10,6 +10,16 @@ module.exports = {
       secondary:
         ' 0 4px 4px 0 rgba(128, 183, 200, 0.4),  0 6px 10px 0 rgba(128, 183, 200, 0.4)'
     },
+    screens: {
+      sm: '576px',
+      // => @media (min-width: 576px) { ... }
+
+      md: '960px',
+      // => @media (min-width: 960px) { ... }
+
+      lg: '1440px'
+      // => @media (min-width: 1440px) { ... }
+    },
     backgroundColor: (theme) => ({
       primary: '#0F273E',
       secondary: '#80B7C8',
