@@ -9,7 +9,7 @@ Click on **Fork** button present on the upper-right area of the screen to create
 
 
 ### 2.) Clone The Repo
--> You can clone this branch to your machine by using the below command.
+-> You can clone this branch to your machine by using the Following command.
 
 ```bash
 
@@ -87,7 +87,7 @@ git checkout -b <your_branch_name>
 
    Make sure to run ```npm run format ``` 
 
-3. Track your changes:heavy_check_mark: .
+3. Track your all changes:heavy_check_mark: .
 
 ```
 git add .
@@ -120,5 +120,5 @@ Voila :exclamation: You have made a PR to the Community Classroom repository :bo
 Your PR will get reviewed soon from the maintainers of the project. If they suggest changes, do all the changes, commit the changes, rebase the branch, squash the commits and push the changes. If everything looks good, your PR will be merged. That's it! Thank you for your contribution! Feel free to suggest any changes to this documentation.
 
 ## Note
-Contribution can be very small, that does not matter. We even love to receive a typo fix PR. Adding feature or fixing a bug is not the only way to contribute. You can send us a PR for adding documentation, fixing typos or adding texts.
+Contribution can be very small, that does not matter. We even love to receive a typo fix PR. Adding feature or fixing a bug is not the only way to contribute. You can send us a PR for adding documentation, fixing typos or adding texts.These all things counted in open source contribution. Make sure you have followed our every instruction step by step.
 
