@@ -1,4 +1,6 @@
 # Community Classroom Website
+-Kunal Kushwaha said this community is amazing
+-Justin Joseph says this community is marvellous
 
 We believe that every student, irrespective of their college or branch, can make it big. Community Classroom is an initiative built on this thought. The organisation is founded by [Kunal Kushwaha](https://twitter.com/kunalstwt). We provide hands-on training, mentorship and have an inclusive community.
 
