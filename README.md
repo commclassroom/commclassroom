@@ -30,4 +30,5 @@ All of our courses are FREE. We cover every topic in detail and mentor you to st
 ## Thanks to all the contributors ❤️
 <a href = "https://github.com/commclassroom/commclassroom/graphs/contributors">
   <img src = "https://contrib.rocks/image?repo=commclassroom/commclassroom"/>
-</a>
+</a
+Kunal Kushwaha is a GOAT>
