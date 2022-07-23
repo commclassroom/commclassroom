@@ -1,0 +1,319 @@
+[33mcommit e997fa78350ebc128a7e25f42ff19b74f2aca2c7[m[33m ([m[1;36mHEAD -> [m[1;32mEupho[m[33m)[m
+Author: unknown <nayanmodicd@gmail.com>
+Date:   Sat Jul 23 19:18:44 2022 +0530
+
+    change done
+
+[33mcommit 29b8574a61c85730ec2bdcbd8d5b666eb4fa998d[m[33m ([m[1;31morigin/development[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mdevelopment[m[33m)[m
+Author: Harkirat Singh <71957674+harkiratsm@users.noreply.github.com>
+Date:   Sun Dec 5 13:17:22 2021 +0530
+
+    Update package.json
+
+[33mcommit 8963a16b6c669ff0c532b6bf31ba148eb7867246[m
+Author: Harkirat Singh <71957674+harkiratsm@users.noreply.github.com>
+Date:   Sun Dec 5 13:11:04 2021 +0530
+
+    Update build-deploy.yml
+
+[33mcommit 95c2a8b50e4f5b557cd9599432d036d94bb8268a[m
+Author: Harkirat Singh <71957674+harkiratsm@users.noreply.github.com>
+Date:   Sun Dec 5 13:09:04 2021 +0530
+
+    Added a gh-pages workflow
+
+[33mcommit 5add8871360c8ecfe3376dfafd4df8bf226648c1[m
+Author: Harkirat Singh <71957674+harkiratsm@users.noreply.github.com>
+Date:   Tue Nov 23 21:19:07 2021 +0530
+
+    Scroll Effect & Removed the warning (#311)
+
+[33mcommit df4f1ed1d7987129db5b45812dbebb1a4a059483[m
+Author: lakshaycode22 <87278876+lakshaycode22@users.noreply.github.com>
+Date:   Tue Nov 23 20:18:46 2021 +0530
+
+    Course Page [React] (#291)
+    
+    * Courses Page
+    
+    * npm run format
+    
+    * Changes 1 (course page)
+    
+    * Changes 2 ( Courses Page)
+    
+    * Update Courses.jsx
+    
+    * Changes 3 ( Courses Page )
+    
+    * resolving conflict (sample.css)
+    
+    * courses
+    
+    Co-authored-by: Harkirat Singh <71957674+harkiratsm@users.noreply.github.com>
+
+[33mcommit 7e1596e11fef92251d1f7cefb8f563e06bd74e0a[m
+Author: Abhinav MV <35369843+AbhinavMV@users.noreply.github.com>
+Date:   Sun Nov 21 15:23:22 2021 +0530
+
+    Added Navbar Functionality[React] (#303)
+    
+    * Added Navbar Functionality
+    
+    * Add scroll effect for home
+
+[33mcommit e3252dd2281c8d4b8337611f281947bc4a2aab2a[m
+Author: Rakesh Potnuru <70439799+RakeshPotnuru@users.noreply.github.com>
+Date:   Tue Oct 26 17:50:51 2021 +0530
+
+    Footer Improvement [ React ]  (#296)
+
+[33mcommit 1c7884ac06d78a92bde751e9fa4f89324cd6dc7d[m
+Author: Harkirat Singh <71957674+harkiratsm@users.noreply.github.com>
+Date:   Sun Oct 24 17:33:23 2021 +0530
+
+    ✅ Links & Fixed the structure (#294)
+
+[33mcommit fd18b73af62b84cf3e5873dbbf509dc85bcf843d[m
+Author: Neetesh Kumar Sharma <62437607+Neeteshking21@users.noreply.github.com>
+Date:   Sat Oct 23 20:46:22 2021 +0530
+
+    Landing page [React] (#255)
+    
+    * Make course Hero component with tailwind css
+    
+    * Add course hero templete
+    
+    * Add course hero templete
+    
+    * Fixing landing page
+    
+    * Fixing landing page
+    
+    * Reduce code and add components
+    
+    * make readable code
+    
+    * made readable code
+    
+    * Code modification
+    
+    * Fix component and code
+
+[33mcommit d853dd813b39f94bd549f69bd2221baf2d69c58b[m
+Author: Shreyansh Malviya <80682098+shreyanshmalvya@users.noreply.github.com>
+Date:   Thu Oct 14 11:55:16 2021 +0530
+
+    Design Updates (#283)
+    
+    * Added light and dark theme images
+    
+    Added images for each theme for design reference
+    
+    * Updated Readme with details
+    
+    Added the images and design details to the readme file to make designs easily accessible
+    
+    * added detailed courses_dark section pages
+    
+    * Added detailed courses_light section of website
+    
+    * added assets for course page
+    
+    * updated base design for courses section (dark)
+    
+    * Updated designs for courses section (light)
+
+[33mcommit 5b17bb33ece8310ccf86d073e0ec7476015d088d[m
+Author: JJ Thompson <81349382+samjn08@users.noreply.github.com>
+Date:   Tue Oct 5 10:31:41 2021 +0530
+
+    Replaced react icons and changed website title (#248)
+    
+    * added commclassroomm's favicon to website
+    
+    * changed react icons to commclassroom ones
+    
+    * runned 'npm run format'
+    
+    * changed title
+
+[33mcommit a2ef0a5465b76163388903d406923370c973b0ae[m
+Author: MOHAMMED SHAMIL K <64640025+shamilkotta@users.noreply.github.com>
+Date:   Sun Oct 3 10:48:42 2021 +0530
+
+    Edited CONTRIBUTING.md file (#177)
+    
+    * modified the CONTRIBUTING.md file
+    
+    * updated the CONTRIBUTING.md file path in README.md
+    
+    * edited alignement issue
+    
+    * fixed some typos
+
+[33mcommit bbe99277e53a48966546cb1383d15352f044a5f0[m
+Author: Deepayan Mukherjee <65884232+Ciggzy1312@users.noreply.github.com>
+Date:   Sat Oct 2 18:23:47 2021 +0530
+
+    Main Page [React]  (#197)
+    
+    * Added navbar, aboutus section
+    
+    * Added testimonials section along with carousel
+    
+    * About Us section styles switched to tailwind
+    
+    * Testimonials section styles switched to tailwind
+    
+    * Navbar styles switched to tailwind
+    
+    * Added footer section and custom fonts
+    
+    * Added custom background colors
+    
+    * Updated style of footer and navbar with custom bg-color
+    
+    * Added custom text color
+    
+    * Updated styles of footer and testimonials with custom css
+    
+    * Shifted About us and Testimonials section to components
+    
+    * Updated changes
+
+[33mcommit bab12fbdeb5ba0ba0d672a52080847a867e41df7[m
+Author: Harkirat Singh <71957674+harkiratsm@users.noreply.github.com>
+Date:   Sat Oct 2 10:49:44 2021 +0530
+
+    Easier Access of Assets Folder  (#217)
+    
+    * Added Static Folder to src for easy import
+    
+    * More Changes to Static folder
+
+[33mcommit 81ab3ef71a19c254926e18dd799407e84f143875[m
+Author: Shreyansh Malviya <80682098+shreyanshmalvya@users.noreply.github.com>
+Date:   Fri Oct 1 14:13:10 2021 +0530
+
+    Design updates for website & Assets (#174)
+    
+    * Added light and dark theme images
+    
+    Added images for each theme for design reference
+    
+    * Updated Readme with details
+    
+    Added the images and design details to the readme file to make designs easily accessible
+    
+    * Added mobile view
+    
+    * Added mobile view of footer section
+    
+    * Updated Readme with new images and links
+    
+    * Added images and svg assets
+
+[33mcommit 882d586e0dfbe943804592737f8cb074de2b7ae0[m
+Author: Shreyansh Malviya <80682098+shreyanshmalvya@users.noreply.github.com>
+Date:   Tue Sep 28 20:45:42 2021 +0530
+
+    Added images for each theme for design reference (#148)
+    
+    * Added light and dark theme images
+    
+    Added images for each theme for design reference
+    
+    * Updated Readme with details
+    
+    Added the images and design details to the readme file to make designs easily accessible
+
+[33mcommit acf0e4520b28f7e1dae0df0994a177ad79e1f341[m
+Merge: 2b6a7b6 5737f5a
+Author: Harkirat Singh <71957674+harkiratsm@users.noreply.github.com>
+Date:   Mon Sep 27 18:31:17 2021 +0530
+
+    Merge pull request #136 from harkiratsm/development
+    
+    Design Of Website
+
+[33mcommit 2b6a7b6e57a1dcc2a57dd8da8acfa84b20c22da4[m
+Merge: 157a937 000c6ce
+Author: Kunal Kushwaha <kunalkushwaha453@gmail.com>
+Date:   Mon Sep 27 17:27:02 2021 +0530
+
+    Merge pull request #140 from AvineshTripathi/development
+    
+    Updated CONTRIBUTING.md
+
+[33mcommit 000c6cef3675d15726ccff452c81462a4ca11372[m
+Author: Avinesh Tripathi <73980067+AvineshTripathi@users.noreply.github.com>
+Date:   Mon Sep 27 16:01:57 2021 +0530
+
+    Updated CONTRIBUTING.md
+
+[33mcommit 5737f5a86a8016f8645e9bb92358714822017de3[m
+Author: harkiratsm <71957674+harkiratsm@users.noreply.github.com>
+Date:   Mon Sep 27 12:47:06 2021 +0530
+
+    Design Of Website
+
+[33mcommit 157a937380b7cc22c8652a2a0846cc093310f636[m
+Author: harkiratsm <71957674+harkiratsm@users.noreply.github.com>
+Date:   Mon Sep 27 11:58:35 2021 +0530
+
+    Readme Updated
+
+[33mcommit 73f18fc32a4a6722b00570f8ceddc32a431d9265[m
+Author: harkiratsm <71957674+harkiratsm@users.noreply.github.com>
+Date:   Mon Sep 27 11:52:02 2021 +0530
+
+    Contributing Guidelines
+
+[33mcommit cf9035b1c10e71a6aa6ddabc1ec6a0d5cff27c24[m
+Author: Harkirat Singh <71957674+harkiratsm@users.noreply.github.com>
+Date:   Mon Sep 27 11:05:29 2021 +0530
+
+    Update issue templates
+
+[33mcommit a9d1038edeb21110253a2d29e81409823b5466db[m
+Author: harkiratsm <71957674+harkiratsm@users.noreply.github.com>
+Date:   Sat Sep 25 20:51:34 2021 +0530
+
+    Console Warn , eslint prettier warn removed
+
+[33mcommit 0e6c7c595b1ad5b8a1fb4be91a58c82d08252c7a[m
+Author: harkiratsm <71957674+harkiratsm@users.noreply.github.com>
+Date:   Sat Sep 25 20:23:23 2021 +0530
+
+    dependency issue fixes
+
+[33mcommit 82150fdac1f0322b3c3549a5d41be1fe421bb27e[m
+Author: harkiratsm <71957674+harkiratsm@users.noreply.github.com>
+Date:   Sat Sep 25 19:50:35 2021 +0530
+
+    Pull Request Template
+
+[33mcommit fb38a7da5b71c6e03d2ad1d4da7c9f25b2a5861b[m
+Author: Harkirat Singh <71957674+harkiratsm@users.noreply.github.com>
+Date:   Sat Sep 25 19:31:22 2021 +0530
+
+    Create dependabot.yml
+
+[33mcommit f5e35fb9d34336073e43d010ea265f1a0198b50b[m
+Author: Harkirat Singh <71957674+harkiratsm@users.noreply.github.com>
+Date:   Sat Sep 25 19:24:10 2021 +0530
+
+    Added Node.js Workflows
+
+[33mcommit 3d466148e1363089c41997a5aa38ef86e28c4e23[m
+Author: harkiratsm <71957674+harkiratsm@users.noreply.github.com>
+Date:   Sat Sep 25 19:12:30 2021 +0530
+
+    Basic Template , Eslint & Prettier Setup
+
+[33mcommit 01f20cbf37c12d5996d561ec8ed2ca62c9a8290f[m
+Author: harkiratsm <71957674+harkiratsm@users.noreply.github.com>
+Date:   Tue Sep 7 09:35:23 2021 +0530
+
+    Initialize project using Create React App
